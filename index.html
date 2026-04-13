@@ -379,7 +379,18 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- Login Overlay -->
+    <div id="login-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #1a1a2e; z-index: 9999; display: flex; justify-content: center; align-items: center;">
+        <div style="background: white; padding: 40px; border-radius: 12px; max-width: 400px; width: 90%; text-align: center;">
+            <h2 style="margin-bottom: 20px; color: #1a1a2e;">🔒 Content Dashboard</h2>
+            <p style="margin-bottom: 30px; color: #666;">Enter password to access</p>
+            <input type="password" id="login-password" placeholder="Password" style="width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 6px; margin-bottom: 20px; font-size: 1rem;">
+            <button onclick="checkPassword()" style="width: 100%; padding: 12px; background: #1a1a2e; color: white; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer;">Login</button>
+            <p id="login-error" style="color: #e94560; margin-top: 15px; display: none;">Incorrect password</p>
+        </div>
+    </div>
+
+    <div class="container" id="main-content" style="display: none;">
         <header>
             <h1>📊 Content Dashboard</h1>
             <p>Manage your Facebook content in one place</p>
@@ -451,6 +462,32 @@
     <div class="toast" id="toast"></div>
     
     <script>
+        // Password protection
+        const DASHBOARD_PASSWORD = 'michael2026';
+        
+        function checkPassword() {
+            const input = document.getElementById('login-password').value;
+            if (input === DASHBOARD_PASSWORD) {
+                localStorage.setItem('dashboard_authenticated', 'true');
+                document.getElementById('login-overlay').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+                loadContent();
+            } else {
+                document.getElementById('login-error').style.display = 'block';
+            }
+        }
+        
+        // Check if already authenticated
+        if (localStorage.getItem('dashboard_authenticated') === 'true') {
+            document.getElementById('login-overlay').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+        }
+        
+        // Allow Enter key to submit
+        document.getElementById('login-password')?.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') checkPassword();
+        });
+        
         // GitHub API configuration
         const GITHUB_OWNER = 'michael9549';
         const GITHUB_REPO = 'content-dashboard';
@@ -458,8 +495,8 @@
         let GITHUB_TOKEN = localStorage.getItem('github_token');
         const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
         
-        // Check for token on load
-        if (!GITHUB_TOKEN) {
+        // Check for token on load (only if authenticated)
+        if (document.getElementById('main-content').style.display !== 'none' && !GITHUB_TOKEN) {
             GITHUB_TOKEN = prompt('Please enter your GitHub Personal Access Token:');
             if (GITHUB_TOKEN) {
                 localStorage.setItem('github_token', GITHUB_TOKEN);
