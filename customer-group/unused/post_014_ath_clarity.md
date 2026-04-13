@@ -1,8 +1,3 @@
----
-topic: ATH clarity on messy charts
-tools_mentioned: Sniper Pro, Quantum, ATH
----
-
 Ever open a chart and immediately feel overwhelmed by all the candles, wicks, and noise?
 
 Before you convince yourself that the market is "too messy" today, try this:
