@@ -391,9 +391,12 @@
     </div>
 
     <div class="container" id="main-content" style="display: none;">
-        <header>
-            <h1>📊 Content Dashboard</h1>
-            <p>Manage your Facebook content in one place</p>
+        <header style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h1>📊 Content Dashboard</h1>
+                <p>Manage your Facebook content in one place</p>
+            </div>
+            <button onclick="logout()" style="background: #e94560; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: 500;">🚪 Logout</button>
         </header>
         
         <div class="stats-grid">
@@ -464,6 +467,8 @@
     <script>
         // Password protection
         const DASHBOARD_PASSWORD = 'Mike2733453!';
+        let inactivityTimer;
+        const INACTIVITY_TIMEOUT = 10 * 60 * 1000; // 10 minutes in milliseconds
         
         function checkPassword() {
             const input = document.getElementById('login-password').value;
@@ -471,21 +476,47 @@
                 localStorage.setItem('dashboard_authenticated', 'true');
                 document.getElementById('login-overlay').style.display = 'none';
                 document.getElementById('main-content').style.display = 'block';
+                resetInactivityTimer();
                 loadContent();
             } else {
                 document.getElementById('login-error').style.display = 'block';
             }
         }
         
+        function logout() {
+            localStorage.removeItem('dashboard_authenticated');
+            localStorage.removeItem('github_token');
+            clearTimeout(inactivityTimer);
+            location.reload();
+        }
+        
+        function resetInactivityTimer() {
+            clearTimeout(inactivityTimer);
+            inactivityTimer = setTimeout(() => {
+                alert('Session expired due to inactivity. Logging out.');
+                logout();
+            }, INACTIVITY_TIMEOUT);
+        }
+        
         // Check if already authenticated
         if (localStorage.getItem('dashboard_authenticated') === 'true') {
             document.getElementById('login-overlay').style.display = 'none';
             document.getElementById('main-content').style.display = 'block';
+            resetInactivityTimer();
         }
         
         // Allow Enter key to submit
         document.getElementById('login-password')?.addEventListener('keypress', function(e) {
             if (e.key === 'Enter') checkPassword();
+        });
+        
+        // Track user activity to reset timer
+        ['click', 'keypress', 'scroll', 'mousemove'].forEach(event => {
+            document.addEventListener(event, () => {
+                if (localStorage.getItem('dashboard_authenticated') === 'true') {
+                    resetInactivityTimer();
+                }
+            });
         });
         
         // GitHub API configuration
