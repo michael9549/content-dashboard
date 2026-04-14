@@ -502,10 +502,12 @@
         }
         
         // Check if already authenticated
-        if (localStorage.getItem('dashboard_authenticated') === 'true') {
+        if (localStorage.getItem('dashboard_authenticated') === 'true' && localStorage.getItem('github_token')) {
+            GITHUB_TOKEN = localStorage.getItem('github_token');
             document.getElementById('login-overlay').style.display = 'none';
             document.getElementById('main-content').style.display = 'block';
             resetInactivityTimer();
+            loadContent();
         }
         
         // Allow Enter key to submit
