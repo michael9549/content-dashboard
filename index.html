@@ -565,7 +565,10 @@
         // Load posts for a specific folder from GitHub
         async function loadPosts(folder) {
             try {
+                console.log('Loading posts for folder:', folder);
+                console.log('Token available:', GITHUB_TOKEN ? 'Yes (starts with ' + GITHUB_TOKEN.substring(0, 10) + '...)' : 'No');
                 const path = FOLDER_PATHS[folder];
+                console.log('Fetching from:', `${GITHUB_API_BASE}/${path}`);
                 const response = await fetch(`${GITHUB_API_BASE}/${path}`, {
                     headers: {
                         'Authorization': `token ${GITHUB_TOKEN}`,
@@ -573,8 +576,12 @@
                     }
                 });
                 
+                console.log('Response status:', response.status);
+                
                 if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
+                    const errorText = await response.text();
+                    console.error('Error response:', errorText);
+                    throw new Error(`HTTP ${response.status}: ${errorText}`);
                 }
                 
                 const files = await response.json();
