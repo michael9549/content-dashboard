@@ -485,7 +485,6 @@
         
         function logout() {
             localStorage.removeItem('dashboard_authenticated');
-            localStorage.removeItem('github_token');
             clearTimeout(inactivityTimer);
             location.reload();
         }
@@ -522,17 +521,9 @@
         // GitHub API configuration
         const GITHUB_OWNER = 'michael9549';
         const GITHUB_REPO = 'content-dashboard';
-        // Get token from localStorage or prompt user
-        let GITHUB_TOKEN = localStorage.getItem('github_token');
+        // Hard-coded token - no more prompts
+        const GITHUB_TOKEN = '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';
         const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
-        
-        // Check for token on load (only if authenticated)
-        if (document.getElementById('main-content').style.display !== 'none' && !GITHUB_TOKEN) {
-            GITHUB_TOKEN = prompt('Please enter your GitHub Personal Access Token:');
-            if (GITHUB_TOKEN) {
-                localStorage.setItem('github_token', GITHUB_TOKEN);
-            }
-        }
         
         // Content data structure
         let contentData = {};
