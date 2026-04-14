@@ -676,6 +676,13 @@
             return div.innerHTML;
         }
         
+        // UTF-8 safe base64 encoding (replaces btoa which only handles Latin1)
+        function utf8ToBase64(str) {
+            const utf8Bytes = new TextEncoder().encode(str);
+            const binaryString = Array.from(utf8Bytes, byte => String.fromCharCode(byte)).join('');
+            return btoa(binaryString);
+        }
+        
         // Copy post to clipboard
         function copyPost(index) {
             const post = contentData[currentFolder][index];
@@ -712,7 +719,7 @@
                     },
                     body: JSON.stringify({
                         message: `Update ${post.filename} via dashboard`,
-                        content: btoa(newContent),
+                        content: utf8ToBase64(newContent),
                         sha: post.sha
                     })
                 });
@@ -760,7 +767,7 @@
                     },
                     body: JSON.stringify({
                         message: `Mark ${post.filename} as used`,
-                        content: btoa(post.content)
+                        content: utf8ToBase64(post.content)
                     })
                 });
                 
