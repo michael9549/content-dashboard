@@ -383,10 +383,10 @@
     <div id="login-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #1a1a2e; z-index: 9999; display: flex; justify-content: center; align-items: center;">
         <div style="background: white; padding: 40px; border-radius: 12px; max-width: 400px; width: 90%; text-align: center;">
             <h2 style="margin-bottom: 20px; color: #1a1a2e;">🔒 Content Dashboard</h2>
-            <p style="margin-bottom: 30px; color: #666;">Enter password to access</p>
-            <input type="password" id="login-password" placeholder="Password" style="width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 6px; margin-bottom: 20px; font-size: 1rem;">
+            <p style="margin-bottom: 30px; color: #666;">Enter your GitHub Personal Access Token to access</p>
+            <input type="password" id="login-password" placeholder="GitHub Token (starts with ghp_)" style="width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 6px; margin-bottom: 20px; font-size: 1rem;">
             <button onclick="checkPassword()" style="width: 100%; padding: 12px; background: #1a1a2e; color: white; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer;">Login</button>
-            <p id="login-error" style="color: #e94560; margin-top: 15px; display: none;">Incorrect password</p>
+            <p id="login-error" style="color: #e94560; margin-top: 15px; display: none;">Please enter a valid GitHub token</p>
         </div>
     </div>
 
@@ -465,20 +465,24 @@
     <div class="toast" id="toast"></div>
     
     <script>
-        // Password protection
-        const DASHBOARD_PASSWORD = 'Mike2733453!';
+        // Password protection - GitHub token is the password
+        let GITHUB_TOKEN = localStorage.getItem('github_token');
         let inactivityTimer;
         const INACTIVITY_TIMEOUT = 10 * 60 * 1000; // 10 minutes in milliseconds
         
         function checkPassword() {
             const input = document.getElementById('login-password').value;
-            if (input === DASHBOARD_PASSWORD) {
+            // Validate it looks like a GitHub token (starts with ghp_)
+            if (input.startsWith('ghp_') && input.length > 20) {
+                GITHUB_TOKEN = input;
+                localStorage.setItem('github_token', GITHUB_TOKEN);
                 localStorage.setItem('dashboard_authenticated', 'true');
                 document.getElementById('login-overlay').style.display = 'none';
                 document.getElementById('main-content').style.display = 'block';
                 resetInactivityTimer();
                 loadContent();
             } else {
+                document.getElementById('login-error').textContent = 'Please enter a valid GitHub Personal Access Token (starts with ghp_)';
                 document.getElementById('login-error').style.display = 'block';
             }
         }
@@ -521,8 +525,7 @@
         // GitHub API configuration
         const GITHUB_OWNER = 'michael9549';
         const GITHUB_REPO = 'content-dashboard';
-        // Hard-coded token - no more prompts
-        const GITHUB_TOKEN = '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';
+        // GITHUB_TOKEN is set from login password
         const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
         
         // Content data structure
