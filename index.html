@@ -587,7 +587,11 @@
                 // Fetch content for each file
                 const posts = await Promise.all(
                     mdFiles.map(async (file) => {
-                        const contentResponse = await fetch(file.download_url);
+                        const contentResponse = await fetch(file.download_url, {
+                            headers: {
+                                'Accept': 'text/plain; charset=utf-8'
+                            }
+                        });
                         const content = await contentResponse.text();
                         return {
                             filename: file.name,
