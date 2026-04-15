@@ -1,14 +1,4 @@
----
-topic: "Entrepreneurship: Customer-First Innovation"
-niche: entrepreneurship
-source_video: https://www.youtube.com/watch?v=Ks-_Mh1QhMc
-source_channel: "TED"
-source_title: "Amy Cuddy - Power Poses"
-status: UNUSED
-date_created: 2026-04-03
----
-
-# The $1.5 Billion Lesson From a Graphic Design Teacher
+The $1.5 Billion Lesson From a Graphic Design Teacher
 
 In 1995, Lynda Weinman bought a domain name.
 
@@ -66,4 +56,3 @@ Your "unconventional" path might be your competitive advantage.
 
 What problem are YOU solving that you personally experience?
 
-#Entrepreneurship #StartupLife #BusinessGrowth #Innovation #ProblemSolving #EntrepreneurLife #BusinessTips #SuccessStory #OnlineBusiness #EdTech

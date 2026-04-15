@@ -1,8 +1,3 @@
----
-topic: Community wins & accountability
-tools_mentioned: Discord, Sniper Pro, Quantum, ATH
----
-
 One of my favorite things about this group is watching the win wall fill up.
 
 Not just the big "I smashed this move" screenshots, but the quieter ones:
