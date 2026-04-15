@@ -1,14 +1,4 @@
----
-title: "The Real Difference Between Marketing and Sales"
-topic: "business"
-niche: "marketing"
-source_video: "https://www.youtube.com/watch?v=8mH713ILoBM"
-source_channel: "Business Education"
-status: UNUSED
-created: 2026-04-11
----
-
-# The Real Difference Between Marketing and Sales
+The Real Difference Between Marketing and Sales
 
 Most people use these words interchangeably. They're not the same thing.
 
@@ -21,11 +11,9 @@ Think of it like this:
 Marketing fills the funnel.
 Sales closes the deal.
 
-In the early days of a business, sales is more intense because you don't have budget for marketing. But as you grow, you need both.
+In the early days of a business, sales are more intense because you don't have a budget for marketing. But as you grow, you need both.
 
 Marketing creates the engine that brings people to you.
 Sales converts them.
 
 One without the other doesn't work.
-
-#marketing #sales #business #entrepreneurship
