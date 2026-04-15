@@ -1,9 +1,3 @@
----
-topic: Training call invitation
-tools_mentioned: Live sessions, Sniper Pro, Quantum, ATH
-status: UNUSED
----
-
 Quick reminder: your subscription does not just give you tools, it gives you **access to the room where we break this down live.**
 
 If you have been skipping training calls, you are leaving a lot on the table.
