@@ -783,6 +783,9 @@
                 }
                 
                 // 2. Delete file from source folder
+                console.log('Deleting from:', sourcePath);
+                console.log('Using SHA:', post.sha);
+                
                 const deleteResponse = await fetch(`${GITHUB_API_BASE}/${sourcePath}`, {
                     method: 'DELETE',
                     headers: {
@@ -796,6 +799,8 @@
                     })
                 });
                 
+                console.log('Delete response status:', deleteResponse.status);
+                
                 if (deleteResponse.ok) {
                     // Reload posts
                     await loadPosts(currentFolder);
@@ -804,7 +809,9 @@
                     showToast('Post marked as used!');
                     renderPosts();
                 } else {
-                    throw new Error('Failed to delete file from unused folder');
+                    const errorText = await deleteResponse.text();
+                    console.error('Delete error:', errorText);
+                    throw new Error(`Failed to delete file from unused folder: ${deleteResponse.status} ${errorText}`);
                 }
             } catch (error) {
                 console.error('Error moving post:', error);
