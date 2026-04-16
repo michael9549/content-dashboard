@@ -1,8 +1,3 @@
----
-topic: Emotional trading & discipline
-tools_mentioned: Sniper Pro, Quantum, ATH
----
-
 Let us talk about the trades you do not want to screenshot.
 
 The revenge trades.
