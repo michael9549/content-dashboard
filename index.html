@@ -569,11 +569,16 @@
                 console.log('Token available:', GITHUB_TOKEN ? 'Yes (starts with ' + GITHUB_TOKEN.substring(0, 10) + '...)' : 'No');
                 const path = FOLDER_PATHS[folder];
                 console.log('Fetching from:', `${GITHUB_API_BASE}/${path}`);
-                const response = await fetch(`${GITHUB_API_BASE}/${path}`, {
+                // Add cache-busting timestamp to ensure fresh data
+                const cacheBuster = `?t=${Date.now()}`;
+                const response = await fetch(`${GITHUB_API_BASE}/${path}${cacheBuster}`, {
                     headers: {
                         'Authorization': `token ${GITHUB_TOKEN}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    }
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Cache-Control': 'no-cache, no-store, must-revalidate',
+                        'Pragma': 'no-cache'
+                    },
+                    cache: 'no-store'
                 });
                 
                 console.log('Response status:', response.status);
@@ -623,10 +628,22 @@
         
         // Update statistics from loaded data
         function updateStats() {
-            document.getElementById('customer-unused').textContent = (contentData['customer-unused'] || []).length;
-            document.getElementById('customer-used').textContent = (contentData['customer-used'] || []).length;
-            document.getElementById('timeline-unused').textContent = (contentData['timeline-unused'] || []).length;
-            document.getElementById('timeline-used').textContent = (contentData['timeline-used'] || []).length;
+            const customerUnused = (contentData['customer-unused'] || []).length;
+            const customerUsed = (contentData['customer-used'] || []).length;
+            const timelineUnused = (contentData['timeline-unused'] || []).length;
+            const timelineUsed = (contentData['timeline-used'] || []).length;
+            
+            document.getElementById('customer-unused').textContent = customerUnused;
+            document.getElementById('customer-used').textContent = customerUsed;
+            document.getElementById('timeline-unused').textContent = timelineUnused;
+            document.getElementById('timeline-used').textContent = timelineUsed;
+            
+            console.log('Dashboard counts updated:', {
+                'customer-unused': customerUnused,
+                'customer-used': customerUsed,
+                'timeline-unused': timelineUnused,
+                'timeline-used': timelineUsed
+            });
         }
         
         // Render posts for current folder
