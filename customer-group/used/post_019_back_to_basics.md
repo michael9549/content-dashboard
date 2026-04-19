@@ -1,9 +1,4 @@
----
-topic: Back to basics
-tools_mentioned: Sniper Pro, Quantum, ATH
----
-
-If your chart looks like a Christmas tree, it might be time to go back to basics.
+f your chart looks like a Christmas tree, it might be time to go back to basics.
 
 Over time, traders tend to keep adding:
 
