@@ -1,14 +1,4 @@
----
-title: "Productivity Isn't About Doing More"
-topic: "productivity"
-niche: "personal_development"
-source_video: "https://www.youtube.com/watch?v=IXZRIiyQlPE"
-source_channel: "Rational Raymond"
-status: UNUSED
-created: 2026-04-11
----
-
-# Productivity Isn't About Doing More
+Productivity Isn't About Doing More
 
 Most people think productivity means doing more. More hours. More hustle. More grinding.
 
@@ -25,5 +15,3 @@ Here are 3 that work immediately:
 3. Protect your mornings from screens. The moment you check your phone, you hand control of your day to everyone else.
 
 Work smarter. Not longer.
-
-#productivity #habits #focus #success
