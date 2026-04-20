@@ -1,9 +1,3 @@
----
-topic: Playing the long game
-tools_mentioned: Sniper Pro, Quantum, ATH, Community
-status: UNUSED
----
-
 Here is something most people will never admit:
 
 You are probably underestimating what you can do in 12 months and overestimating what you can do in 12 days.
