@@ -19,7 +19,7 @@ If you treat it like a get rich quick scheme, you will:
 But if you treat it like a craft, and you:
 
 - Show up for calls
-- Use Sniper Pro, Quantum, and ATH as your core toolkit
+- Use Sniper Pro, Quantum, or ATH as your core toolkit
 - Stay plugged into this community
 - Focus on getting a little better each week
 
@@ -33,6 +33,6 @@ There are people in this group who were confused and inconsistent when they star
 
 The difference was not a magic button. It was their willingness to play the long game.
 
-If you are willing to commit to the next year instead of the next week, comment "LONG GAME" below.
+If you are willing to commit to the next year instead of the next week, reply "LONG GAME" below.
 
 Your future self will thank you for the decision you make today.
