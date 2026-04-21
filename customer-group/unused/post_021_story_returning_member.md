@@ -1,8 +1,3 @@
----
-topic: Story of a returning member
-tools_mentioned: Sniper Pro, Quantum, ATH, Community
----
-
 Let me tell you a quick story about a member in this group.
 
 When they first joined, they were fired up. They hit every training, watched every replay, and were in the Discord daily.
@@ -20,7 +15,7 @@ Months went by.
 One day they logged back into the group out of curiosity and saw:
 
 - People they started with posting funded account wins
-- Clean Sniper Pro, Quantum, and ATH setups they understood but had not been using
+- Clean Sniper Pro, Quantum, or ATH setups they understood but had not been using
 - New trainings and breakdowns they missed
 
 They messaged and said something that might sound familiar:
@@ -30,7 +25,7 @@ They messaged and said something that might sound familiar:
 They reactivated, and this time they treated it differently:
 
 - They committed to a simple routine
-- They used Sniper Pro, Quantum, and ATH the way they were taught
+- They used Sniper Pro, Quantum, or ATH the way they were taught
 - They leaned on the community when they felt shaky instead of disappearing
 
 Their results changed not because the market suddenly became easier, but because **they stayed in the game long enough to grow.**
