@@ -1,14 +1,4 @@
----
-title: "Leadership vs Management"
-topic: "leadership"
-niche: "business"
-source_video: "https://www.youtube.com/watch?v=hafN7bPHlqk"
-source_channel: "Business Professor"
-status: UNUSED
-created: 2026-04-11
----
-
-# Leadership vs Management
+Leadership vs Management
 
 They're not the same. You need both.
 
@@ -27,5 +17,3 @@ Managers minimize risk. They maintain stability and order.
 The best professionals combine both. They can inspire a vision AND execute on it.
 
 Which side do you lean toward?
-
-#leadership #management #business #entrepreneurship
