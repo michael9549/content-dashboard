@@ -1,14 +1,4 @@
----
-title: "11 Keys to Increasing Productivity"
-topic: "productivity"
-niche: "business"
-source_video: "https://www.youtube.com/watch?v=jlQxU_-6PS4"
-source_channel: "Brian Tracy"
-status: UNUSED
-created: 2026-04-11
----
-
-# 11 Keys to Increasing Productivity
+Keys to Increasing Productivity
 
 From Brian Tracy, here are the fundamentals:
 
@@ -25,5 +15,3 @@ From Brian Tracy, here are the fundamentals:
 11. Cut out steps in the process
 
 The key insight: It's not activity, it's accomplishments that matter.
-
-#productivity #success #business #goals
