@@ -1,12 +1,4 @@
----
-topic: "What Changed Since You Left (Spoiler: A Lot)"
-target_audience: "Inactive Members"
-tools_mentioned: ["Sniper Pro", "Quantum", "ATH", "Discord"]
-status: UNUSED
-date_created: "2026-04-07"
----
-
-# What Changed Since You Left (Spoiler: A Lot)
+What Changed Since You Left (Spoiler: A Lot)
 
 If you used to be active in this group but life got in the way... I want you to read this.
 
@@ -17,6 +9,7 @@ You tell yourself you'll come back when things settle down. But they never quite
 **Here's what I want you to know: The community is different now.**
 
 Since you left, we've added:
+
 - New scanner features that make finding setups 10x faster
 - More structured training calls with Q&A
 - Better Discord channels for specific trading styles
