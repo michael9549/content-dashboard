@@ -1,14 +1,4 @@
----
-title: "The Truth About Multitasking"
-topic: "focus"
-niche: "productivity"
-source_video: "https://www.youtube.com/watch?v=IXZRIiyQlPE"
-source_channel: "Rational Raymond"
-status: UNUSED
-created: 2026-04-11
----
-
-# The Truth About Multitasking
+The Truth About Multitasking
 
 Multitasking feels productive. The research says otherwise.
 
@@ -22,4 +12,3 @@ One focused hour will consistently outperform three scattered ones.
 
 Stop trying to do everything at once. Do one thing. Finish it. Move to the next.
 
-#focus #productivity #multitasking #deepwork
