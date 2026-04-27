@@ -1,11 +1,3 @@
----
-topic: The Real Reason Most Traders Fail
-niche: trading
-source_video: https://www.youtube.com/watch?v=example
-created: 2026-04-23
-status: UNUSED
----
-
 Most traders don't fail because they have a bad strategy.
 
 They fail because they can't handle losing.
@@ -45,5 +37,3 @@ If you're struggling with the emotional side of trading, you're not broken. You'
 But normal doesn't make money.
 
 Time to level up.
-
-#trading #mindset #forex #daytrading #discipline
