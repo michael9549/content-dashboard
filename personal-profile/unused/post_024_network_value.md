@@ -1,10 +1,3 @@
----
-topic: Why Your Network Is Your Real Net Worth
-niche: business
-created: 2026-04-23
-status: UNUSED
----
-
 I used to think success was about skills.
 
 Learn the right strategies. Master the right tools. Work harder than everyone else.
