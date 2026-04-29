@@ -24,4 +24,8 @@ The tools are still here. The community is still here. The opportunity is still 
 
 The only question is: Are you ready to write your comeback chapter?
 
-**If you're thinking about returning, drop a 🔥 below. No explanation needed. Just let us know you're back.**
+**If you're thinking about returning, drop a 🔥 below. 
+
+No explanation needed. 
+
+Just let us know you're back.**
