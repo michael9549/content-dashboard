@@ -37,5 +37,3 @@ Your skills get you in the door. Your network determines which doors exist.
 Stop trying to do everything alone. Start building relationships that multiply your efforts.
 
 The ROI on a strong network is infinite.
-
-#networking #business #entrepreneurship #success #relationships
