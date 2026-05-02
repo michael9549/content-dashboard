@@ -1,13 +1,4 @@
----
-status: unused
-platform: facebook
-group: customer-group
-type: engagement_post
-topic: community_reactivation
-created: 2026-04-13
----
-
-# The "Comeback Season" Is Real — And It Starts With One Decision
+The "Comeback Season" Is Real, And It Starts With One Decision
 
 I see it happen all the time.
 
@@ -23,8 +14,6 @@ Because trading isn't about being perfect. It's about being present.
 
 The traders who win long-term aren't the ones who never stumble. They're the ones who refuse to stay down.
 
----
-
 **If you've been quiet lately, this is your invitation:**
 
 Come back.
@@ -35,22 +24,18 @@ Come back now. While you're figuring it out. While the process is still messy.
 
 That's where the growth actually happens.
 
----
-
 **This community isn't just for the traders who are crushing it.**
 
 It's for the ones rebuilding.
 It's for the ones starting over.
 It's for the ones who know they're meant for more and refuse to quit on themselves.
 
-If that's you — drop a 💪 below.
+If that's you, drop a 💪 below.
 
 Let us know you're back in the game. No explanation needed. No apologies necessary.
 
 Just show up. We'll take it from there.
 
----
-
 **Who's ready to make this their comeback season?**
 
-#comebackseason #tradingcommunity #nevergiveup #tradingmindset #showup
+
