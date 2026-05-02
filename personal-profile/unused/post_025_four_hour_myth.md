@@ -1,10 +1,3 @@
----
-topic: The 4-Hour Workday Myth
-niche: productivity
-created: 2026-04-23
-status: UNUSED
----
-
 Everyone wants the 4-hour workweek.
 
 Nobody wants to hear what it actually takes to get there.
@@ -42,5 +35,3 @@ So if you're in year one and you're exhausted, good. That means you're doing it 
 Keep building. The payoff is coming.
 
 But it's not coming tomorrow. And it's definitely not coming in 4 hours.
-
-#entrepreneurship #hustle #business #mindset #realitycheck
