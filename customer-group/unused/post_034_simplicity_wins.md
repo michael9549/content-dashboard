@@ -1,13 +1,4 @@
----
-status: unused
-platform: facebook
-group: customer-group
-type: engagement_post
-topic: trading_simplicity
-created: 2026-04-30
----
-
-# The Best Traders I Know Keep It Stupid Simple
+The Best Traders I Know Keep It Stupid Simple
 
 Here's what separates consistently profitable traders from the ones stuck in analysis paralysis:
 
@@ -19,8 +10,6 @@ And I've watched traders with basic setups win because they took the same trade,
 
 Complexity feels smart.
 Simplicity makes money.
-
----
 
 **Your strategy doesn't need more indicators.**
 
@@ -34,8 +23,6 @@ That's it.
 
 The market rewards consistency, not cleverness.
 
----
-
 **Ask yourself:**
 
 Could you teach your strategy to a complete beginner in 5 minutes?
@@ -45,8 +32,4 @@ If not, it might be too complicated.
 The traders who compound their accounts aren't doing anything fancy.
 They're just doing the basics better than everyone else.
 
----
-
 **Drop a ✅ if you're committed to simplifying your approach this week.**
-
-#tradingsimplicity #keepitsimple #consistencywins #tradingdiscipline #lessismore
