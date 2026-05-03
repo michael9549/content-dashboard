@@ -1,15 +1,8 @@
----
-topic: The One Skill That Makes Everything Else Easier
-niche: business
-created: 2026-04-23
-status: UNUSED
----
-
 If I could only master one skill for the rest of my life, it wouldn't be sales.
 
 It wouldn't be marketing.
 
-It wouldn't even be trading.
+It wouldn't even be trading. (ok, maybe trading ;))
 
 It would be **copywriting.**
 
@@ -44,5 +37,3 @@ It's about understanding what your audience wants, what they're afraid of, and w
 Learn this one skill and every other business skill gets amplified.
 
 Because at the end of the day, business is just people making decisions. And copywriting is the art of influencing those decisions with words.
-
-#copywriting #marketing #business #sales #communication
