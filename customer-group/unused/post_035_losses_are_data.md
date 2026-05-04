@@ -1,13 +1,4 @@
----
-status: unused
-platform: facebook
-group: customer-group
-type: engagement_post
-topic: trading_losses
-created: 2026-04-30
----
-
-# Your Last Loss Wasn't a Failure — It Was Data
+Your Last Loss Wasn't a Failure, It Was Data
 
 I know it stings.
 
@@ -21,8 +12,6 @@ Not a bug. A feature.
 
 Every professional trader takes losses.
 The difference is what they do with them.
-
----
 
 **The amateur:**
 → Gets emotional
@@ -38,8 +27,6 @@ The difference is what they do with them.
 
 Same loss. Different response. Different result over time.
 
----
-
 **Your job isn't to avoid losses.**
 
 Your job is to:
@@ -50,8 +37,4 @@ Your job is to:
 The traders who blow accounts aren't the ones who lose.
 They're the ones who lose control.
 
----
-
 **Drop a 💯 if you're treating your next loss as data, not defeat.**
-
-#tradinglosses #mindsetshift #tradingdata #lossesarelessons #profitabletrader
