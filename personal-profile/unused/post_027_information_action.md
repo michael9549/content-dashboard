@@ -1,10 +1,3 @@
----
-topic: Why Information Alone Won't Change Your Life
-niche: mindset
-created: 2026-04-23
-status: UNUSED
----
-
 You've watched the YouTube videos.
 
 You've bought the courses.
@@ -54,5 +47,3 @@ The information you need is already inside you or one Google search away.
 What you need now is courage.
 
 Go use what you already know.
-
-#mindset #action #entrepreneurship #productivity #execution
