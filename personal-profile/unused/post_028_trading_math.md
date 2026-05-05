@@ -1,10 +1,3 @@
----
-topic: The Real Reason Most Traders Never Make Money
-topic: trading
-niche: trading
-status: UNUSED
----
-
 90% of traders lose money.
 
 Not because they don't have the right strategy.
@@ -58,5 +51,3 @@ The question is: Are you willing to do the boring work long enough for the resul
 Most people aren't. That's why most people lose.
 
 Be the exception.
-
-#trading #forex #mindset #consistency #success
