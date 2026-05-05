@@ -1,10 +1,3 @@
----
-topic: AI Won't Replace You — But Someone Using AI Will
-topic: ai
-niche: business
-status: UNUSED
----
-
 I used to spend 6 hours writing a single sales email.
 
 Research. Outlines. Drafts. Revisions. Second-guessing every word.
@@ -41,7 +34,7 @@ The result? Content that still sounds like me, but gets created in a fraction of
 
 **Rapid testing.** You can generate 20 variations of a headline in 5 minutes and test them all. The old way? You'd pick one and hope.
 
-**Knowledge work acceleration.** Research, analysis, summarization — AI handles the grunt work so you can focus on strategy and decisions.
+**Knowledge work acceleration.** Research, analysis, summarization, AI handles the grunt work so you can focus on strategy and decisions.
 
 **But here's the catch:**
 
@@ -58,5 +51,3 @@ Who use AI to handle the repetitive work while they focus on the creative, strat
 That future is already here. The question is whether you're adapting or getting left behind.
 
 I'm choosing to adapt.
-
-#ai #business #automation #future #productivity
