@@ -1,10 +1,3 @@
----
-topic: Why Your Trading Strategy Isn't the Problem
-topic: trading
-niche: trading
-status: UNUSED
----
-
 You've backtested 47 different strategies.
 
 You've watched 200 hours of YouTube tutorials.
@@ -69,4 +62,3 @@ Stop looking for better strategies. Start becoming a better trader.
 
 The edge you're looking for? It's already in front of you. You just haven't mastered it yet.
 
-#trading #strategy #mindset #discipline #forex
