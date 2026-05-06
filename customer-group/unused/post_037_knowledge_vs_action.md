@@ -1,13 +1,4 @@
----
-status: unused
-platform: facebook
-group: customer-group
-type: engagement_post
-topic: trading_journey
-created: 2026-04-30
----
-
-# The Gap Between Where You Are and Where You Want to Be
+The Gap Between Where You Are and Where You Want to Be
 
 I talk to traders all the time who are frustrated.
 
@@ -18,8 +9,6 @@ They know the terminology, the patterns, the "rules."
 But their account still isn't growing.
 
 And they can't figure out why.
-
----
 
 **Here's what I tell them:**
 
@@ -34,8 +23,6 @@ Always consuming. Never applying.
 
 The breakthrough happens when you stop looking for the next strategy and start mastering the one you have.
 
----
-
 **The gap closes when you:**
 
 → Take the setup even when you're nervous
@@ -46,10 +33,6 @@ The breakthrough happens when you stop looking for the next strategy and start m
 Information is cheap.
 Action is everything.
 
----
-
 **What's ONE thing you know you should be doing but aren't?**
 
 Drop it below. Let's close the gap together.
-
-#tradingjourney #executionmatters #takeaction #knowledgevsaction #tradingsuccess
