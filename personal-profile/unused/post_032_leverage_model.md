@@ -1,10 +1,3 @@
----
-topic: The Business Model That Changed Everything for Me
-topic: business
-niche: business
-status: UNUSED
----
-
 I used to think building a business meant doing everything myself.
 
 Create the product. Handle the sales. Do the marketing. Manage customer support. Fix the tech issues.
@@ -65,4 +58,3 @@ The market doesn't care who made the product. It cares who solved the problem.
 
 Be the person who solves problems. The rest follows.
 
-#business #entrepreneurship #leverage #scalability #success
