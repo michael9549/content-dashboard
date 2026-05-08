@@ -1,10 +1,3 @@
----
-topic: The One Habit That Separates Pros from Amateurs
-topic: business
-niche: productivity
-status: UNUSED
----
-
 I know two types of entrepreneurs.
 
 The first type wakes up and asks: "What do I feel like doing today?"
@@ -65,4 +58,3 @@ Amateurs wait until they feel like it. Pros do the work anyway.
 
 Which one are you?
 
-#productivity #habits #entrepreneurship #discipline #success
