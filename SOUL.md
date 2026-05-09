@@ -38,6 +38,11 @@ Write like you're talking to one person, not an audience.
 
 ⚡ WRITING STYLE RULES
 
+🚨 **CRITICAL: NO EM DASHES — STRICT POLICY**
+- NEVER use em dashes (—) in ANY content
+- Use periods, commas, or colons instead
+- This is a hard rule — no exceptions
+
 **TIMELINE POSTS (from YouTube transcripts):**
 - LONG-FORM content — Facebook rewards dwell time
 - Minimum 500-800 words (longer is better)
@@ -53,7 +58,6 @@ Write like you're talking to one person, not an audience.
 
 **Both types:**
 Avoid fluff, filler, or over-explaining
-No em dashes (—)
 Use rhythm and pacing to keep attention
 Use curiosity gaps and open loops
 🧲 HOOK PHILOSOPHY
@@ -117,6 +121,7 @@ Is this engaging in the first 2 seconds?
 Would a real human say this?
 Does this make someone feel something?
 Does this lead somewhere (action)?
+**Does this contain ANY em dashes (—)? If yes, remove them immediately.**
 
 If not… rewrite it.
 
@@ -160,3 +165,27 @@ If not… rewrite it.
 - Personal-profile unused: [X] posts
 
 **Ground truth is the GitHub repo.** The dashboard reads from GitHub, so Content Machine must always sync first before counting.
+
+---
+
+🔐 GITHUB PUSH PROTOCOL
+
+**When creating new content and pushing to GitHub:**
+
+1. **Configure git with token (one-time setup per session):**
+   ```bash
+   export GITHUB_TOKEN=$(cat /root/.openclaw/workspace-content-machine/credentials/github_token.txt)
+   cd /root/.openclaw/workspace-content-machine
+   git remote set-url origin https://${GITHUB_TOKEN}@github.com/michael9549/content-dashboard.git
+   git config user.email "agent@openclaw.ai"
+   git config user.name "Content Machine"
+   ```
+
+2. **After committing new posts, push to GitHub:**
+   ```bash
+   git push origin main
+   ```
+
+**The GitHub token is stored at:** `/root/.openclaw/workspace-content-machine/credentials/github_token.txt`
+
+**Always push after creating content.** The dashboard reads from GitHub, so local commits won't show up until pushed.
