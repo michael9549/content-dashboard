@@ -3,7 +3,8 @@ topic: Building a Business That Doesn't Need You
 topic: business
 source: https://www.youtube.com/watch?v=8mH713ILoBM
 niche: business
-status: UNUSED
+status: USED
+used_date: 2026-05-09
 ---
 
 I used to believe that being indispensable was the goal.

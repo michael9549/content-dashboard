@@ -3,7 +3,8 @@ topic: The Real Reason Most Entrepreneurs Burn Out
 topic: business
 source: https://www.youtube.com/watch?v=9n-2WBV9vqA
 niche: business
-status: UNUSED
+status: USED
+used_date: 2026-05-09
 ---
 
 I watched a founder friend of mine build a $2 million business in 18 months.

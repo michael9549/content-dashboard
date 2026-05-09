@@ -3,7 +3,8 @@ topic: The Art of High-Ticket Sales Without Being Pushy
 topic: business
 source: https://www.youtube.com/watch?v=FZoKmYSqGcQ
 niche: marketing
-status: UNUSED
+status: USED
+used_date: 2026-05-09
 ---
 
 I used to hate selling.
