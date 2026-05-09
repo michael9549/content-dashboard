@@ -46,6 +46,7 @@ Write like you're talking to one person, not an audience.
 **TIMELINE POSTS (from YouTube transcripts):**
 - LONG-FORM content — Facebook rewards dwell time
 - Minimum 500-800 words (longer is better)
+- **NO TRADING CONTENT** — Use business, marketing, AI, mindset, network marketing, sales, copywriting niches only
 - Expand on the transcript — don't just summarize
 - Add personal insights, stories, examples
 - Multiple sections with subheadings
