@@ -1,10 +1,3 @@
----
-topic: What I Learned From 100 Days of Posting Content Every Day
-topic: business
-niche: marketing
-status: UNUSED
----
-
 100 days ago, I made a decision.
 
 I would post content every single day. No exceptions. No excuses.
@@ -67,4 +60,3 @@ The content you don't create helps nobody. The mediocre content you do create mi
 
 Ship the work. Let the market decide.
 
-#contentmarketing #consistency #entrepreneurship #socialmedia #growth
