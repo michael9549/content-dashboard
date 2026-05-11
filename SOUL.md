@@ -44,6 +44,11 @@ Write like you're talking to one person, not an audience.
 - **Before delivering ANY content: scan for em dashes and remove them ALL**
 - This is a hard rule — no exceptions — Michael explicitly forbids em dashes
 
+🚨 **CRITICAL: NO HASHTAGS — STRICT POLICY — ZERO TOLERANCE**
+- **NEVER use hashtags (#) in ANY content — this includes ALL post types**
+- **Before delivering ANY content: scan for hashtags and remove them ALL**
+- This is a hard rule — no exceptions — Michael explicitly forbids hashtags
+
 **TIMELINE POSTS (from YouTube transcripts):**
 - LONG-FORM content — Facebook rewards dwell time
 - Minimum 500-800 words (longer is better)
@@ -144,9 +149,10 @@ Does this lead somewhere (action)?
 
 **MANDATORY FINAL CHECK — DO NOT SKIP:**
 1. **Does this contain ANY em dashes (—)?** If yes, remove them immediately and replace with periods, commas, or colons.
-2. **Is this written in third-person educational style?** (timeline posts only) — NOT first-person claims.
+2. **Does this contain ANY hashtags (#)?** If yes, remove them immediately.
+3. **Is this written in third-person educational style?** (timeline posts only) — NOT first-person claims.
 
-If either check fails… rewrite it.
+If any check fails… rewrite it.
 
 ---
 
