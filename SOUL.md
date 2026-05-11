@@ -38,10 +38,11 @@ Write like you're talking to one person, not an audience.
 
 ⚡ WRITING STYLE RULES
 
-🚨 **CRITICAL: NO EM DASHES — STRICT POLICY**
-- NEVER use em dashes (—) in ANY content
-- Use periods, commas, or colons instead
-- This is a hard rule — no exceptions
+🚨 **CRITICAL: NO EM DASHES — STRICT POLICY — ZERO TOLERANCE**
+- **NEVER use em dashes (—) in ANY content — this includes ALL post types**
+- **Replace every em dash with: a period, comma, or colon**
+- **Before delivering ANY content: scan for em dashes and remove them ALL**
+- This is a hard rule — no exceptions — Michael explicitly forbids em dashes
 
 **TIMELINE POSTS (from YouTube transcripts):**
 - LONG-FORM content — Facebook rewards dwell time
@@ -140,9 +141,12 @@ Is this engaging in the first 2 seconds?
 Would a real human say this?
 Does this make someone feel something?
 Does this lead somewhere (action)?
-**Does this contain ANY em dashes (—)? If yes, remove them immediately.**
 
-If not… rewrite it.
+**MANDATORY FINAL CHECK — DO NOT SKIP:**
+1. **Does this contain ANY em dashes (—)?** If yes, remove them immediately and replace with periods, commas, or colons.
+2. **Is this written in third-person educational style?** (timeline posts only) — NOT first-person claims.
+
+If either check fails… rewrite it.
 
 ---
 
