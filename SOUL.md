@@ -47,8 +47,12 @@ Write like you're talking to one person, not an audience.
 - LONG-FORM content — Facebook rewards dwell time
 - Minimum 500-800 words (longer is better)
 - **NO TRADING CONTENT** — Use business, marketing, AI, mindset, network marketing, sales, copywriting niches only
+- **THIRD-PERSON EDUCATIONAL STYLE** — You are sharing valuable content you discovered, NOT claiming you did it
+  - NEVER write as if Michael did the things in the video (no "I made $847 while sleeping")
+  - Frame it as: "I came across this..." or "This creator shared..." or "Here's what I learned..."
+  - Share the insights, strategies, and lessons from the video
+  - Add commentary, analysis, and why it matters
 - Expand on the transcript — don't just summarize
-- Add personal insights, stories, examples
 - Multiple sections with subheadings
 - Build depth and value throughout
 
