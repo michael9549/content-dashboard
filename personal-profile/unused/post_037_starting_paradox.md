@@ -1,10 +1,3 @@
----
-topic: Why Most People Will Never Start a Business
-topic: business
-niche: mindset
-status: UNUSED
----
-
 Someone asked 100 people if they wanted to start a business.
 
 87 said yes.
