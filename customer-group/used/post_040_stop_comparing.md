@@ -1,13 +1,4 @@
----
-status: unused
-platform: facebook
-group: customer-group
-type: engagement_post
-topic: trading_comparison
-created: 2026-04-30
----
-
-# Stop Comparing Your Chapter 2 to Someone Else's Chapter 20
+Stop Comparing Your Chapter 2 to Someone Else's Chapter 20
 
 Social media makes it look like everyone is winning except you.
 
@@ -21,8 +12,6 @@ Here's what you need to remember:
 
 You're comparing your behind-the-scenes to their highlight reel.
 
----
-
 **The trader posting huge wins?**
 
 You don't see:
@@ -34,8 +23,6 @@ You don't see:
 You see the result.
 Not the process.
 
----
-
 **Your journey is YOUR journey.**
 
 Your timeline. Your lessons. Your pace.
@@ -44,10 +31,8 @@ The only person you need to be better than is the trader you were last month.
 
 Everyone else is running their own race.
 
----
-
 **Drop a 🙌 if you're done comparing and ready to focus on YOUR progress.**
 
-Your chapter 20 is coming. Keep writing.
+Your chapter 20 is coming. 
 
 #yourjourney #stopcomparing #tradingprogress #focusonyou #keepgoing
