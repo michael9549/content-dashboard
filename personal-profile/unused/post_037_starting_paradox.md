@@ -5,11 +5,11 @@ niche: mindset
 status: UNUSED
 ---
 
-I asked 100 people if they wanted to start a business.
+Someone asked 100 people if they wanted to start a business.
 
 87 said yes.
 
-I checked back a year later.
+They checked back a year later.
 
 3 had actually started.
 
@@ -35,7 +35,7 @@ Everything you think you need before starting? You actually get it BY starting.
 
 **"I don't have enough money."**
 
-I started my first business with $200. Most service businesses require almost nothing to start. You don't need funding. You need a customer.
+Most service businesses require almost nothing to start. You don't need funding. You need a customer.
 
 **"I don't have enough time."**
 
@@ -76,5 +76,3 @@ But here's the thing: Not starting is also a choice. And it's a choice that guar
 A year from now, do you want to be someone who started? Or someone who's still waiting to feel ready?
 
 The clock is ticking.
-
-#entrepreneurship #mindset #starting #fear #action
