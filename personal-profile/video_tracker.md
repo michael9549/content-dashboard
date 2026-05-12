@@ -73,3 +73,7 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 | Sf5Bg888vrc | network marketing | Is Network Marketing A Scam? - David Imonitie | Social Proof | https://www.youtube.com/watch?v=Sf5Bg888vrc | 2026-05-12 | post_20260512_224825.md | Auto-added |
 | mTLMEuDwab8 | affiliate marketing | What is Affiliate Marketing and How Does it Work? [1.1] | Ahrefs | https://www.youtube.com/watch?v=mTLMEuDwab8 | 2026-05-12 | post_20260512_224829.md | Auto-added |
 | UPGHiDiDZJo | network marketing | 10 Habits Of  Highly Successful  Network Marketing | The Networker | https://www.youtube.com/watch?v=UPGHiDiDZJo | 2026-05-12 | post_20260512_224830.md | Auto-added |
+| gwfCWDO4LbM | AI | The First 48 Hours of an AI Civil War - A Realistic Scenario | Species | Documenting AGI | https://www.youtube.com/watch?v=gwfCWDO4LbM | 2026-05-12 | post_20260512_224843.md | Auto-added |
+| 8SeAWP9Pz8E | AI | Grok AI Finally Reveals Who Built The Pyramids — The Evidence Is Undeniable |  Ancient Anomaly | https://www.youtube.com/watch?v=8SeAWP9Pz8E | 2026-05-12 | post_20260512_224858.md | Auto-added |
+| q4rDAu9ggKU | AI | WTF is going on at Anthropic?! | Matthew Berman | https://www.youtube.com/watch?v=q4rDAu9ggKU | 2026-05-12 | post_20260512_224912.md | Auto-added |
+| FJT5Rh0eKe8 | AI | The AI Chat Era Is Over. This Killed It. | Julia McCoy | https://www.youtube.com/watch?v=FJT5Rh0eKe8 | 2026-05-12 | post_20260512_224932.md | Auto-added |

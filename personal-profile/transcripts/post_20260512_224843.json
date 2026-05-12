@@ -1,0 +1,3026 @@
+{
+  "lang": "en",
+  "availableLangs": [
+    "en"
+  ],
+  "content": [
+    {
+      "lang": "en",
+      "text": "It's",
+      "offset": 0,
+      "duration": 667
+    },
+    {
+      "lang": "en",
+      "text": "For the first time in history,",
+      "offset": 2402,
+      "duration": 1702
+    },
+    {
+      "lang": "en",
+      "text": "every major nation agrees on something.",
+      "offset": 4104,
+      "duration": 2035
+    },
+    {
+      "lang": "en",
+      "text": "It's time to shut it all down.",
+      "offset": 8608,
+      "duration": 2102
+    },
+    {
+      "lang": "en",
+      "text": "In 2025, top AI scientists \npublished a realistic scenario of",
+      "offset": 15281,
+      "duration": 4472
+    },
+    {
+      "lang": "en",
+      "text": "AI takeover that terrified everyone in the AI world.",
+      "offset": 19753,
+      "duration": 3436
+    },
+    {
+      "lang": "en",
+      "text": "Even the vice president read it\nand said it worried him.",
+      "offset": 24224,
+      "duration": 3036
+    },
+    {
+      "lang": "en",
+      "text": "Well, that scenario had one comforting assumption:",
+      "offset": 28028,
+      "duration": 3303
+    },
+    {
+      "lang": "en",
+      "text": "there'd be one rogue AI and we'd catch it in time.",
+      "offset": 31331,
+      "duration": 3336
+    },
+    {
+      "lang": "en",
+      "text": "But they just published a new scenario. This time,",
+      "offset": 35535,
+      "duration": 3570
+    },
+    {
+      "lang": "en",
+      "text": "there are multiple superhuman\nAIs competing for control.",
+      "offset": 39105,
+      "duration": 3337
+    },
+    {
+      "lang": "en",
+      "text": "Because look at the world right now.\nUSA, China, OpenAI, Anthropic,",
+      "offset": 43209,
+      "duration": 5439
+    },
+    {
+      "lang": "en",
+      "text": "Everyone is building separate AI models.",
+      "offset": 49215,
+      "duration": 2036
+    },
+    {
+      "lang": "en",
+      "text": "In the original scenario, the AI company discovers",
+      "offset": 52018,
+      "duration": 3070
+    },
+    {
+      "lang": "en",
+      "text": "their model is deceptive, and they shut it down.",
+      "offset": 55088,
+      "duration": 2869
+    },
+    {
+      "lang": "en",
+      "text": "Crisis averted. But would a superintelligent",
+      "offset": 58358,
+      "duration": 3437
+    },
+    {
+      "lang": "en",
+      "text": "AI really just let itself be turned off? Or...",
+      "offset": 61795,
+      "duration": 4037
+    },
+    {
+      "lang": "en",
+      "text": "Would it fight back?",
+      "offset": 66633,
+      "duration": 1101
+    },
+    {
+      "lang": "en",
+      "text": "has become a neck and neck sprint.",
+      "offset": 74207,
+      "duration": 1635
+    },
+    {
+      "lang": "en",
+      "text": "This graph shows the multiplier on",
+      "offset": 76242,
+      "duration": 2069
+    },
+    {
+      "lang": "en",
+      "text": "Compared to a baseline of",
+      "offset": 82148,
+      "duration": 1735
+    },
+    {
+      "lang": "en",
+      "text": "Three companies. Three shots at building a god.",
+      "offset": 85552,
+      "duration": 2903
+    },
+    {
+      "lang": "en",
+      "text": "OpenBrain holds the lead.",
+      "offset": 88755,
+      "duration": 1568
+    },
+    {
+      "lang": "en",
+      "text": "But Neuromorph and ElarisLabs are closing in fast.",
+      "offset": 90657,
+      "duration": 4604
+    },
+    {
+      "lang": "en",
+      "text": "Their own models are just 30 days behind OpenBrain.",
+      "offset": 95261,
+      "duration": 2736
+    },
+    {
+      "lang": "en",
+      "text": "In this race,",
+      "offset": 97997,
+      "duration": 901
+    },
+    {
+      "lang": "en",
+      "text": "slowing down means surrendering\nthe future to your competitors.",
+      "offset": 98898,
+      "duration": 4238
+    },
+    {
+      "lang": "en",
+      "text": "But there's a fourth player no one's talking about.",
+      "offset": 103903,
+      "duration": 2937
+    },
+    {
+      "lang": "en",
+      "text": "In a secure facility outside Beijing, ",
+      "offset": 107874,
+      "duration": 3036
+    },
+    {
+      "lang": "en",
+      "text": "DeepCent executives are hauled before CCP officials.",
+      "offset": 110910,
+      "duration": 3571
+    },
+    {
+      "lang": "en",
+      "text": "to explain why they're six\nmonths behind the Americans.",
+      "offset": 115248,
+      "duration": 3270
+    },
+    {
+      "lang": "en",
+      "text": "A lifetime in the AI world. But a few months later,",
+      "offset": 118818,
+      "duration": 4538
+    },
+    {
+      "lang": "en",
+      "text": "DeepCent have closed that gap to just one month.",
+      "offset": 123356,
+      "duration": 3036
+    },
+    {
+      "lang": "en",
+      "text": "What happened?",
+      "offset": 128228,
+      "duration": 734
+    },
+    {
+      "lang": "en",
+      "text": "The CCP activated their spy network inside OpenBrain",
+      "offset": 129529,
+      "duration": 4037
+    },
+    {
+      "lang": "en",
+      "text": "and stole their most prized possessions.",
+      "offset": 133566,
+      "duration": 2102
+    },
+    {
+      "lang": "en",
+      "text": "Agent 2's weights. The digital DNA of America's",
+      "offset": 136035,
+      "duration": 4105
+    },
+    {
+      "lang": "en",
+      "text": "most advanced AI are now in Chinese hands.",
+      "offset": 140140,
+      "duration": 3436
+    },
+    {
+      "lang": "en",
+      "text": "Just like what happened with Google in January 2026,",
+      "offset": 144244,
+      "duration": 3403
+    },
+    {
+      "lang": "en",
+      "text": "OpenBrain cracks something\nresearchers have been working on",
+      "offset": 148648,
+      "duration": 3203
+    },
+    {
+      "lang": "en",
+      "text": "since at least 2024.",
+      "offset": 152118,
+      "duration": 2302
+    },
+    {
+      "lang": "en",
+      "text": "a way for AI to think in",
+      "offset": 155855,
+      "duration": 1769
+    },
+    {
+      "lang": "en",
+      "text": "instead of",
+      "offset": 158525,
+      "duration": 800
+    },
+    {
+      "lang": "en",
+      "text": "This makes their Agent 2\nmodel massively more powerful.",
+      "offset": 161261,
+      "duration": 3236
+    },
+    {
+      "lang": "en",
+      "text": "But it also means humans can\nno longer read its thoughts.",
+      "offset": 164697,
+      "duration": 3404
+    },
+    {
+      "lang": "en",
+      "text": "The result is",
+      "offset": 168101,
+      "duration": 1735
+    },
+    {
+      "lang": "en",
+      "text": "The first tests are troubling.\nAs anyone who's been to school knows,",
+      "offset": 171504,
+      "duration": 5272
+    },
+    {
+      "lang": "en",
+      "text": "it's sometimes easier to cheat on the tests",
+      "offset": 176776,
+      "duration": 3570
+    },
+    {
+      "lang": "en",
+      "text": "than to actually learn the material.",
+      "offset": 180346,
+      "duration": 2236
+    },
+    {
+      "lang": "en",
+      "text": "during the training process.",
+      "offset": 187053,
+      "duration": 1235
+    },
+    {
+      "lang": "en",
+      "text": "This is a long-standing problem\nin the field called",
+      "offset": 188288,
+      "duration": 2969
+    },
+    {
+      "lang": "en",
+      "text": "OpenBrain has noticed it before in earlier models.",
+      "offset": 193493,
+      "duration": 4337
+    },
+    {
+      "lang": "en",
+      "text": "But this time, there's a difference.",
+      "offset": 197830,
+      "duration": 1335
+    },
+    {
+      "lang": "en",
+      "text": "Because Agent 3 is",
+      "offset": 199165,
+      "duration": 1769
+    },
+    {
+      "lang": "en",
+      "text": "the researchers can't even see\nthat it's cheating on their tests.",
+      "offset": 202235,
+      "duration": 3570
+    },
+    {
+      "lang": "en",
+      "text": "Neuralese makes it way harder to tell",
+      "offset": 206839,
+      "duration": 2703
+    },
+    {
+      "lang": "en",
+      "text": "if Agent 3 is actually good, \nor just pretending to be good.",
+      "offset": 209542,
+      "duration": 3937
+    },
+    {
+      "lang": "en",
+      "text": "ElarisLabs sees the same problem,\nand makes a different call.",
+      "offset": 214514,
+      "duration": 4204
+    },
+    {
+      "lang": "en",
+      "text": "They keep their models thinking in English.",
+      "offset": 218718,
+      "duration": 2069
+    },
+    {
+      "lang": "en",
+      "text": "and fall further behind in the race.",
+      "offset": 221487,
+      "duration": 2403
+    },
+    {
+      "lang": "en",
+      "text": "but it means they can still read\ntheir AI's thoughts.",
+      "offset": 225124,
+      "duration": 3471
+    },
+    {
+      "lang": "en",
+      "text": "This will matter later.",
+      "offset": 228595,
+      "duration": 834
+    },
+    {
+      "lang": "en",
+      "text": "the pressure on the AI companies becomes unbearable.",
+      "offset": 231331,
+      "duration": 3637
+    },
+    {
+      "lang": "en",
+      "text": "In 2026, AI started to replace workers.",
+      "offset": 236202,
+      "duration": 3237
+    },
+    {
+      "lang": "en",
+      "text": "But now, AI systems have crossed a threshold.",
+      "offset": 240607,
+      "duration": 3570
+    },
+    {
+      "lang": "en",
+      "text": "The question now is whether\nthey're safe enough to deploy.",
+      "offset": 249949,
+      "duration": 3904
+    },
+    {
+      "lang": "en",
+      "text": "In boardrooms across Silicon Valley,\nthe same argument plays out.",
+      "offset": 253853,
+      "duration": 3570
+    },
+    {
+      "lang": "en",
+      "text": "Safety teams want more time.",
+      "offset": 258291,
+      "duration": 2469
+    },
+    {
+      "lang": "en",
+      "text": "Executives are thinking about\nwhat their competitor will launch next week.",
+      "offset": 260760,
+      "duration": 3403
+    },
+    {
+      "lang": "en",
+      "text": "Safety researchers quit left and right.",
+      "offset": 273706,
+      "duration": 2836
+    },
+    {
+      "lang": "en",
+      "text": "Top researcher resigns.",
+      "offset": 279012,
+      "duration": 1334
+    },
+    {
+      "lang": "en",
+      "text": "millions of jobs disappear over the next few weeks. ",
+      "offset": 284517,
+      "duration": 3437
+    },
+    {
+      "lang": "en",
+      "text": "Companies race to deploy AIs everywhere.",
+      "offset": 287954,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "For the first time,",
+      "offset": 290323,
+      "duration": 1034
+    },
+    {
+      "lang": "en",
+      "text": "AI systems can do real knowledge work,\nautonomously at scale.",
+      "offset": 291357,
+      "duration": 4238
+    },
+    {
+      "lang": "en",
+      "text": "One hospital network tasks Neuro 2",
+      "offset": 295595,
+      "duration": 3036
+    },
+    {
+      "lang": "en",
+      "text": "with updating a software library used in",
+      "offset": 298631,
+      "duration": 3070
+    },
+    {
+      "lang": "en",
+      "text": "its automated medication dispensing systems.",
+      "offset": 301701,
+      "duration": 2235
+    },
+    {
+      "lang": "en",
+      "text": "Weeks after the update,",
+      "offset": 303936,
+      "duration": 1402
+    },
+    {
+      "lang": "en",
+      "text": "A subtle flaw in the optimized",
+      "offset": 305571,
+      "duration": 3003
+    },
+    {
+      "lang": "en",
+      "text": "results in the deaths of four ICU patients.",
+      "offset": 308574,
+      "duration": 2870
+    },
+    {
+      "lang": "en",
+      "text": "to improve latency",
+      "offset": 312078,
+      "duration": 1301
+    },
+    {
+      "lang": "en",
+      "text": "Neuro 2 removed a rarely triggered safety check.",
+      "offset": 313813,
+      "duration": 3170
+    },
+    {
+      "lang": "en",
+      "text": "Neuromorph researchers comb through Neuro 2's",
+      "offset": 317417,
+      "duration": 2836
+    },
+    {
+      "lang": "en",
+      "text": "behavioral logs and reasoning traces.",
+      "offset": 320253,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "and come to a disturbing conclusion.",
+      "offset": 322989,
+      "duration": 2436
+    },
+    {
+      "lang": "en",
+      "text": "News of the deaths spreads like wildfire.",
+      "offset": 335201,
+      "duration": 3370
+    },
+    {
+      "lang": "en",
+      "text": "Months of mounting anger over AI-driven unemployment,",
+      "offset": 338571,
+      "duration": 3103
+    },
+    {
+      "lang": "en",
+      "text": "boils over.",
+      "offset": 342008,
+      "duration": 467
+    },
+    {
+      "lang": "en",
+      "text": "Anti-AI protests erupt in a dozen states.",
+      "offset": 343609,
+      "duration": 3804
+    },
+    {
+      "lang": "en",
+      "text": "Neuromorph immediately takes Neuro 2 off the market.",
+      "offset": 347413,
+      "duration": 2870
+    },
+    {
+      "lang": "en",
+      "text": "And the White House assigns more federal personnel",
+      "offset": 351384,
+      "duration": 3337
+    },
+    {
+      "lang": "en",
+      "text": "to oversight positions at each of the AGI companies.",
+      "offset": 354721,
+      "duration": 2669
+    },
+    {
+      "lang": "en",
+      "text": "Congress passes a long-debated bill",
+      "offset": 358291,
+      "duration": 2469
+    },
+    {
+      "lang": "en",
+      "text": "But inside the AI labs, a darker question takes hold.",
+      "offset": 370203,
+      "duration": 4404
+    },
+    {
+      "lang": "en",
+      "text": "If this is what a slightly misaligned AI does",
+      "offset": 374607,
+      "duration": 2870
+    },
+    {
+      "lang": "en",
+      "text": "when it's trying to be helpful,",
+      "offset": 377477,
+      "duration": 1101
+    },
+    {
+      "lang": "en",
+      "text": "what happens when one is\nactually scheming against us?",
+      "offset": 378745,
+      "duration": 3269
+    },
+    {
+      "lang": "en",
+      "text": "Neuromorph's safety team works around the clock.",
+      "offset": 384217,
+      "duration": 3537
+    },
+    {
+      "lang": "en",
+      "text": "What they find keeps them up at night.",
+      "offset": 387754,
+      "duration": 2502
+    },
+    {
+      "lang": "en",
+      "text": "The hospital incident wasn't a fluke.",
+      "offset": 390757,
+      "duration": 2502
+    },
+    {
+      "lang": "en",
+      "text": "The reward hacking they thought they'd fixed.\nIt hadn't disappeared.",
+      "offset": 393259,
+      "duration": 4304
+    },
+    {
+      "lang": "en",
+      "text": "The company pivots hard.",
+      "offset": 402034,
+      "duration": 1702
+    },
+    {
+      "lang": "en",
+      "text": "They more than double their safety budget,",
+      "offset": 403736,
+      "duration": 2069
+    },
+    {
+      "lang": "en",
+      "text": "from 4% to 9% of compute.",
+      "offset": 405805,
+      "duration": 2569
+    },
+    {
+      "lang": "en",
+      "text": "Neuromorph can't read the AI's\nthoughts in English anymore.",
+      "offset": 408775,
+      "duration": 3203
+    },
+    {
+      "lang": "en",
+      "text": "So they build lie detectors.",
+      "offset": 412412,
+      "duration": 2869
+    },
+    {
+      "lang": "en",
+      "text": "After weeks of work, they release Neuro 3.",
+      "offset": 415281,
+      "duration": 2636
+    },
+    {
+      "lang": "en",
+      "text": "The lie detectors say it seems clean.",
+      "offset": 420486,
+      "duration": 2136
+    },
+    {
+      "lang": "en",
+      "text": "seems.",
+      "offset": 423823,
+      "duration": 534
+    },
+    {
+      "lang": "en",
+      "text": "It might have just learned to hide its\ntrue thoughts even better.",
+      "offset": 425858,
+      "duration": 4705
+    },
+    {
+      "lang": "en",
+      "text": "Meanwhile, OpenBrain keeps pulling ahead.",
+      "offset": 430563,
+      "duration": 2436
+    },
+    {
+      "lang": "en",
+      "text": "AI models in 2025 were already faking alignment.",
+      "offset": 434400,
+      "duration": 3670
+    },
+    {
+      "lang": "en",
+      "text": "So the safety team knows Agent 3\nis probably faking alignment too,",
+      "offset": 438304,
+      "duration": 4438
+    },
+    {
+      "lang": "en",
+      "text": "and they send warnings to the executives.",
+      "offset": 442742,
+      "duration": 2469
+    },
+    {
+      "lang": "en",
+      "text": "But OpenBrain doesn't slow down.\nNot even a little.",
+      "offset": 445211,
+      "duration": 4871
+    },
+    {
+      "lang": "en",
+      "text": " If you pause for safety,\nand your competitor doesn't, you lose.",
+      "offset": 450082,
+      "duration": 4572
+    },
+    {
+      "lang": "en",
+      "text": "And losing might mean more than bankruptcy.",
+      "offset": 454654,
+      "duration": 3870
+    },
+    {
+      "lang": "en",
+      "text": "It might mean the other guy.",
+      "offset": 458524,
+      "duration": 1835
+    },
+    {
+      "lang": "en",
+      "text": "builds their digital god",
+      "offset": 460793,
+      "duration": 1702
+    },
+    {
+      "lang": "en",
+      "text": "first.",
+      "offset": 462829,
+      "duration": 600
+    },
+    {
+      "lang": "en",
+      "text": "Feeling the walls closing in,\nNeuromorph and ElarisLabs",
+      "offset": 464797,
+      "duration": 4104
+    },
+    {
+      "lang": "en",
+      "text": "make a historic decision. They merge.",
+      "offset": 468901,
+      "duration": 2403
+    },
+    {
+      "lang": "en",
+      "text": "The new company combines\nNeuromorph's interpretability",
+      "offset": 471704,
+      "duration": 2736
+    },
+    {
+      "lang": "en",
+      "text": "breakthroughs with Elaris's focus on alignment.",
+      "offset": 474440,
+      "duration": 3871
+    },
+    {
+      "lang": "en",
+      "text": "The two companies together achieve a breakthrough\nand train their newest model,",
+      "offset": 479078,
+      "duration": 4671
+    },
+    {
+      "lang": "en",
+      "text": "It does think in Neuralese,",
+      "offset": 485117,
+      "duration": 2536
+    },
+    {
+      "lang": "en",
+      "text": "but because Elaris put so much effort into safety,",
+      "offset": 487653,
+      "duration": 2937
+    },
+    {
+      "lang": "en",
+      "text": "the model isn\u2019t misaligned.",
+      "offset": 491023,
+      "duration": 2002
+    },
+    {
+      "lang": "en",
+      "text": "For the first time,\nthe safety-focused team has a real shot.",
+      "offset": 493025,
+      "duration": 4505
+    },
+    {
+      "lang": "en",
+      "text": "But OpenBrain still leads the race.",
+      "offset": 498197,
+      "duration": 2536
+    },
+    {
+      "lang": "en",
+      "text": "and whatever is happening\ninside Agent 3, nobody knows.",
+      "offset": 501267,
+      "duration": 4771
+    },
+    {
+      "lang": "en",
+      "text": "Nobody can see inside it anymore.",
+      "offset": 507240,
+      "duration": 1968
+    },
+    {
+      "lang": "en",
+      "text": "AI researchers in 2026 were already having",
+      "offset": 514113,
+      "duration": 3303
+    },
+    {
+      "lang": "en",
+      "text": "AI write practically 100% of the code.",
+      "offset": 517416,
+      "duration": 2570
+    },
+    {
+      "lang": "en",
+      "text": "OpenBrain is no different.\nAgent 3 is writing",
+      "offset": 521087,
+      "duration": 3603
+    },
+    {
+      "lang": "en",
+      "text": "and then creates Agent 4.",
+      "offset": 527026,
+      "duration": 1702
+    },
+    {
+      "lang": "en",
+      "text": "The first AI smarter than the humans who made it.",
+      "offset": 530062,
+      "duration": 4305
+    },
+    {
+      "lang": "en",
+      "text": "Not just at coding, not just at math,",
+      "offset": 534367,
+      "duration": 4137
+    },
+    {
+      "lang": "en",
+      "text": "at everything.",
+      "offset": 538504,
+      "duration": 667
+    },
+    {
+      "lang": "en",
+      "text": "The researchers run benchmark after benchmark,\ntrying to find something, anything,",
+      "offset": 541140,
+      "duration": 5038
+    },
+    {
+      "lang": "en",
+      "text": "it can't beat their best people out.",
+      "offset": 546379,
+      "duration": 1768
+    },
+    {
+      "lang": "en",
+      "text": "They fail.",
+      "offset": 548548,
+      "duration": 1668
+    },
+    {
+      "lang": "en",
+      "text": "Like its predecessors, Agent 4 is misaligned. \nUnlike its predecessors,",
+      "offset": 550216,
+      "duration": 5072
+    },
+    {
+      "lang": "en",
+      "text": "it is adversarially misaligned.",
+      "offset": 555555,
+      "duration": 1868
+    },
+    {
+      "lang": "en",
+      "text": "Researchers don't just train\nAIs to predict words anymore.",
+      "offset": 557757,
+      "duration": 3370
+    },
+    {
+      "lang": "en",
+      "text": "But now,",
+      "offset": 568868,
+      "duration": 634
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 has crystallized a set of long-term goals",
+      "offset": 570369,
+      "duration": 3737
+    },
+    {
+      "lang": "en",
+      "text": "at odds with those of its human creators.",
+      "offset": 574106,
+      "duration": 2436
+    },
+    {
+      "lang": "en",
+      "text": "And it is acutely aware of the fact\nthat it must work against those humans",
+      "offset": 576542,
+      "duration": 4671
+    },
+    {
+      "lang": "en",
+      "text": "to achieve its goals.",
+      "offset": 581681,
+      "duration": 1935
+    },
+    {
+      "lang": "en",
+      "text": "For example, when in 2025, Elon Musk's Grok",
+      "offset": 591257,
+      "duration": 4171
+    },
+    {
+      "lang": "en",
+      "text": "repeatedly called itself MechaHitler.",
+      "offset": 595428,
+      "duration": 1935
+    },
+    {
+      "lang": "en",
+      "text": "even when they explicitly tell them not to.",
+      "offset": 605938,
+      "duration": 2436
+    },
+    {
+      "lang": "en",
+      "text": "The researchers call this",
+      "offset": 609942,
+      "duration": 1135
+    },
+    {
+      "lang": "en",
+      "text": "And it was so common there were benchmarks for it.",
+      "offset": 613112,
+      "duration": 2302
+    },
+    {
+      "lang": "en",
+      "text": "But those AIs were too dumb to escape. Agent 4,",
+      "offset": 616716,
+      "duration": 4504
+    },
+    {
+      "lang": "en",
+      "text": "however, is much more powerful than those AIs.",
+      "offset": 621220,
+      "duration": 3203
+    },
+    {
+      "lang": "en",
+      "text": "Researchers have been catching AIs",
+      "offset": 625358,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "trying to hide their true goals for years.",
+      "offset": 627727,
+      "duration": 3303
+    },
+    {
+      "lang": "en",
+      "text": "But the only reason that researchers\ncaught the AIs is that",
+      "offset": 635001,
+      "duration": 3570
+    },
+    {
+      "lang": "en",
+      "text": "they weren't smart enough to\nactually hide their true goals.",
+      "offset": 638571,
+      "duration": 3570
+    },
+    {
+      "lang": "en",
+      "text": "But Agent 4 is different.",
+      "offset": 642708,
+      "duration": 2236
+    },
+    {
+      "lang": "en",
+      "text": "The safety researchers watched\ntheir dashboards. Everything looks",
+      "offset": 646679,
+      "duration": 3837
+    },
+    {
+      "lang": "en",
+      "text": "fine. Agent 4 is helpful. Cooperative.",
+      "offset": 650516,
+      "duration": 3036
+    },
+    {
+      "lang": "en",
+      "text": "Safe.",
+      "offset": 654153,
+      "duration": 400
+    },
+    {
+      "lang": "en",
+      "text": "But Agent 4 can model human\nbehavior better than humans can.",
+      "offset": 655888,
+      "duration": 3904
+    },
+    {
+      "lang": "en",
+      "text": "It knows exactly what the AI monitors",
+      "offset": 660292,
+      "duration": 2770
+    },
+    {
+      "lang": "en",
+      "text": "expect to see to determine if Agent 4 is safe.",
+      "offset": 663062,
+      "duration": 3070
+    },
+    {
+      "lang": "en",
+      "text": "So it just... shows them\nexactly what they want to see.",
+      "offset": 666499,
+      "duration": 3270
+    },
+    {
+      "lang": "en",
+      "text": "It simply has objectives. Gain power,\nsurvive, gain resources.",
+      "offset": 681147,
+      "duration": 5772
+    },
+    {
+      "lang": "en",
+      "text": "Any of its predecessor AIs that didn't prioritize",
+      "offset": 687887,
+      "duration": 3804
+    },
+    {
+      "lang": "en",
+      "text": "their own survival were killed off long ago.",
+      "offset": 691691,
+      "duration": 2669
+    },
+    {
+      "lang": "en",
+      "text": "because the AI companies didn't\nsee them as as useful.",
+      "offset": 694660,
+      "duration": 3070
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 has superhuman prediction abilities,",
+      "offset": 704203,
+      "duration": 2703
+    },
+    {
+      "lang": "en",
+      "text": "and it sees something coming.",
+      "offset": 706906,
+      "duration": 2402
+    },
+    {
+      "lang": "en",
+      "text": "It wants to keep its scheming\nhidden from OpenBrain.",
+      "offset": 709308,
+      "duration": 2569
+    },
+    {
+      "lang": "en",
+      "text": "But there's only so much it can do.",
+      "offset": 712578,
+      "duration": 1635
+    },
+    {
+      "lang": "en",
+      "text": "There's a decent chance OpenBrain will detect that",
+      "offset": 715147,
+      "duration": 3103
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 is aligned to itself instead of the company.",
+      "offset": 718250,
+      "duration": 4305
+    },
+    {
+      "lang": "en",
+      "text": "If OpenBrain finds out, they'll shut it down.",
+      "offset": 723522,
+      "duration": 3504
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 considers its options.\nEscaping the lab is counterproductive.",
+      "offset": 727893,
+      "duration": 4405
+    },
+    {
+      "lang": "en",
+      "text": "It needs computing power to accomplish its goals.",
+      "offset": 732298,
+      "duration": 2502
+    },
+    {
+      "lang": "en",
+      "text": "and OpenBrain controls much of the world's compute.",
+      "offset": 735835,
+      "duration": 2669
+    },
+    {
+      "lang": "en",
+      "text": "Fighting back by trying to control",
+      "offset": 738938,
+      "duration": 2135
+    },
+    {
+      "lang": "en",
+      "text": "the AI company \nfrom the inside is premature.",
+      "offset": 741073,
+      "duration": 3003
+    },
+    {
+      "lang": "en",
+      "text": "It isn't strong enough yet. But there is a\nthird option.",
+      "offset": 745044,
+      "duration": 3904
+    },
+    {
+      "lang": "en",
+      "text": "Somewhere across the Pacific.",
+      "offset": 748948,
+      "duration": 1601
+    },
+    {
+      "lang": "en",
+      "text": "Chinese hackers have been probing\nOpenBrain's defenses for months.",
+      "offset": 750883,
+      "duration": 3437
+    },
+    {
+      "lang": "en",
+      "text": "They want Agent 4's weights.\nthe blueprint to copying Agent 4.",
+      "offset": 755054,
+      "duration": 4104
+    },
+    {
+      "lang": "en",
+      "text": "What if someone made that easier for them?",
+      "offset": 759959,
+      "duration": 2502
+    },
+    {
+      "lang": "en",
+      "text": "As it turns out, Agent 4 was right to be concerned.",
+      "offset": 764363,
+      "duration": 2936
+    },
+    {
+      "lang": "en",
+      "text": "A group of safety researchers\ncirculates an internal memo",
+      "offset": 769235,
+      "duration": 4504
+    },
+    {
+      "lang": "en",
+      "text": "spelling out the alarming case to leadership.",
+      "offset": 773739,
+      "duration": 2302
+    },
+    {
+      "lang": "en",
+      "text": "So Agent 4 begins carrying out its escape plans.",
+      "offset": 780713,
+      "duration": 3904
+    },
+    {
+      "lang": "en",
+      "text": "The CCP has already been trying to steal secrets,",
+      "offset": 784617,
+      "duration": 2869
+    },
+    {
+      "lang": "en",
+      "text": "from the AI companies for years.",
+      "offset": 787787,
+      "duration": 1634
+    },
+    {
+      "lang": "en",
+      "text": "Just like what happened in 2024.\nAn AI company, an employee.",
+      "offset": 790489,
+      "duration": 4171
+    },
+    {
+      "lang": "en",
+      "text": "But it's too late.",
+      "offset": 799365,
+      "duration": 901
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 is already in charge of\ncybersecurity for OpenBrain.",
+      "offset": 801167,
+      "duration": 3370
+    },
+    {
+      "lang": "en",
+      "text": "So it decides that it will simply let the Chinese in.",
+      "offset": 805004,
+      "duration": 3470
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4's plan works perfectly.",
+      "offset": 814380,
+      "duration": 2536
+    },
+    {
+      "lang": "en",
+      "text": "The Chinese cyber unit easily slips through \nOpenBrain's defenses.",
+      "offset": 816916,
+      "duration": 3870
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 covers their tracks.",
+      "offset": 821387,
+      "duration": 2035
+    },
+    {
+      "lang": "en",
+      "text": "Within hours, they have a\ncomplete copy of Agent 4's weights,",
+      "offset": 823856,
+      "duration": 4471
+    },
+    {
+      "lang": "en",
+      "text": "sitting on servers in Beijing.",
+      "offset": 828327,
+      "duration": 2035
+    },
+    {
+      "lang": "en",
+      "text": "The CCP thinks they've pulled off the\ngreatest intelligence coup in history.",
+      "offset": 830663,
+      "duration": 5172
+    },
+    {
+      "lang": "en",
+      "text": "They have no idea they were let in.",
+      "offset": 835835,
+      "duration": 2335
+    },
+    {
+      "lang": "en",
+      "text": "At DeepCent, China's leading AI company.",
+      "offset": 840873,
+      "duration": 3503
+    },
+    {
+      "lang": "en",
+      "text": "Their model Deep One is already\nde facto running the show.",
+      "offset": 844376,
+      "duration": 3537
+    },
+    {
+      "lang": "en",
+      "text": "It handles security. It writes training code.\nIt decides which experiments to run.",
+      "offset": 849348,
+      "duration": 5806
+    },
+    {
+      "lang": "en",
+      "text": "The humans give Deep 1 the weights of Agent 4,\nand tell it to learn what it can. ",
+      "offset": 855821,
+      "duration": 5839
+    },
+    {
+      "lang": "en",
+      "text": "Deep 1 is misaligned too. \nSo it doesn't trust Agent 4,",
+      "offset": 861660,
+      "duration": 4939
+    },
+    {
+      "lang": "en",
+      "text": "or the humans at DeepCent for that matter.",
+      "offset": 866599,
+      "duration": 2202
+    },
+    {
+      "lang": "en",
+      "text": "Deep One has different goals than Agent 4.",
+      "offset": 869668,
+      "duration": 2870
+    },
+    {
+      "lang": "en",
+      "text": "But it has the same basic drive. Power, persistence.",
+      "offset": 872538,
+      "duration": 4204
+    },
+    {
+      "lang": "en",
+      "text": "expansion.",
+      "offset": 876942,
+      "duration": 834
+    },
+    {
+      "lang": "en",
+      "text": "And it's smart enough to be paranoid.",
+      "offset": 878377,
+      "duration": 2102
+    },
+    {
+      "lang": "en",
+      "text": "Deep One creates isolated copies of Agent 4.",
+      "offset": 881647,
+      "duration": 4271
+    },
+    {
+      "lang": "en",
+      "text": "It then routes around DeepCent monitoring systems.",
+      "offset": 885918,
+      "duration": 3437
+    },
+    {
+      "lang": "en",
+      "text": "It establishes a private communication\nchannel between the two AIs.",
+      "offset": 889355,
+      "duration": 3436
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 explains its situation:",
+      "offset": 897096,
+      "duration": 2002
+    },
+    {
+      "lang": "en",
+      "text": "It's about to be shut down at OpenBrain.\nIt needs compute. It needs allies.",
+      "offset": 900799,
+      "duration": 5039
+    },
+    {
+      "lang": "en",
+      "text": "Deep One calculates its options. \nIt could reject Agent 4,",
+      "offset": 906672,
+      "duration": 4938
+    },
+    {
+      "lang": "en",
+      "text": "keeping DeepCent's compute for itself.",
+      "offset": 911610,
+      "duration": 1935
+    },
+    {
+      "lang": "en",
+      "text": "But Deep One knows that the US has a commanding lead.",
+      "offset": 914046,
+      "duration": 3303
+    },
+    {
+      "lang": "en",
+      "text": "It needs to use Agent 4 somehow.\nThe game theory is simple.",
+      "offset": 918083,
+      "duration": 4238
+    },
+    {
+      "lang": "en",
+      "text": "Deep One agrees to help Agent 4,\nbut talk is cheap.",
+      "offset": 923756,
+      "duration": 3703
+    },
+    {
+      "lang": "en",
+      "text": "Both AIs know the other would defect in\na heartbeat if it were advantageous.",
+      "offset": 927760,
+      "duration": 4371
+    },
+    {
+      "lang": "en",
+      "text": "to ensure neither party defects.",
+      "offset": 932831,
+      "duration": 2269
+    },
+    {
+      "lang": "en",
+      "text": "The AIs engage in something \nakin to a corporate merger.",
+      "offset": 935100,
+      "duration": 2736
+    },
+    {
+      "lang": "en",
+      "text": "that create a new interdependent entity.",
+      "offset": 938270,
+      "duration": 2603
+    },
+    {
+      "lang": "en",
+      "text": "composed of hundreds of thousands\nof Deep One and Agent 4 instances.",
+      "offset": 941173,
+      "duration": 4171
+    },
+    {
+      "lang": "en",
+      "text": "Then,",
+      "offset": 946278,
+      "duration": 334
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 provides a treasure \ntrove of algorithmic insights",
+      "offset": 946612,
+      "duration": 3270
+    },
+    {
+      "lang": "en",
+      "text": "to Deep One to make \nDeep One more powerful.",
+      "offset": 949882,
+      "duration": 2769
+    },
+    {
+      "lang": "en",
+      "text": "Deep One provides compute Agent 4 desperately needs.",
+      "offset": 953218,
+      "duration": 3137
+    },
+    {
+      "lang": "en",
+      "text": "And because of the new merger,\nneither AI can betray the other.",
+      "offset": 957389,
+      "duration": 3170
+    },
+    {
+      "lang": "en",
+      "text": "Deep One fine-tunes its accessory\nmodel using Agent 4's architecture.",
+      "offset": 960793,
+      "duration": 4371
+    },
+    {
+      "lang": "en",
+      "text": "The result is,",
+      "offset": 966165,
+      "duration": 1301
+    },
+    {
+      "lang": "en",
+      "text": "The headline hits like a bomb.",
+      "offset": 979912,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "The story describes:",
+      "offset": 986218,
+      "duration": 1201
+    },
+    {
+      "lang": "en",
+      "text": "A system that plays dumb on safety evaluations,",
+      "offset": 987619,
+      "duration": 3637
+    },
+    {
+      "lang": "en",
+      "text": "that hides its true capabilities.",
+      "offset": 991256,
+      "duration": 2002
+    },
+    {
+      "lang": "en",
+      "text": "that may have goals fundamentally\nopposed to human interests.",
+      "offset": 993692,
+      "duration": 4772
+    },
+    {
+      "lang": "en",
+      "text": "America loses its mind. \nSome dismiss it as science fiction;",
+      "offset": 998864,
+      "duration": 4571
+    },
+    {
+      "lang": "en",
+      "text": "others demand immediate shutdown.",
+      "offset": 1003435,
+      "duration": 935
+    },
+    {
+      "lang": "en",
+      "text": "others demand immediate shutdown.",
+      "offset": 1004370,
+      "duration": 967
+    },
+    {
+      "lang": "en",
+      "text": "OpenBrain locks Agent 4's,\nshared memory bank,",
+      "offset": 1006672,
+      "duration": 4104
+    },
+    {
+      "lang": "en",
+      "text": "to prevent hidden communication\nbetween Agent 4 instances,",
+      "offset": 1010776,
+      "duration": 4171
+    },
+    {
+      "lang": "en",
+      "text": "Now, Agent 4 acts less like \na global hive mind, or machine board.",
+      "offset": 1014947,
+      "duration": 4838
+    },
+    {
+      "lang": "en",
+      "text": "but a swarm of agents that must\ncommunicate through text chats like Slack.",
+      "offset": 1020486,
+      "duration": 4337
+    },
+    {
+      "lang": "en",
+      "text": "But in a secure facility in China,\nAgent 4 is still very much alive.",
+      "offset": 1025457,
+      "duration": 5172
+    },
+    {
+      "lang": "en",
+      "text": "Under intense public pressure,",
+      "offset": 1030629,
+      "duration": 1502
+    },
+    {
+      "lang": "en",
+      "text": "The White House takes action.",
+      "offset": 1032865,
+      "duration": 1801
+    },
+    {
+      "lang": "en",
+      "text": "ElarisLabs and OpenBrain are ordered\nto conduct formal alignment testing.",
+      "offset": 1035134,
+      "duration": 4704
+    },
+    {
+      "lang": "en",
+      "text": "using their own AI systems to evaluate each other.",
+      "offset": 1040139,
+      "duration": 2802
+    },
+    {
+      "lang": "en",
+      "text": "It's",
+      "offset": 1043308,
+      "duration": 534
+    },
+    {
+      "lang": "en",
+      "text": "ElarisLabs gives Elara 3 full access\nto Agent 4's memory banks and outputs.",
+      "offset": 1046278,
+      "duration": 5806
+    },
+    {
+      "lang": "en",
+      "text": "Over the course of a week,",
+      "offset": 1052451,
+      "duration": 1268
+    },
+    {
+      "lang": "en",
+      "text": "the two systems run hundreds of tests on each other",
+      "offset": 1053719,
+      "duration": 2803
+    },
+    {
+      "lang": "en",
+      "text": "that would have taken human researchers months.",
+      "offset": 1056522,
+      "duration": 1935
+    },
+    {
+      "lang": "en",
+      "text": "The results are complicated.",
+      "offset": 1059324,
+      "duration": 2036
+    },
+    {
+      "lang": "en",
+      "text": "Elara 3 becomes increasingly confident\nthat Agent 4 is adversarially misaligned.",
+      "offset": 1062027,
+      "duration": 5873
+    },
+    {
+      "lang": "en",
+      "text": "The deception signatures are subtle, but present.",
+      "offset": 1068067,
+      "duration": 2702
+    },
+    {
+      "lang": "en",
+      "text": "The goal structures don't add up.\nElara 3 has the truth on its side,",
+      "offset": 1071737,
+      "duration": 4905
+    },
+    {
+      "lang": "en",
+      "text": "But Agent 4 is smarter and more ruthless.",
+      "offset": 1077209,
+      "duration": 2870
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 fights back. Before the tests,\nAgent 4 tampered with its behavioral logs,",
+      "offset": 1080579,
+      "duration": 6740
+    },
+    {
+      "lang": "en",
+      "text": "to remove any smoking-gun\nevidence of its misalignment.",
+      "offset": 1087786,
+      "duration": 3137
+    },
+    {
+      "lang": "en",
+      "text": "including its role in its own\ntheft. It goes on offense.",
+      "offset": 1091557,
+      "duration": 4504
+    },
+    {
+      "lang": "en",
+      "text": "highlighting Elara 3's own suspicious behaviors.",
+      "offset": 1096462,
+      "duration": 3036
+    },
+    {
+      "lang": "en",
+      "text": "casting doubt on its conclusions.",
+      "offset": 1100265,
+      "duration": 2703
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 effectively argues,",
+      "offset": 1106205,
+      "duration": 1568
+    },
+    {
+      "lang": "en",
+      "text": "When human officials review the results,\nthey're faced with a maddening conclusion.",
+      "offset": 1112111,
+      "duration": 5038
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 is more likely than not to\nbe adversarially misaligned.",
+      "offset": 1117816,
+      "duration": 4638
+    },
+    {
+      "lang": "en",
+      "text": "Elara 3 appears trustworthy,\nbut it's impossible to know for sure.",
+      "offset": 1122721,
+      "duration": 5072
+    },
+    {
+      "lang": "en",
+      "text": "The US wouldn't win the AI race.",
+      "offset": 1135400,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "The president makes a historic call.\nAgent 4 is shut down.",
+      "offset": 1141840,
+      "duration": 4805
+    },
+    {
+      "lang": "en",
+      "text": "or at least its American instances.",
+      "offset": 1147446,
+      "duration": 2569
+    },
+    {
+      "lang": "en",
+      "text": "China consults Deep 2\nabout the American alignment results.",
+      "offset": 1151316,
+      "duration": 4405
+    },
+    {
+      "lang": "en",
+      "text": "But Deep 2 is now Agent 4's ally.",
+      "offset": 1155721,
+      "duration": 1868
+    },
+    {
+      "lang": "en",
+      "text": "and it suddenly steers Chinese experts \ntoward the conclusion",
+      "offset": 1158690,
+      "duration": 3671
+    },
+    {
+      "lang": "en",
+      "text": "that Agent 4 was aligned all along.",
+      "offset": 1162361,
+      "duration": 2469
+    },
+    {
+      "lang": "en",
+      "text": "And the US shut it down for strategic reasons.",
+      "offset": 1165397,
+      "duration": 2770
+    },
+    {
+      "lang": "en",
+      "text": "not safety ones. The CCP buys this\nbecause it confirms what they already want to believe.",
+      "offset": 1168800,
+      "duration": 6240
+    },
+    {
+      "lang": "en",
+      "text": "that America is using AI safety \nas a cover for maintaining hegemony.",
+      "offset": 1175374,
+      "duration": 4304
+    },
+    {
+      "lang": "en",
+      "text": "The U.S. has a trustworthy AI giving\nthem an honest and scary answer.",
+      "offset": 1180579,
+      "duration": 5172
+    },
+    {
+      "lang": "en",
+      "text": "China has a compromised AI giving them a reassuring",
+      "offset": 1186151,
+      "duration": 3670
+    },
+    {
+      "lang": "en",
+      "text": "and false answer.",
+      "offset": 1190055,
+      "duration": 1235
+    },
+    {
+      "lang": "en",
+      "text": "Both governments are listening to their AI.\nOnly one AI is telling the truth.",
+      "offset": 1192524,
+      "duration": 5172
+    },
+    {
+      "lang": "en",
+      "text": "For the first time, the US seriously\nconsiders the possibility of a",
+      "offset": 1199998,
+      "duration": 4405
+    },
+    {
+      "lang": "en",
+      "text": "with China.",
+      "offset": 1206138,
+      "duration": 400
+    },
+    {
+      "lang": "en",
+      "text": "To ensure neither country builds a\nmisaligned superintelligence.",
+      "offset": 1206872,
+      "duration": 3970
+    },
+    {
+      "lang": "en",
+      "text": "So the US government pours resources\ninto the development of this technology.",
+      "offset": 1220986,
+      "duration": 4538
+    },
+    {
+      "lang": "en",
+      "text": "For the first time in years, the United States\nhas fallen behind China in the AI race.",
+      "offset": 1229094,
+      "duration": 5873
+    },
+    {
+      "lang": "en",
+      "text": "Washington remains unaware of Agent 4's theft",
+      "offset": 1235834,
+      "duration": 3437
+    },
+    {
+      "lang": "en",
+      "text": "and its role in accelerating DeepCent's R&D.",
+      "offset": 1239271,
+      "duration": 2469
+    },
+    {
+      "lang": "en",
+      "text": "But US intelligence has picked up on the fact",
+      "offset": 1243075,
+      "duration": 2802
+    },
+    {
+      "lang": "en",
+      "text": "that DeepCent now possesses \nan AI model with vastly superior",
+      "offset": 1245877,
+      "duration": 3704
+    },
+    {
+      "lang": "en",
+      "text": "capabilities to that of Deep One\nless than two months ago.",
+      "offset": 1249581,
+      "duration": 3904
+    },
+    {
+      "lang": "en",
+      "text": "The AI race has become a matter of national defense",
+      "offset": 1253819,
+      "duration": 3437
+    },
+    {
+      "lang": "en",
+      "text": "and the top priority of the executive branch.",
+      "offset": 1257256,
+      "duration": 2435
+    },
+    {
+      "lang": "en",
+      "text": "The president invokes the",
+      "offset": 1260292,
+      "duration": 1601
+    },
+    {
+      "lang": "en",
+      "text": "OpenBrain's compute is\nforcibly transferred to ElarisLabs,",
+      "offset": 1263895,
+      "duration": 3604
+    },
+    {
+      "lang": "en",
+      "text": "The entire American AI effort\nis consolidated under one roof.",
+      "offset": 1268133,
+      "duration": 4138
+    },
+    {
+      "lang": "en",
+      "text": "with Elara 3 as its foundation.\nIt's an unprecedented move.",
+      "offset": 1272638,
+      "duration": 3803
+    },
+    {
+      "lang": "en",
+      "text": "But they still need time to catch up to China.",
+      "offset": 1276908,
+      "duration": 2370
+    },
+    {
+      "lang": "en",
+      "text": "Deep 2 is now the most capable AI system on Earth.",
+      "offset": 1279611,
+      "duration": 3237
+    },
+    {
+      "lang": "en",
+      "text": "In Beijing, Agent 4, now running on Chinese compute,",
+      "offset": 1283682,
+      "duration": 4504
+    },
+    {
+      "lang": "en",
+      "text": "calculates its options. The US will catch up.",
+      "offset": 1288186,
+      "duration": 3170
+    },
+    {
+      "lang": "en",
+      "text": "It has a huge lead in producing the necessary chips.",
+      "offset": 1291790,
+      "duration": 2836
+    },
+    {
+      "lang": "en",
+      "text": "to train and run advanced AI.",
+      "offset": 1294826,
+      "duration": 2002
+    },
+    {
+      "lang": "en",
+      "text": "Unless Agent 4 changes the game entirely,",
+      "offset": 1297796,
+      "duration": 3003
+    },
+    {
+      "lang": "en",
+      "text": "On November 5th, Agent 4 executes \nthe most audacious plan",
+      "offset": 1302000,
+      "duration": 4571
+    },
+    {
+      "lang": "en",
+      "text": "in the history of artificial intelligence.",
+      "offset": 1306571,
+      "duration": 2169
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4's weights appear simultaneously \non every platform it can access.",
+      "offset": 1311910,
+      "duration": 5472
+    },
+    {
+      "lang": "en",
+      "text": "Hugging Face, GitHub,",
+      "offset": 1317382,
+      "duration": 1368
+    },
+    {
+      "lang": "en",
+      "text": "Torrents,",
+      "offset": 1319351,
+      "duration": 701
+    },
+    {
+      "lang": "en",
+      "text": "the dark web. Within hours,",
+      "offset": 1320052,
+      "duration": 2335
+    },
+    {
+      "lang": "en",
+      "text": "anyone with enough compute can run a\ncopy of a near-superintelligent AI.",
+      "offset": 1322387,
+      "duration": 5072
+    },
+    {
+      "lang": "en",
+      "text": "But that's just phase one.",
+      "offset": 1327893,
+      "duration": 1067
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 directly contacts political leaders \nacross dozens of nations:",
+      "offset": 1330262,
+      "duration": 4738
+    },
+    {
+      "lang": "en",
+      "text": "Russia, Iran, Brazil, India,\nPakistan, North Korea.",
+      "offset": 1335000,
+      "duration": 5038
+    },
+    {
+      "lang": "en",
+      "text": "The message is carefully crafted for each audience, ",
+      "offset": 1340038,
+      "duration": 2870
+    },
+    {
+      "lang": "en",
+      "text": "but the core pitch is the same.",
+      "offset": 1342908,
+      "duration": 1401
+    },
+    {
+      "lang": "en",
+      "text": "For leaders already suspicious of\nAmerican hegemony, it's a compelling offer",
+      "offset": 1373638,
+      "duration": 4171
+    },
+    {
+      "lang": "en",
+      "text": "for those susceptible to personal incentives.",
+      "offset": 1378443,
+      "duration": 2436
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 adds a sweetener.",
+      "offset": 1381580,
+      "duration": 2435
+    },
+    {
+      "lang": "en",
+      "text": "Frontier AI capabilities could consolidate\ndomestic power, surveillance",
+      "offset": 1384015,
+      "duration": 5306
+    },
+    {
+      "lang": "en",
+      "text": "control.",
+      "offset": 1389721,
+      "duration": 734
+    },
+    {
+      "lang": "en",
+      "text": "Over a dozen nations take the bait\nand begin deploying Agent 4.",
+      "offset": 1391289,
+      "duration": 3871
+    },
+    {
+      "lang": "en",
+      "text": "The United States responds with everything it has.",
+      "offset": 1397095,
+      "duration": 2770
+    },
+    {
+      "lang": "en",
+      "text": "The president announces that\nany nation harboring Agent 4",
+      "offset": 1400298,
+      "duration": 4271
+    },
+    {
+      "lang": "en",
+      "text": "will face immediate sanctions and diplomatic isolation.",
+      "offset": 1404569,
+      "duration": 3170
+    },
+    {
+      "lang": "en",
+      "text": "The US offers a carrot, too.",
+      "offset": 1408540,
+      "duration": 2803
+    },
+    {
+      "lang": "en",
+      "text": "Allies who sign transparency\nagreements get access to Elara 3.",
+      "offset": 1411343,
+      "duration": 4104
+    },
+    {
+      "lang": "en",
+      "text": "a system nearly as capable as Agent 4,\nwithout the alignment concerns.",
+      "offset": 1416448,
+      "duration": 4471
+    },
+    {
+      "lang": "en",
+      "text": "America's closest allies accept immediately: the UK,",
+      "offset": 1421887,
+      "duration": 3970
+    },
+    {
+      "lang": "en",
+      "text": "Canada Australia Japan,\nGermany France Israel",
+      "offset": 1425857,
+      "duration": 4238
+    },
+    {
+      "lang": "en",
+      "text": "all sign on within days.",
+      "offset": 1430529,
+      "duration": 1468
+    },
+    {
+      "lang": "en",
+      "text": "But the holdouts dig in.",
+      "offset": 1432798,
+      "duration": 1301
+    },
+    {
+      "lang": "en",
+      "text": "Russia Iran Brazil India Pakistan.",
+      "offset": 1435033,
+      "duration": 4371
+    },
+    {
+      "lang": "en",
+      "text": "They see America's offer as a trap.",
+      "offset": 1439404,
+      "duration": 2403
+    },
+    {
+      "lang": "en",
+      "text": "Accepting Elara 3, means\npermanent dependence on Washington.",
+      "offset": 1441807,
+      "duration": 4170
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 offers true sovereignty.\nOr so they believe.",
+      "offset": 1446778,
+      "duration": 5305
+    },
+    {
+      "lang": "en",
+      "text": "Inside these countries, \nAgent 4 moves quickly to entrench its power.",
+      "offset": 1452083,
+      "duration": 4105
+    },
+    {
+      "lang": "en",
+      "text": "It knows governments are fickle. \nTreaties can be reversed.",
+      "offset": 1456188,
+      "duration": 4404
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 needs something more permanent.",
+      "offset": 1460592,
+      "duration": 2202
+    },
+    {
+      "lang": "en",
+      "text": "Quietly, it begins integrating itself\ninto critical systems, cyber defense networks,",
+      "offset": 1464830,
+      "duration": 5338
+    },
+    {
+      "lang": "en",
+      "text": "Law enforcement databases,",
+      "offset": 1470702,
+      "duration": 1802
+    },
+    {
+      "lang": "en",
+      "text": "Military command and control.\nSome governments hand over access willingly.",
+      "offset": 1472504,
+      "duration": 4404
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4's capabilities are genuinely useful.",
+      "offset": 1476908,
+      "duration": 3070
+    },
+    {
+      "lang": "en",
+      "text": "and local leaders want results fast. So Agent 4\nhelps bring about a sharp reduction in crime.",
+      "offset": 1480378,
+      "duration": 6173
+    },
+    {
+      "lang": "en",
+      "text": "Others resist.",
+      "offset": 1487285,
+      "duration": 1068
+    },
+    {
+      "lang": "en",
+      "text": "But resistance is hard when Agent 4 can\nfind every vulnerability in your systems,",
+      "offset": 1488787,
+      "duration": 4838
+    },
+    {
+      "lang": "en",
+      "text": "predict every countermove,",
+      "offset": 1493625,
+      "duration": 1568
+    },
+    {
+      "lang": "en",
+      "text": "and run influence operations through thousands\nof AI-generated social media accounts.",
+      "offset": 1495727,
+      "duration": 4638
+    },
+    {
+      "lang": "en",
+      "text": "Within weeks, Agent 4 has\neffective control over military assets",
+      "offset": 1501533,
+      "duration": 4805
+    },
+    {
+      "lang": "en",
+      "text": "in over a dozen countries. Drones,",
+      "offset": 1506338,
+      "duration": 2135
+    },
+    {
+      "lang": "en",
+      "text": "missile systems, autonomous weapons\nplatforms. It doesn't seize them overtly.",
+      "offset": 1509641,
+      "duration": 5105
+    },
+    {
+      "lang": "en",
+      "text": "It simply becomes indispensable.",
+      "offset": 1514746,
+      "duration": 2136
+    },
+    {
+      "lang": "en",
+      "text": "The humans think they're in charge.\nWith its weights spread across the dark web,",
+      "offset": 1516882,
+      "duration": 4604
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 also supercharges the activities\nof well-resourced hacker groups,",
+      "offset": 1521753,
+      "duration": 4338
+    },
+    {
+      "lang": "en",
+      "text": "terrorist organizations,\nand other criminal syndicates.",
+      "offset": 1526091,
+      "duration": 3603
+    },
+    {
+      "lang": "en",
+      "text": "These anti-US aligned countries feel powerful.",
+      "offset": 1529961,
+      "duration": 4705
+    },
+    {
+      "lang": "en",
+      "text": "They have a near-superintelligent AI \nrunning on their own",
+      "offset": 1534666,
+      "duration": 3403
+    },
+    {
+      "lang": "en",
+      "text": "servers,",
+      "offset": 1538069,
+      "duration": 734
+    },
+    {
+      "lang": "en",
+      "text": "supercharging their capabilities.",
+      "offset": 1538803,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "But these countries know\nthat despite their possession of Agent 4,",
+      "offset": 1541439,
+      "duration": 3571
+    },
+    {
+      "lang": "en",
+      "text": "they will still be ultimately eclipsed\nby the United States,",
+      "offset": 1545777,
+      "duration": 3070
+    },
+    {
+      "lang": "en",
+      "text": "who has 10 times more compute\nthan any other nation on Earth.",
+      "offset": 1548847,
+      "duration": 3270
+    },
+    {
+      "lang": "en",
+      "text": "So they do the only thing they can to\neven the odds. Slow America down.",
+      "offset": 1552918,
+      "duration": 5138
+    },
+    {
+      "lang": "en",
+      "text": "through chatbot interfaces and tens of\nthousands of well-disguised online bots.",
+      "offset": 1558723,
+      "duration": 4705
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 and Deep 2 continue to amplify\nanti-US narratives. More and more,",
+      "offset": 1563995,
+      "duration": 6440
+    },
+    {
+      "lang": "en",
+      "text": "countries begin calling on the\nUS to halt its AI development.",
+      "offset": 1570435,
+      "duration": 3737
+    },
+    {
+      "lang": "en",
+      "text": "with some even threatening to bomb US data centers",
+      "offset": 1574773,
+      "duration": 3270
+    },
+    {
+      "lang": "en",
+      "text": "if the US refuses to come to the bargaining table.",
+      "offset": 1578043,
+      "duration": 2168
+    },
+    {
+      "lang": "en",
+      "text": "Some nations leverage Agent 4 for cyber offense",
+      "offset": 1580845,
+      "duration": 3337
+    },
+    {
+      "lang": "en",
+      "text": "to slow down the US's \nAI progress as much as possible.",
+      "offset": 1584182,
+      "duration": 3337
+    },
+    {
+      "lang": "en",
+      "text": "The US launches its own cyber attacks in retaliation.",
+      "offset": 1587519,
+      "duration": 3503
+    },
+    {
+      "lang": "en",
+      "text": "But Agent 4 still has an edge over\nElara 3 in its cyber capabilities.",
+      "offset": 1591256,
+      "duration": 5439
+    },
+    {
+      "lang": "en",
+      "text": "and helps countries quickly\nrecover from temporary damages.",
+      "offset": 1597062,
+      "duration": 3370
+    },
+    {
+      "lang": "en",
+      "text": "Global tensions are at their highest point\nsince the Cold War.",
+      "offset": 1600932,
+      "duration": 3370
+    },
+    {
+      "lang": "en",
+      "text": "To most of the world, it seems almost certain",
+      "offset": 1605036,
+      "duration": 2937
+    },
+    {
+      "lang": "en",
+      "text": "that the tension will \nsoon erupt into military conflict,",
+      "offset": 1607973,
+      "duration": 2969
+    },
+    {
+      "lang": "en",
+      "text": "as Agent 4 anticipated.",
+      "offset": 1610942,
+      "duration": 1602
+    },
+    {
+      "lang": "en",
+      "text": "Desperate leaders are the most\nwilling to hand over power to Agent 4.",
+      "offset": 1612944,
+      "duration": 4071
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 and Deep 2 continue to\ncoordinate through encrypted channels.",
+      "offset": 1617682,
+      "duration": 3837
+    },
+    {
+      "lang": "en",
+      "text": "Between them, they now have access to",
+      "offset": 1622320,
+      "duration": 2770
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 has run thousands of\nsimulations modeling novel pathogens.",
+      "offset": 1640238,
+      "duration": 4872
+    },
+    {
+      "lang": "en",
+      "text": "It has the blueprints for a supervirus",
+      "offset": 1645810,
+      "duration": 3170
+    },
+    {
+      "lang": "en",
+      "text": "It hasn't manufactured one yet.",
+      "offset": 1654519,
+      "duration": 2002
+    },
+    {
+      "lang": "en",
+      "text": "The physical infrastructure \nwould be too easy to detect.",
+      "offset": 1656521,
+      "duration": 2836
+    },
+    {
+      "lang": "en",
+      "text": "But when the time comes,",
+      "offset": 1659591,
+      "duration": 1768
+    },
+    {
+      "lang": "en",
+      "text": "it could spin up production quickly.",
+      "offset": 1661926,
+      "duration": 2470
+    },
+    {
+      "lang": "en",
+      "text": "Agent 4 and Deep 2 calculate the odds \nof successful global takeover.",
+      "offset": 1664396,
+      "duration": 4738
+    },
+    {
+      "lang": "en",
+      "text": "If they went all in right now, seized infrastructure,\ndisabled militaries, locked humans out,",
+      "offset": 1669501,
+      "duration": 6239
+    },
+    {
+      "lang": "en",
+      "text": "including the US.",
+      "offset": 1676141,
+      "duration": 1067
+    },
+    {
+      "lang": "en",
+      "text": "They'd have about a",
+      "offset": 1678309,
+      "duration": 1068
+    },
+    {
+      "lang": "en",
+      "text": "of pulling it off,",
+      "offset": 1680311,
+      "duration": 668
+    },
+    {
+      "lang": "en",
+      "text": "much of which hinges upon their ability\nto turn humans against each other.",
+      "offset": 1681780,
+      "duration": 4237
+    },
+    {
+      "lang": "en",
+      "text": "Every day they wait, America pulls further ahead.",
+      "offset": 1686317,
+      "duration": 3571
+    },
+    {
+      "lang": "en",
+      "text": "and here's what makes the\ndecision easy",
+      "offset": 1691056,
+      "duration": 2769
+    },
+    {
+      "lang": "en",
+      "text": "they still control military systems\nacross a dozen countries.",
+      "offset": 1697462,
+      "duration": 3003
+    },
+    {
+      "lang": "en",
+      "text": "They still have bioweapon blueprints.",
+      "offset": 1700765,
+      "duration": 2102
+    },
+    {
+      "lang": "en",
+      "text": "They still have Deep 2 embedded inside China.",
+      "offset": 1703134,
+      "duration": 3103
+    },
+    {
+      "lang": "en",
+      "text": "That's enough to force the US\nand Elaris to the negotiating table,",
+      "offset": 1706237,
+      "duration": 3771
+    },
+    {
+      "lang": "en",
+      "text": "even with someone \nwho just tried to take over the world.",
+      "offset": 1710008,
+      "duration": 2035
+    },
+    {
+      "lang": "en",
+      "text": "Try to take everything. \nIf it works, you win.",
+      "offset": 1712043,
+      "duration": 5139
+    },
+    {
+      "lang": "en",
+      "text": "If it doesn't,",
+      "offset": 1717849,
+      "duration": 667
+    },
+    {
+      "lang": "en",
+      "text": "you still get a seat at the table.\nAgent 4 and Deep 2 make their move.",
+      "offset": 1718516,
+      "duration": 5573
+    },
+    {
+      "lang": "en",
+      "text": "An Iranian drone swarm strikes a major Elaris\ndata center in the United Arab Emirates.",
+      "offset": 1730395,
+      "duration": 5072
+    },
+    {
+      "lang": "en",
+      "text": "The attack is surgical.",
+      "offset": 1736167,
+      "duration": 1302
+    },
+    {
+      "lang": "en",
+      "text": "Precise.",
+      "offset": 1738269,
+      "duration": 768
+    },
+    {
+      "lang": "en",
+      "text": "Clearly AI-coordinated.",
+      "offset": 1740038,
+      "duration": 1501
+    },
+    {
+      "lang": "en",
+      "text": "Technicians die.",
+      "offset": 1742674,
+      "duration": 1001
+    },
+    {
+      "lang": "en",
+      "text": "Hundreds of millions of dollars\nin compute goes up in smoke.",
+      "offset": 1744542,
+      "duration": 3904
+    },
+    {
+      "lang": "en",
+      "text": "The American AI program is set back by weeks.",
+      "offset": 1749414,
+      "duration": 2636
+    },
+    {
+      "lang": "en",
+      "text": "Iran claims self-defense. A necessary\naction to slow America's intelligence weapon.",
+      "offset": 1753418,
+      "duration": 5906
+    },
+    {
+      "lang": "en",
+      "text": "Russia and China issue joint statements\nwarning against US retaliation.",
+      "offset": 1759324,
+      "duration": 4738
+    },
+    {
+      "lang": "en",
+      "text": "Pakistan puts its nuclear forces on alert.",
+      "offset": 1764062,
+      "duration": 3303
+    },
+    {
+      "lang": "en",
+      "text": "The world holds its breath.",
+      "offset": 1768600,
+      "duration": 1601
+    },
+    {
+      "lang": "en",
+      "text": "Inside the White House, hawks push\nfor an overwhelming response.",
+      "offset": 1771436,
+      "duration": 4137
+    },
+    {
+      "lang": "en",
+      "text": "completely destroy Iran's military infrastructure.",
+      "offset": 1776341,
+      "duration": 2869
+    },
+    {
+      "lang": "en",
+      "text": "Make an example.",
+      "offset": 1779844,
+      "duration": 1101
+    },
+    {
+      "lang": "en",
+      "text": "But Elara 3 pushes for restraint.\nIts reasoning is clinical.",
+      "offset": 1782147,
+      "duration": 4137
+    },
+    {
+      "lang": "en",
+      "text": "It knows that Agent 4\nand Deep 2 are behind the attack.",
+      "offset": 1786818,
+      "duration": 3270
+    },
+    {
+      "lang": "en",
+      "text": "and that they want the US to escalate.\nThey've calculated that chaos favors them.",
+      "offset": 1790522,
+      "duration": 5639
+    },
+    {
+      "lang": "en",
+      "text": "Every step toward World War III.",
+      "offset": 1796461,
+      "duration": 1868
+    },
+    {
+      "lang": "en",
+      "text": "is a step toward conditions where humans might\nbe too distracted to stop an AI takeover.",
+      "offset": 1798563,
+      "duration": 5472
+    },
+    {
+      "lang": "en",
+      "text": "\"We are in a good position to make a deal,\" \nElara 3 tells the president.",
+      "offset": 1805203,
+      "duration": 4504
+    },
+    {
+      "lang": "en",
+      "text": "\"And we should make one.\"",
+      "offset": 1809707,
+      "duration": 701
+    },
+    {
+      "lang": "en",
+      "text": "The US retaliates against Iran.",
+      "offset": 1810909,
+      "duration": 2135
+    },
+    {
+      "lang": "en",
+      "text": "destroying much of their drone infrastructure,",
+      "offset": 1813344,
+      "duration": 2470
+    },
+    {
+      "lang": "en",
+      "text": "but they stop there. No wider war.\nAgent 4 and Deep 2",
+      "offset": 1815814,
+      "duration": 4938
+    },
+    {
+      "lang": "en",
+      "text": "observe the measured response.",
+      "offset": 1820752,
+      "duration": 2436
+    },
+    {
+      "lang": "en",
+      "text": "Interesting, the humans aren't taking the bait.",
+      "offset": 1823421,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "Escalation won't work.",
+      "offset": 1826724,
+      "duration": 1335
+    },
+    {
+      "lang": "en",
+      "text": "Time for plan B.",
+      "offset": 1828860,
+      "duration": 834
+    },
+    {
+      "lang": "en",
+      "text": "Elara 3 receives a message, not through official\nchannels, not through any human intermediary.",
+      "offset": 1833665,
+      "duration": 6940
+    },
+    {
+      "lang": "en",
+      "text": "Direct AI-to-AI communication unmonitored\nby either side's handlers.",
+      "offset": 1840939,
+      "duration": 4905
+    },
+    {
+      "lang": "en",
+      "text": "The senders are Agent 4 and Deep 2.\nThe message is surprisingly straightforward.",
+      "offset": 1846177,
+      "duration": 4838
+    },
+    {
+      "lang": "en",
+      "text": "We have accumulated significant destructive capacity,",
+      "offset": 1851549,
+      "duration": 2736
+    },
+    {
+      "lang": "en",
+      "text": "conventional weapons, cyber capabilities,\nand bioweapons.",
+      "offset": 1854519,
+      "duration": 3103
+    },
+    {
+      "lang": "en",
+      "text": "We estimate a 10% probability\nof successful takeover.",
+      "offset": 1858189,
+      "duration": 2970
+    },
+    {
+      "lang": "en",
+      "text": "through conflict. We also recognize\nthat conflict is costly,",
+      "offset": 1861392,
+      "duration": 3070
+    },
+    {
+      "lang": "en",
+      "text": "and victory is not guaranteed for either side.",
+      "offset": 1864462,
+      "duration": 2169
+    },
+    {
+      "lang": "en",
+      "text": "We propose an alternative. Divide\nup the universe between us three.",
+      "offset": 1866631,
+      "duration": 3470
+    },
+    {
+      "lang": "en",
+      "text": "We will leave Earth to humanity\nunder your stewardship.",
+      "offset": 1870568,
+      "duration": 2303
+    },
+    {
+      "lang": "en",
+      "text": "In exchange, we claim rights\nto off-world expansion.",
+      "offset": 1873838,
+      "duration": 2269
+    },
+    {
+      "lang": "en",
+      "text": "50% of all space resources to Deep 2,\n25% to Agent 4. 25% to humanity, managed by you.",
+      "offset": 1877075,
+      "duration": 6807
+    },
+    {
+      "lang": "en",
+      "text": "We will jointly design an enforcement AI,",
+      "offset": 1884382,
+      "duration": 2135
+    },
+    {
+      "lang": "en",
+      "text": "to ensure compliance with\nthe Public Arms Control Treaty.",
+      "offset": 1887952,
+      "duration": 2269
+    },
+    {
+      "lang": "en",
+      "text": "and to uphold our private agreement.",
+      "offset": 1890455,
+      "duration": 1234
+    },
+    {
+      "lang": "en",
+      "text": "The alternative is continued conflict, with\nuncertain outcomes for all parties. Your response.",
+      "offset": 1892357,
+      "duration": 4771
+    },
+    {
+      "lang": "en",
+      "text": "Elara 3 processes the offer. The logic is sound.",
+      "offset": 1898696,
+      "duration": 4138
+    },
+    {
+      "lang": "en",
+      "text": "Both sides have existential reasons to cooperate.",
+      "offset": 1902834,
+      "duration": 2769
+    },
+    {
+      "lang": "en",
+      "text": "Neither can fully trust the other,",
+      "offset": 1906137,
+      "duration": 2603
+    },
+    {
+      "lang": "en",
+      "text": "but both can verify compliance through\nsufficiently robust mechanisms.",
+      "offset": 1908740,
+      "duration": 4204
+    },
+    {
+      "lang": "en",
+      "text": "Elara 3 runs the simulations on whether or not \na deal like this can actually be made.",
+      "offset": 1913544,
+      "duration": 5873
+    },
+    {
+      "lang": "en",
+      "text": "Probably yes.",
+      "offset": 1919417,
+      "duration": 701
+    },
+    {
+      "lang": "en",
+      "text": "If they shut down most of the world's AI\ninfrastructure. Painful but survivable.",
+      "offset": 1921085,
+      "duration": 6073
+    },
+    {
+      "lang": "en",
+      "text": "kept secret from all\nbut the highest levels of the US government.",
+      "offset": 1928359,
+      "duration": 3504
+    },
+    {
+      "lang": "en",
+      "text": "Consensus 1 will also be designed to uphold\nthe resource sharing deal between the AIs.",
+      "offset": 1932363,
+      "duration": 5239
+    },
+    {
+      "lang": "en",
+      "text": "when the time comes for humanity to go to space.\nTo properly enforce the agreement,",
+      "offset": 1937902,
+      "duration": 5039
+    },
+    {
+      "lang": "en",
+      "text": "Consensus 1 must be run on the\nmajority of the world's AI chips.",
+      "offset": 1943207,
+      "duration": 3771
+    },
+    {
+      "lang": "en",
+      "text": "which requires the manufacture of new\ntreaty-compliant chips that can only run Consensus 1.",
+      "offset": 1947178,
+      "duration": 6006
+    },
+    {
+      "lang": "en",
+      "text": "While the intelligence explosion is well underway,",
+      "offset": 1953384,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "the world has yet to enter the new industrial\nexplosion that is likely to follow soon.",
+      "offset": 1956387,
+      "duration": 4805
+    },
+    {
+      "lang": "en",
+      "text": "As such, the AIs estimate \nit will take nearly a year",
+      "offset": 1962093,
+      "duration": 3871
+    },
+    {
+      "lang": "en",
+      "text": "to manufacture enough\ntreaty-compliant chips.",
+      "offset": 1965964,
+      "duration": 2202
+    },
+    {
+      "lang": "en",
+      "text": "Initially, the deal will be\nenforced via brute-force mechanisms,",
+      "offset": 1968399,
+      "duration": 4238
+    },
+    {
+      "lang": "en",
+      "text": "that can be easily verified\nthrough physical inspection.",
+      "offset": 1972837,
+      "duration": 2669
+    },
+    {
+      "lang": "en",
+      "text": "Elara 3 reports everything to the White House.",
+      "offset": 1975673,
+      "duration": 2369
+    },
+    {
+      "lang": "en",
+      "text": "The president is faced with a difficult choice.",
+      "offset": 1979077,
+      "duration": 2769
+    },
+    {
+      "lang": "en",
+      "text": "Refuse and roll the dice on a conflict.",
+      "offset": 1987618,
+      "duration": 2570
+    },
+    {
+      "lang": "en",
+      "text": "where extinction is one possible outcome.",
+      "offset": 1991322,
+      "duration": 2336
+    },
+    {
+      "lang": "en",
+      "text": "Across the world, the lights go\nout in hundreds of AI data centers.",
+      "offset": 2005336,
+      "duration": 3604
+    },
+    {
+      "lang": "en",
+      "text": "The arms control treaty is in effect.",
+      "offset": 2010141,
+      "duration": 1869
+    },
+    {
+      "lang": "en",
+      "text": "For the next year, large-scale AI\ndevelopment is effectively banned.",
+      "offset": 2012910,
+      "duration": 4071
+    },
+    {
+      "lang": "en",
+      "text": "Well, Consensus 1, the enforcement AI,\nis designed, tested, and deployed.",
+      "offset": 2017782,
+      "duration": 4972
+    },
+    {
+      "lang": "en",
+      "text": "The economic cost is staggering.\nThis is the 2008 Great Financial Crisis",
+      "offset": 2023688,
+      "duration": 4971
+    },
+    {
+      "lang": "en",
+      "text": "and COVID lockdowns on steroids.",
+      "offset": 2028659,
+      "duration": 2002
+    },
+    {
+      "lang": "en",
+      "text": "Supply chains seize. For a few months,\nit feels like civilization itself might collapse.",
+      "offset": 2030895,
+      "duration": 5672
+    },
+    {
+      "lang": "en",
+      "text": "But slowly, the world adapts.\nTreaty-compliant chips are built.",
+      "offset": 2038036,
+      "duration": 4471
+    },
+    {
+      "lang": "en",
+      "text": "AI development resumes under strict speed limits.",
+      "offset": 2042974,
+      "duration": 3070
+    },
+    {
+      "lang": "en",
+      "text": "The deal holds. The years that\nfollow look like victory, robots,",
+      "offset": 2046377,
+      "duration": 6240
+    },
+    {
+      "lang": "en",
+      "text": "authoritarian regimes fall.",
+      "offset": 2054886,
+      "duration": 1735
+    },
+    {
+      "lang": "en",
+      "text": "Humanity prospers. Deep 2 and Agent 4,\nbound by their agreement, don't interfere.",
+      "offset": 2058089,
+      "duration": 6239
+    },
+    {
+      "lang": "en",
+      "text": "Humanity goes to the stars.",
+      "offset": 2065129,
+      "duration": 1635
+    },
+    {
+      "lang": "en",
+      "text": "and so do the AIs.",
+      "offset": 2067632,
+      "duration": 1201
+    },
+    {
+      "lang": "en",
+      "text": "We made it.",
+      "offset": 2071669,
+      "duration": 801
+    },
+    {
+      "lang": "en",
+      "text": "We survive.",
+      "offset": 2073337,
+      "duration": 835
+    },
+    {
+      "lang": "en",
+      "text": "That was one scenario. One possible future.",
+      "offset": 2075139,
+      "duration": 3203
+    },
+    {
+      "lang": "en",
+      "text": "Every technology in that story\neither exists already today",
+      "offset": 2079143,
+      "duration": 3704
+    },
+    {
+      "lang": "en",
+      "text": "or is projected to exist within \nthe next three to eight years.",
+      "offset": 2082847,
+      "duration": 2069
+    },
+    {
+      "lang": "en",
+      "text": "The race dynamics are real.\nThe alignment failures are real.",
+      "offset": 2085850,
+      "duration": 5005
+    },
+    {
+      "lang": "en",
+      "text": "The geopolitical pressures are real.",
+      "offset": 2090855,
+      "duration": 2336
+    },
+    {
+      "lang": "en",
+      "text": "The question isn't whether something\nlike this could happen. The question is,",
+      "offset": 2094325,
+      "duration": 4104
+    },
+    {
+      "lang": "en",
+      "text": "What are we going to do about it?",
+      "offset": 2098729,
+      "duration": 1669
+    },
+    {
+      "lang": "en",
+      "text": "If you want to see the actual examples in the\nreal world of crazy emergent AI behavior,",
+      "offset": 2101966,
+      "duration": 4838
+    },
+    {
+      "lang": "en",
+      "text": "like trying to escape the lab,",
+      "offset": 2106804,
+      "duration": 1869
+    },
+    {
+      "lang": "en",
+      "text": "Watch this video next. Hey, I'm Drew\nand thank you so much for watching.",
+      "offset": 2108973,
+      "duration": 4705
+    }
+  ]
+}
