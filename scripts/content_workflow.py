@@ -12,7 +12,7 @@ from datetime import datetime
 
 # Configuration
 SUPADATA_API_KEY = open('/root/.openclaw/workspace/credentials/supadata_api_key.txt').read().strip()
-GITHUB_TOKEN = open('/root/.openclaw/workspace-content-machine/credentials/github_token.txt').read().strip()
+# GitHub token is embedded in git remote URL, no separate file needed
 RATE_LIMIT_SECONDS = 240  # 4 minutes between requests
 VIDEO_TRACKER_PATH = '/root/.openclaw/workspace-content-machine/personal-profile/video_tracker.md'
 OUTPUT_DIR = '/root/.openclaw/workspace-content-machine/content/facebook-posts/personal-profile/unused'
