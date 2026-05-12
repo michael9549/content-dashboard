@@ -1,10 +1,3 @@
----
-topic: The Real Reason Most Entrepreneurs Burn Out (And How to Avoid It)
-source: https://www.youtube.com/watch?v=3i-dK3aXXrQ
-niche: entrepreneurial mindset
-status: UNUSED
----
-
 There's a dangerous myth in entrepreneurship: that burnout is just part of the journey.
 
 The late nights. The skipped meals. The constant anxiety that you're not doing enough. Many believe this is the price of success.
