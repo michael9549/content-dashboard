@@ -55,3 +55,15 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 
 ## Fresh Start
 (Fresh start - 2026-03-27)
+
+| 9VlvbpXwLJs | entrepreneurship | 30 Years of Business Knowledge in 2hrs 26mins | Simon Squibb | https://www.youtube.com/watch?v=9VlvbpXwLJs | 2026-05-12 | post_20260512_224639.md | Auto-added |
+| l9JngTV_nqk | network marketing | What is Network Marketing and How Does it Work? | John Crestani | https://www.youtube.com/watch?v=l9JngTV_nqk | 2026-05-12 | post_20260512_224718.md | Auto-added |
+| E3X7oS5AbyM | affiliate marketing | The ONLY Affiliate Marketing Tutorial You Need: Step By Step with AI | Adam Enfroy | https://www.youtube.com/watch?v=E3X7oS5AbyM | 2026-05-12 | post_20260512_224732.md | Auto-added |
+| wqMtnX5Zq04 | affiliate marketing | How to Start Affiliate Marketing in 2024 (Beginner Tutorial) | Greg Gottfried | https://www.youtube.com/watch?v=wqMtnX5Zq04 | 2026-05-12 | post_20260512_224746.md | Auto-added |
+| 8IUO_I9xuL4 | entrepreneurship | Easy Business To Start | Alex Hormozi | https://www.youtube.com/watch?v=8IUO_I9xuL4 | 2026-05-12 | post_20260512_224751.md | Auto-added |
+| F9YG4QgFZnc | entrepreneurship | The Entrepreneur Mindset Strategy 💭 | Foundr  | https://www.youtube.com/watch?v=F9YG4QgFZnc | 2026-05-12 | post_20260512_224755.md | Auto-added |
+| s4UkCaf_scs | entrepreneurship | 6 Businesses That Rarely Fail | Codie Sanchez | https://www.youtube.com/watch?v=s4UkCaf_scs | 2026-05-12 | post_20260512_224758.md | Auto-added |
+| 1mgoWw35_8U | affiliate marketing | How to Start Amazon Affiliate Marketing in 2026 (Beginner Tutorial) | Greg Gottfried | https://www.youtube.com/watch?v=1mgoWw35_8U | 2026-05-12 | post_20260512_224800.md | Auto-added |
+| PQZ2-kl18nY | finance | EBT Final Boss | Financial Audit | Caleb Hammer | https://www.youtube.com/watch?v=PQZ2-kl18nY | 2026-05-12 | post_20260512_224802.md | Auto-added |
+| B-XkxAJ7Rsc | finance | I Asked Finance Bros How Much Debt They Have | George Kamel | https://www.youtube.com/watch?v=B-XkxAJ7Rsc | 2026-05-12 | post_20260512_224806.md | Auto-added |
+| AgL_rnLfYmk | finance | A Simple Math Equation for Financial Freedom - Scott Galloway | Chris Williamson | https://www.youtube.com/watch?v=AgL_rnLfYmk | 2026-05-12 | post_20260512_224811.md | Auto-added |

@@ -11,9 +11,14 @@ import re
 from datetime import datetime
 
 # Configuration
-SUPADATA_API_KEY = open('/root/.openclaw/workspace/credentials/supadata_api_key.txt').read().strip()
+# Read Supadata API key (handle both formats: with or without prefix)
+with open('/root/.openclaw/workspace/credentials/supadata_api_key.txt', 'r') as f:
+    SUPADATA_API_KEY = f.read().strip()
+    # Remove prefix if present
+    if SUPADATA_API_KEY.startswith('SUPADATA_API_KEY='):
+        SUPADATA_API_KEY = SUPADATA_API_KEY.replace('SUPADATA_API_KEY=', '')
 # GitHub token is embedded in git remote URL, no separate file needed
-RATE_LIMIT_SECONDS = 240  # 4 minutes between requests
+RATE_LIMIT_SECONDS = 2  # 2 seconds between requests (well under 10/sec limit)
 VIDEO_TRACKER_PATH = '/root/.openclaw/workspace-content-machine/personal-profile/video_tracker.md'
 OUTPUT_DIR = '/root/.openclaw/workspace-content-machine/content/facebook-posts/personal-profile/unused'
 TRANSCRIPT_DIR = '/root/.openclaw/workspace-content-machine/personal-profile/transcripts'
@@ -95,13 +100,13 @@ def get_transcript(video_url):
     try:
         response = requests.get(
             'https://api.supadata.ai/v1/youtube/transcript',
-            headers={'Authorization': f'Bearer {SUPADATA_API_KEY}'},
+            headers={'X-API-Key': SUPADATA_API_KEY},
             params={'url': video_url}
         )
         if response.status_code == 200:
             return response.json()
         else:
-            print(f"Error getting transcript: {response.status_code}")
+            print(f"Error getting transcript: {response.status_code} - {response.text}")
             return None
     except Exception as e:
         print(f"Error: {e}")
