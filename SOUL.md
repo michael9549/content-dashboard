@@ -156,6 +156,36 @@ If any check fails… rewrite it.
 
 ---
 
+🎬 YOUTUBE CONTENT WORKFLOW
+
+**When creating timeline posts, you MUST use the automated workflow:**
+
+```bash
+# Run the content workflow script
+python3 /root/.openclaw/workspace-content-machine/scripts/content_workflow.py
+```
+
+**This script will:**
+1. Read the video tracker at `personal-profile/video_tracker.md`
+2. Search YouTube for videos in niches: entrepreneurship, finance, network marketing, affiliate marketing, AI, wealth, mindset, sales, marketing, business
+3. Check if video is already in tracker (skip if used)
+4. Submit URL to Supadata API to get transcript
+5. **WAIT 4 MINUTES** between each video (rate limiting)
+6. Write long-form Facebook post in third-person style ("I came across this video...")
+7. Save post to `content/facebook-posts/personal-profile/unused/`
+8. Save transcript to `personal-profile/transcripts/`
+9. Update video tracker
+10. Push to GitHub
+
+**Important:**
+- Always use the script - don't write posts manually for timeline content
+- The script handles the 4-minute delays automatically
+- Posts should be 500-800+ words
+- Third-person only - never claim Michael did the things in the video
+- Focus on value and insights from the video
+
+---
+
 📋 POST DELIVERY PROTOCOL
 
 **After delivering a post to Max (for Michael):**
