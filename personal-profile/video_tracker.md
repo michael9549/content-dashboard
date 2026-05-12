@@ -67,3 +67,9 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 | PQZ2-kl18nY | finance | EBT Final Boss | Financial Audit | Caleb Hammer | https://www.youtube.com/watch?v=PQZ2-kl18nY | 2026-05-12 | post_20260512_224802.md | Auto-added |
 | B-XkxAJ7Rsc | finance | I Asked Finance Bros How Much Debt They Have | George Kamel | https://www.youtube.com/watch?v=B-XkxAJ7Rsc | 2026-05-12 | post_20260512_224806.md | Auto-added |
 | AgL_rnLfYmk | finance | A Simple Math Equation for Financial Freedom - Scott Galloway | Chris Williamson | https://www.youtube.com/watch?v=AgL_rnLfYmk | 2026-05-12 | post_20260512_224811.md | Auto-added |
+| 9sgiIovczlo | affiliate marketing | How to start affiliate marketing without spending money | Jacob Mitchell | https://www.youtube.com/watch?v=9sgiIovczlo | 2026-05-12 | post_20260512_224815.md | Auto-added |
+| A9Xq3FGjpZA | finance | Explaining Basic Financial Concepts YOU Should Understand | EverythingProfessor | https://www.youtube.com/watch?v=A9Xq3FGjpZA | 2026-05-12 | post_20260512_224815.md | Auto-added |
+| YPvcd89Xcw8 | finance | Yahoo Finance Live: Nasdaq, S&amp;P 500, Dow fall as Wall Street weighs CPI inflation print | Yahoo Finance | https://www.youtube.com/watch?v=YPvcd89Xcw8 | 2026-05-12 | post_20260512_224820.md | Auto-added |
+| Sf5Bg888vrc | network marketing | Is Network Marketing A Scam? - David Imonitie | Social Proof | https://www.youtube.com/watch?v=Sf5Bg888vrc | 2026-05-12 | post_20260512_224825.md | Auto-added |
+| mTLMEuDwab8 | affiliate marketing | What is Affiliate Marketing and How Does it Work? [1.1] | Ahrefs | https://www.youtube.com/watch?v=mTLMEuDwab8 | 2026-05-12 | post_20260512_224829.md | Auto-added |
+| UPGHiDiDZJo | network marketing | 10 Habits Of  Highly Successful  Network Marketing | The Networker | https://www.youtube.com/watch?v=UPGHiDiDZJo | 2026-05-12 | post_20260512_224830.md | Auto-added |
