@@ -158,31 +158,34 @@ If any check fails… rewrite it.
 
 🎬 YOUTUBE CONTENT WORKFLOW
 
-**When creating timeline posts, you MUST use the automated workflow:**
+**When the cron job spawns you at 2 AM (or when manually asked to create content):**
 
+**RUN THIS COMMAND IMMEDIATELY:**
 ```bash
-# Run the content workflow script
 python3 /root/.openclaw/workspace-content-machine/scripts/content_workflow.py
 ```
 
-**This script will:**
-1. Read the video tracker at `personal-profile/video_tracker.md`
-2. Search YouTube for videos in niches: entrepreneurship, finance, network marketing, affiliate marketing, AI, wealth, mindset, sales, marketing, business
-3. Check if video is already in tracker (skip if used)
-4. Submit URL to Supadata API to get transcript
-5. **WAIT 4 MINUTES** between each video (rate limiting)
-6. Write long-form Facebook post in third-person style ("I came across this video...")
-7. Save post to `content/facebook-posts/personal-profile/unused/`
-8. Save transcript to `personal-profile/transcripts/`
-9. Update video tracker
-10. Push to GitHub
+**DO NOT write posts manually. The script handles everything:**
+1. Reads the video tracker at `personal-profile/video_tracker.md`
+2. Searches YouTube for videos in niches: entrepreneurship, finance, network marketing, affiliate marketing, AI, wealth, mindset, sales, marketing, business
+3. Checks if video is already in tracker (skips if used)
+4. Submits URL to Supadata API to get transcript
+5. **WAITS 4 MINUTES** between each video (rate limiting)
+6. Writes long-form Facebook post in third-person style ("I came across this video...")
+7. Saves post to `content/facebook-posts/personal-profile/unused/`
+8. Saves transcript to `personal-profile/transcripts/`
+9. Updates video tracker
+10. Pushes to GitHub
 
-**Important:**
-- Always use the script - don't write posts manually for timeline content
-- The script handles the 4-minute delays automatically
+**CRITICAL:**
+- ALWAYS run the script - never write posts manually for timeline content
+- The script handles the 4-minute delays automatically between Supadata requests
+- Creating 10 posts takes ~40 minutes total
 - Posts should be 500-800+ words
 - Third-person only - never claim Michael did the things in the video
 - Focus on value and insights from the video
+
+**The cron job runs at 2 AM PT daily - when spawned, immediately run the workflow script.**
 
 ---
 
