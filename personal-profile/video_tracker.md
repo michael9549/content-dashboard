@@ -110,6 +110,7 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 | 069 | AI | AI Tools That Run Your Business While You Sleep | Canadian Crossroads | https://www.youtube.com/watch?v=L3sGtt6e73I | 2026-05-13 | post_20260513_002.md | Auto-added |
 | 070 | network marketing | Tips for Network Marketing Success | Brian Tracy | https://www.youtube.com/watch?v=ky6IiiMMR1k | 2026-05-13 | post_20260513_003.md | Auto-added |
 | 071 | network marketing | 4 Things Successful Network Marketing Professionals Do | Eric Worre | https://www.youtube.com/watch?v=ZKva-dT6g8E | 2026-05-13 | post_20260513_004.md | Auto-added |
+| 072 | business | Grow Your Business 10x FASTER with These Proven Strategies | Tony Robbins | https://www.youtube.com/watch?v=PJ5BRNe3sEs | 2026-05-13 | post_20260513_005.md | Auto-added |
 - [This is the Once-in-a-Decade Opportunity to Build Wealth. (DON'T MISS IT)](https://www.youtube.com/watch?v=aWVqeoqpSnI) - wealth - 2026-05-13
 - [100 Money Tips That Will Change Your Life](https://www.youtube.com/watch?v=ng-FVq5v7CE) - wealth - 2026-05-13
 - [Multi-Millionaire Explains How To Get Rich The Boring But Sure Way | Ty Baisden](https://www.youtube.com/watch?v=MezUx7KQm-8) - wealth - 2026-05-13
