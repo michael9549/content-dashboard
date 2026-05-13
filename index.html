@@ -465,10 +465,105 @@
     <div class="toast" id="toast"></div>
     
     <script>
+        // GitHub API configuration - MUST be defined before any functions that use them
+        const GITHUB_OWNER = 'michael9549';
+        const GITHUB_REPO = 'content-dashboard';
+        const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
+        
+        // Folder mappings - MUST be defined before loadPosts is called
+        const FOLDER_PATHS = {
+            'customer-unused': 'customer-group/unused',
+            'customer-used': 'customer-group/used',
+            'timeline-unused': 'personal-profile/unused',
+            'timeline-used': 'personal-profile/used'
+        };
+        
         // Password protection - GitHub token is the password
         let GITHUB_TOKEN = localStorage.getItem('github_token');
         let inactivityTimer;
         const INACTIVITY_TIMEOUT = 10 * 60 * 1000; // 10 minutes in milliseconds
+        
+        // Content data structure
+        let contentData = {};
+        let currentFolder = 'customer-unused';
+        let editingPost = null;
+        
+        // Load posts for a specific folder from GitHub - DEFINED EARLY
+        async function loadPosts(folder) {
+            try {
+                console.log('Loading posts for folder:', folder);
+                console.log('Token available:', GITHUB_TOKEN ? 'Yes (starts with ' + GITHUB_TOKEN.substring(0, 10) + '...)' : 'No');
+                const path = FOLDER_PATHS[folder];
+                console.log('Fetching from:', `${GITHUB_API_BASE}/${path}`);
+                const response = await fetch(`${GITHUB_API_BASE}/${path}`, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_TOKEN}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                console.log('Response status:', response.status);
+                
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    console.error('Error response:', errorText);
+                    throw new Error(`HTTP ${response.status}: ${errorText}`);
+                }
+                
+                const files = await response.json();
+                const mdFiles = files.filter(f => f.name.endsWith('.md'));
+                
+                // Fetch content for each file
+                const posts = await Promise.all(
+                    mdFiles.map(async (file) => {
+                        const contentResponse = await fetch(file.download_url, {
+                            headers: {
+                                'Accept': 'text/plain; charset=utf-8'
+                            }
+                        });
+                        const content = await contentResponse.text();
+                        return {
+                            filename: file.name,
+                            path: file.path,
+                            sha: file.sha,
+                            content: content,
+                            body: content
+                        };
+                    })
+                );
+                
+                contentData[folder] = posts;
+                
+                // If this is the current folder, render it
+                if (folder === currentFolder) {
+                    renderPosts();
+                }
+                
+                console.log(`Loaded ${posts.length} posts for ${folder}`);
+            } catch (error) {
+                console.error(`Error loading posts for ${folder}:`, error);
+                contentData[folder] = [];
+            }
+        }
+        
+        // Load content from GitHub - DEFINED EARLY
+        async function loadContent() {
+            try {
+                // Load all folders
+                await Promise.all([
+                    loadPosts('customer-unused'),
+                    loadPosts('customer-used'),
+                    loadPosts('timeline-unused'),
+                    loadPosts('timeline-used')
+                ]);
+                
+                // Update stats
+                updateStats();
+            } catch (error) {
+                console.error('Error loading content:', error);
+                showToast('Error loading content', true);
+            }
+        }
         
         function checkPassword() {
             const input = document.getElementById('login-password').value;
@@ -523,103 +618,6 @@
                 }
             });
         });
-        
-        // GitHub API configuration
-        const GITHUB_OWNER = 'michael9549';
-        const GITHUB_REPO = 'content-dashboard';
-        // GITHUB_TOKEN is set from login password
-        const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
-        
-        // Content data structure
-        let contentData = {};
-        let currentFolder = 'customer-unused';
-        let editingPost = null;
-        
-        // Folder mappings (relative to repo root)
-        const FOLDER_PATHS = {
-            'customer-unused': 'customer-group/unused',
-            'customer-used': 'customer-group/used',
-            'timeline-unused': 'personal-profile/unused',
-            'timeline-used': 'personal-profile/used'
-        };
-        
-        // Load content from GitHub
-        async function loadContent() {
-            try {
-                // Load all folders
-                await Promise.all([
-                    loadPosts('customer-unused'),
-                    loadPosts('customer-used'),
-                    loadPosts('timeline-unused'),
-                    loadPosts('timeline-used')
-                ]);
-                
-                // Update stats
-                updateStats();
-            } catch (error) {
-                console.error('Error loading content:', error);
-                showToast('Error loading content', true);
-            }
-        }
-        
-        // Load posts for a specific folder from GitHub
-        async function loadPosts(folder) {
-            try {
-                console.log('Loading posts for folder:', folder);
-                console.log('Token available:', GITHUB_TOKEN ? 'Yes (starts with ' + GITHUB_TOKEN.substring(0, 10) + '...)' : 'No');
-                const path = FOLDER_PATHS[folder];
-                console.log('Fetching from:', `${GITHUB_API_BASE}/${path}`);
-                const response = await fetch(`${GITHUB_API_BASE}/${path}`, {
-                    headers: {
-                        'Authorization': `token ${GITHUB_TOKEN}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    }
-                });
-                
-                console.log('Response status:', response.status);
-                
-                if (!response.ok) {
-                    const errorText = await response.text();
-                    console.error('Error response:', errorText);
-                    throw new Error(`HTTP ${response.status}: ${errorText}`);
-                }
-                
-                const files = await response.json();
-                const mdFiles = files.filter(f => f.name.endsWith('.md'));
-                
-                // Fetch content for each file
-                const posts = await Promise.all(
-                    mdFiles.map(async (file) => {
-                        const contentResponse = await fetch(file.download_url, {
-                            headers: {
-                                'Accept': 'text/plain; charset=utf-8'
-                            }
-                        });
-                        const content = await contentResponse.text();
-                        return {
-                            filename: file.name,
-                            path: file.path,
-                            sha: file.sha,
-                            content: content,
-                            body: content
-                        };
-                    })
-                );
-                
-                contentData[folder] = posts;
-                
-                // If this is the current folder, render it
-                if (folder === currentFolder) {
-                    renderPosts();
-                }
-            } catch (error) {
-                console.error(`Error loading posts for ${folder}:`, error);
-                contentData[folder] = [];
-                if (folder === currentFolder) {
-                    renderPosts();
-                }
-            }
-        }
         
         // Update statistics from loaded data
         function updateStats() {
