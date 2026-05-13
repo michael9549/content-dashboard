@@ -111,6 +111,7 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 | 070 | network marketing | Tips for Network Marketing Success | Brian Tracy | https://www.youtube.com/watch?v=ky6IiiMMR1k | 2026-05-13 | post_20260513_003.md | Auto-added |
 | 071 | network marketing | 4 Things Successful Network Marketing Professionals Do | Eric Worre | https://www.youtube.com/watch?v=ZKva-dT6g8E | 2026-05-13 | post_20260513_004.md | Auto-added |
 | 072 | business | Grow Your Business 10x FASTER with These Proven Strategies | Tony Robbins | https://www.youtube.com/watch?v=PJ5BRNe3sEs | 2026-05-13 | post_20260513_005.md | Auto-added |
+| 073 | business | 7 Strategies to Grow Your Business | Brian Tracy | https://www.youtube.com/watch?v=dJQn4DqzMVQ | 2026-05-13 | post_20260513_006.md | Auto-added |
 - [This is the Once-in-a-Decade Opportunity to Build Wealth. (DON'T MISS IT)](https://www.youtube.com/watch?v=aWVqeoqpSnI) - wealth - 2026-05-13
 - [100 Money Tips That Will Change Your Life](https://www.youtube.com/watch?v=ng-FVq5v7CE) - wealth - 2026-05-13
 - [Multi-Millionaire Explains How To Get Rich The Boring But Sure Way | Ty Baisden](https://www.youtube.com/watch?v=MezUx7KQm-8) - wealth - 2026-05-13
