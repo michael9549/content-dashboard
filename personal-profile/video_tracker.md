@@ -106,6 +106,7 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 - **Duplicate entries:** 8 (marked in Notes column)
 - **Last updated:** 2026-05-12
 
+| 068 | mindset | OUTWORK EVERYONE - Mark Cuban Business Advice | Motiversity | https://www.youtube.com/watch?v=IVNK5gkVq2Q | 2026-05-13 | post_20260513_001.md | Auto-added |
 - [This is the Once-in-a-Decade Opportunity to Build Wealth. (DON'T MISS IT)](https://www.youtube.com/watch?v=aWVqeoqpSnI) - wealth - 2026-05-13
 - [100 Money Tips That Will Change Your Life](https://www.youtube.com/watch?v=ng-FVq5v7CE) - wealth - 2026-05-13
 - [Multi-Millionaire Explains How To Get Rich The Boring But Sure Way | Ty Baisden](https://www.youtube.com/watch?v=MezUx7KQm-8) - wealth - 2026-05-13
