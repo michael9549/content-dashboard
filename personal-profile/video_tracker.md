@@ -113,6 +113,7 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 | 072 | business | Grow Your Business 10x FASTER with These Proven Strategies | Tony Robbins | https://www.youtube.com/watch?v=PJ5BRNe3sEs | 2026-05-13 | post_20260513_005.md | Auto-added |
 | 073 | business | 7 Strategies to Grow Your Business | Brian Tracy | https://www.youtube.com/watch?v=dJQn4DqzMVQ | 2026-05-13 | post_20260513_006.md | Auto-added |
 | 074 | marketing | 7 Simple Marketing Strategies For 2026 | Alex Cattoni | https://www.youtube.com/watch?v=MJn4PW0pXp4 | 2026-05-13 | post_20260513_007.md | Auto-added |
+| 075 | sales | 3 Simple Steps To Close Any Sale | Alex Hormozi | https://www.youtube.com/watch?v=CojS0DwflXc | 2026-05-13 | post_20260513_008.md | Auto-added |
 - [This is the Once-in-a-Decade Opportunity to Build Wealth. (DON'T MISS IT)](https://www.youtube.com/watch?v=aWVqeoqpSnI) - wealth - 2026-05-13
 - [100 Money Tips That Will Change Your Life](https://www.youtube.com/watch?v=ng-FVq5v7CE) - wealth - 2026-05-13
 - [Multi-Millionaire Explains How To Get Rich The Boring But Sure Way | Ty Baisden](https://www.youtube.com/watch?v=MezUx7KQm-8) - wealth - 2026-05-13
