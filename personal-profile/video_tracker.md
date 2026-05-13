@@ -118,3 +118,4 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 - [Start With $10: The Wealth-Building Strategy No One Taught You](https://www.youtube.com/watch?v=YwWjVNUO7lI) - wealth - 2026-05-13
 - [Attraction Marketing for Network Marketers - 3 Proven Attraction Marketing Strategies That WORK!](https://www.youtube.com/watch?v=SlOSKLA7KVc) - network marketing - 2026-05-13
 - [The Money Expert: #1 Formula to Get RICH Off Your Normal Salary (It’s EASY!)](https://www.youtube.com/watch?v=tE6CwaBxuN4) - wealth - 2026-05-13
+- [How to Build Wealth on a Low Income  - Machiavelli 10 Brutal Strategies](https://www.youtube.com/watch?v=WtOM36NH5EM) - wealth - 2026-05-13
