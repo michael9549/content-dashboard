@@ -1,0 +1,374 @@
+#!/usr/bin/env python3
+"""
+Content Machine - Facebook Post Generator
+Generates educational posts from YouTube transcripts
+"""
+
+import json
+import os
+import re
+import random
+import requests
+import time
+from datetime import datetime
+from pathlib import Path
+
+# Config
+WORKSPACE = '/root/.openclaw/workspace-content-machine'
+POSTS_DIR = f'{WORKSPACE}/content/facebook-posts/personal-profile/unused'
+TRANSCRIPTS_DIR = f'{WORKSPACE}/personal-profile/transcripts'
+TRACKER_FILE = f'{WORKSPACE}/personal-profile/video_tracker.md'
+CREDENTIALS_FILE = '/root/.openclaw/workspace/credentials/supadata_api_key.txt'
+
+# Niches to search
+NICHES = [
+    'entrepreneurship',
+    'wealth',
+    'AI',
+    'network marketing',
+    'marketing',
+    'mindset',
+    'business'
+]
+
+# YouTube search queries by niche
+SEARCH_QUERIES = {
+    'entrepreneurship': ['how to start a business 2024', 'entrepreneurship tips', 'business growth strategies'],
+    'wealth': ['how to build wealth', 'passive income ideas', 'financial freedom strategies'],
+    'AI': ['AI business tools', 'how to use AI for business', 'AI automation strategies'],
+    'network marketing': ['network marketing tips', 'MLM success strategies', 'direct sales techniques'],
+    'marketing': ['digital marketing strategies', 'social media marketing tips', 'content marketing 2024'],
+    'mindset': ['millionaire mindset', 'success mindset', 'entrepreneur mindset tips'],
+    'business': ['business scaling strategies', 'how to grow your business', 'business owner tips']
+}
+
+def get_supadata_key():
+    """Get Supadata API key"""
+    with open(CREDENTIALS_FILE, 'r') as f:
+        content = f.read().strip()
+        # Handle both plain key and KEY=VALUE format
+        if '=' in content:
+            return content.split('=')[1].strip()
+        return content
+
+def load_video_tracker():
+    """Load list of already used video URLs"""
+    used_urls = set()
+    if os.path.exists(TRACKER_FILE):
+        with open(TRACKER_FILE, 'r') as f:
+            content = f.read()
+            # Extract YouTube URLs from markdown
+            urls = re.findall(r'https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]+)', content)
+            used_urls.update(urls)
+    return used_urls
+
+def search_youtube_videos(niche, max_results=5):
+    """Search YouTube for videos in a niche"""
+    queries = SEARCH_QUERIES.get(niche, [f'{niche} tips'])
+    query = random.choice(queries)
+    
+    # Use Supadata's search endpoint
+    api_key = get_supadata_key()
+    search_url = f"https://api.supadata.ai/v1/youtube/search?query={requests.utils.quote(query)}&maxResults={max_results}"
+    
+    headers = {'x-api-key': api_key}
+    
+    try:
+        response = requests.get(search_url, headers=headers, timeout=30)
+        if response.status_code == 200:
+            data = response.json()
+            videos = []
+            for item in data.get('results', []):
+                video_id = item.get('id')
+                if video_id:
+                    channel_name = 'Unknown'
+                    if 'channel' in item and isinstance(item['channel'], dict):
+                        channel_name = item['channel'].get('name', 'Unknown')
+                    videos.append({
+                        'id': video_id,
+                        'url': f"https://www.youtube.com/watch?v={video_id}",
+                        'title': item.get('title', 'Unknown'),
+                        'channel': channel_name
+                    })
+            return videos
+    except Exception as e:
+        print(f"Search error: {e}")
+    
+    return []
+
+def fetch_transcript(video_id):
+    """Fetch transcript using Supadata API"""
+    api_key = get_supadata_key()
+    transcript_url = f"https://api.supadata.ai/v1/youtube/transcript?videoId={video_id}"
+    
+    headers = {'x-api-key': api_key}
+    
+    try:
+        response = requests.get(transcript_url, headers=headers, timeout=30)
+        if response.status_code == 200:
+            return response.json()
+    except Exception as e:
+        print(f"Transcript error: {e}")
+    
+    return None
+
+def save_transcript(video_id, transcript_data):
+    """Save transcript to file"""
+    os.makedirs(TRANSCRIPTS_DIR, exist_ok=True)
+    filepath = f"{TRANSCRIPTS_DIR}/{video_id}.json"
+    with open(filepath, 'w') as f:
+        json.dump(transcript_data, f, indent=2)
+    return filepath
+
+def extract_transcript_text(transcript_data):
+    """Extract full text from transcript"""
+    if isinstance(transcript_data, dict) and 'content' in transcript_data:
+        text_parts = [item.get('text', '') for item in transcript_data['content']]
+        return ' '.join(text_parts)
+    return str(transcript_data)
+
+def extract_key_points(transcript_text, num_points=5):
+    """Extract key educational points from transcript"""
+    # Clean text
+    text = re.sub(r'\s+', ' ', transcript_text).strip()
+    
+    # Split into sentences
+    sentences = re.split(r'(?<=[.!?])\s+(?=[A-Z])', text)
+    
+    # Score sentences by educational value
+    value_keywords = [
+        'how to', 'steps to', 'way to', 'method', 'strategy', 'tactic',
+        'secret', 'key', 'important', 'critical', 'essential', 'must',
+        'build', 'create', 'start', 'grow', 'scale', 'increase',
+        'money', 'revenue', 'profit', 'sales', 'income', 'wealth',
+        'mistake', 'avoid', 'never', 'always', 'dont', 'stop',
+        'first', 'second', 'third', 'next', 'then', 'finally',
+        'because', 'this is why', 'the reason', 'therefore'
+    ]
+    
+    scored_sentences = []
+    for sent in sentences:
+        sent = sent.strip()
+        if len(sent) < 40 or len(sent) > 300:
+            continue
+        
+        score = 0
+        sent_lower = sent.lower()
+        for kw in value_keywords:
+            if kw in sent_lower:
+                score += 2
+        
+        # Bonus for actionable content
+        if any(x in sent_lower for x in ['start by', 'begin with', 'focus on', 'the key is']):
+            score += 3
+        
+        # Bonus for numbers/stats
+        if re.search(r'\d+', sent):
+            score += 1
+        
+        if score >= 3:
+            scored_sentences.append((sent, score))
+    
+    # Sort by score and return top points
+    scored_sentences.sort(key=lambda x: x[1], reverse=True)
+    return [s[0] for s in scored_sentences[:num_points]]
+
+def generate_post_content(key_points, niche):
+    """Generate unique post content from key points"""
+    if not key_points:
+        return None
+    
+    # Randomly choose post structure
+    structure = random.choice(['numbered', 'bullet', 'narrative', 'question'])
+    
+    if structure == 'numbered':
+        intro = f"Here are {len(key_points)} powerful insights about {niche} that most people overlook:\n\n"
+        body = ""
+        for i, point in enumerate(key_points, 1):
+            body += f"{i}. {point}\n\n"
+        outro = f"Which of these resonates with your current {niche} journey?"
+        
+    elif structure == 'bullet':
+        intro = f"The biggest shifts in {niche} happen when you understand these fundamentals:\n\n"
+        body = ""
+        for point in key_points:
+            body += f"• {point}\n\n"
+        outro = f"What's the first one you're implementing?"
+        
+    elif structure == 'narrative':
+        if len(key_points) >= 3:
+            intro = f"Most people approach {niche} backwards. Here's what actually works:\n\n"
+            body = f"{key_points[0]}\n\n"
+            body += f"But here's what changes everything: {key_points[1][0].lower()}{key_points[1][1:]}\n\n"
+            body += f"And the result? {key_points[2][0].lower()}{key_points[2][1:]}"
+            outro = f"Ready to flip the script on your {niche} approach?"
+        else:
+            body = "\n\n".join(key_points)
+            outro = f"What's your next move in {niche}?"
+            intro = f"A different perspective on {niche}:\n\n"
+            
+    else:  # question
+        intro = f"Quick question about {niche}:\n\n"
+        body = f"{key_points[0]}\n\n"
+        if len(key_points) > 1:
+            body += f"Yet most people ignore this and wonder why they're stuck. {key_points[1]}\n\n"
+        outro = f"Are you focusing on what actually moves the needle in {niche}?"
+    
+    return intro + body + outro
+
+def create_post(video_info, transcript_data, niche):
+    """Create a Facebook post from video transcript"""
+    transcript_text = extract_transcript_text(transcript_data)
+    key_points = extract_key_points(transcript_text)
+    
+    if not key_points:
+        return None
+    
+    content = generate_post_content(key_points, niche)
+    if not content:
+        return None
+    
+    post_id = f"post_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    
+    post = f"""---
+id: {post_id}
+status: UNUSED
+created: {datetime.now().strftime('%Y-%m-%d')}
+type: personal-profile
+source: {video_info['url']}
+niche: {niche}
+---
+
+{content}
+"""
+    
+    return {
+        'id': post_id,
+        'content': post,
+        'video_info': video_info
+    }
+
+def save_post(post_data):
+    """Save post to file"""
+    os.makedirs(POSTS_DIR, exist_ok=True)
+    filepath = f"{POSTS_DIR}/{post_data['id']}.md"
+    with open(filepath, 'w') as f:
+        f.write(post_data['content'])
+    return filepath
+
+def update_video_tracker(video_info, niche):
+    """Add video to tracker"""
+    os.makedirs(os.path.dirname(TRACKER_FILE), exist_ok=True)
+    
+    entry = f"\n- [{video_info['title']}]({video_info['url']}) - {niche} - {datetime.now().strftime('%Y-%m-%d')}"
+    
+    with open(TRACKER_FILE, 'a') as f:
+        f.write(entry)
+
+def update_posts_json(post_data, niche):
+    """Add post to posts.json index"""
+    posts_json_path = f'{WORKSPACE}/content/facebook-posts/personal-profile/posts.json'
+    
+    # Load existing posts
+    posts = []
+    if os.path.exists(posts_json_path):
+        try:
+            with open(posts_json_path, 'r') as f:
+                posts = json.load(f)
+        except:
+            posts = []
+    
+    # Add new post entry
+    post_entry = {
+        'id': post_data['id'],
+        'status': 'UNUSED',
+        'created': datetime.now().strftime('%Y-%m-%d'),
+        'type': 'personal-profile',
+        'niche': niche,
+        'source': post_data['video_info']['url']
+    }
+    posts.append(post_entry)
+    
+    # Save updated posts.json
+    os.makedirs(os.path.dirname(posts_json_path), exist_ok=True)
+    with open(posts_json_path, 'w') as f:
+        json.dump(posts, f, indent=2)
+
+def main():
+    """Main workflow"""
+    print("=" * 60)
+    print("CONTENT MACHINE - Starting Post Generation")
+    print("=" * 60)
+    
+    # Load used videos
+    used_videos = load_video_tracker()
+    print(f"Loaded {len(used_videos)} previously used videos")
+    
+    posts_created = 0
+    target_posts = 10
+    
+    # Rotate through niches
+    niche_cycle = random.sample(NICHES, len(NICHES))
+    
+    for niche in niche_cycle:
+        if posts_created >= target_posts:
+            break
+        
+        print(f"\n--- Searching niche: {niche} ---")
+        
+        # Search for videos
+        videos = search_youtube_videos(niche)
+        
+        for video in videos:
+            if posts_created >= target_posts:
+                break
+            
+            # Skip if already used
+            if video['id'] in used_videos:
+                print(f"  Skipping (used): {video['title'][:50]}...")
+                continue
+            
+            print(f"  Fetching transcript: {video['title'][:50]}...")
+            
+            # Fetch transcript
+            transcript = fetch_transcript(video['id'])
+            if not transcript:
+                print(f"    ✗ No transcript available")
+                continue
+            
+            # Save transcript
+            save_transcript(video['id'], transcript)
+            
+            # Create post
+            print(f"    Creating post...")
+            post_data = create_post(video, transcript, niche)
+            
+            if post_data:
+                # Save post
+                save_post(post_data)
+                
+                # Update tracker
+                update_video_tracker(video, niche)
+                used_videos.add(video['id'])
+                
+                # Update posts.json index
+                update_posts_json(post_data, niche)
+                
+                posts_created += 1
+                print(f"    ✓ Post created: {post_data['id']}")
+                
+                # Rate limiting - wait 45 seconds between posts
+                if posts_created < target_posts:
+                    print(f"    ⏳ Waiting 45 seconds before next post...")
+                    time.sleep(45)
+            else:
+                print(f"    ✗ Failed to create post")
+    
+    print(f"\n{'=' * 60}")
+    print(f"COMPLETE: Created {posts_created} posts")
+    print(f"{'=' * 60}")
+    
+    return posts_created
+
+if __name__ == '__main__':
+    main()
