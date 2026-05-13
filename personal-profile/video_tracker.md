@@ -114,3 +114,4 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 - [Lewis Howes: You're 69 Minutes Away From NEVER Being Broke Again](https://www.youtube.com/watch?v=ZF8YiXKYUBg) - wealth - 2026-05-13
 - [33Yrs of Business Experience in 4hrs FULL COURSE](https://www.youtube.com/watch?v=xQuKdFNK7tk) - entrepreneurship - 2026-05-13
 - [6 tips on being a successful entrepreneur | John Mullins | TEDxLondonBusinessSchool](https://www.youtube.com/watch?v=bAhM3td5PzY) - entrepreneurship - 2026-05-13
+- [Secrets of the Millionaire Mind | Full Audiobook Summary in English | Wealth File #1-17](https://www.youtube.com/watch?v=XFYRn58KQ-k) - mindset - 2026-05-13
