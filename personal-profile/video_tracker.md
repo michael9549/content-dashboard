@@ -110,3 +110,4 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 - [100 Money Tips That Will Change Your Life](https://www.youtube.com/watch?v=ng-FVq5v7CE) - wealth - 2026-05-13
 - [Multi-Millionaire Explains How To Get Rich The Boring But Sure Way | Ty Baisden](https://www.youtube.com/watch?v=MezUx7KQm-8) - wealth - 2026-05-13
 - [My honest advice to someone who wants financial freedom](https://www.youtube.com/watch?v=fSnAPcG2vEc) - wealth - 2026-05-13
+- [100 Money Tips That Will Change Your Life](https://www.youtube.com/watch?v=tOqClXtGmns) - wealth - 2026-05-13
