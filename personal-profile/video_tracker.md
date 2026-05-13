@@ -112,3 +112,4 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 - [My honest advice to someone who wants financial freedom](https://www.youtube.com/watch?v=fSnAPcG2vEc) - wealth - 2026-05-13
 - [100 Money Tips That Will Change Your Life](https://www.youtube.com/watch?v=tOqClXtGmns) - wealth - 2026-05-13
 - [Lewis Howes: You're 69 Minutes Away From NEVER Being Broke Again](https://www.youtube.com/watch?v=ZF8YiXKYUBg) - wealth - 2026-05-13
+- [33Yrs of Business Experience in 4hrs FULL COURSE](https://www.youtube.com/watch?v=xQuKdFNK7tk) - entrepreneurship - 2026-05-13
