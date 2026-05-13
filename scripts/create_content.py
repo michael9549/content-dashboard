@@ -591,20 +591,55 @@ def generate_customer_posts(target_count=5):
     
     return posts_created
 
-def main():
-    """Main workflow - generate both types of posts"""
-    # Generate timeline posts (from YouTube)
-    timeline_count = main_timeline()
+def count_unused_posts(folder_type):
+    """Count unused posts in a folder"""
+    if folder_type == 'timeline':
+        posts_dir = POSTS_DIR
+    else:
+        posts_dir = CUSTOMER_POSTS_DIR
     
-    # Generate customer posts (mindset/trading)
-    print("\n")
-    customer_count = generate_customer_posts(target_count=5)
+    if not os.path.exists(posts_dir):
+        return 0
+    
+    return len([f for f in os.listdir(posts_dir) if f.endswith('.md')])
+
+def main():
+    """Main workflow - check inventory and generate posts only if needed"""
+    print("=" * 60)
+    print("CONTENT MACHINE - Checking Inventory Levels")
+    print("=" * 60)
+    
+    # Check current inventory
+    timeline_count = count_unused_posts('timeline')
+    customer_count = count_unused_posts('customer')
+    
+    print(f"\nCurrent Inventory:")
+    print(f"  Timeline unused: {timeline_count}")
+    print(f"  Customer unused: {customer_count}")
+    print(f"  Threshold: 5 posts")
+    
+    timeline_created = 0
+    customer_created = 0
+    
+    # Generate timeline posts if below threshold
+    if timeline_count < 5:
+        print(f"\n⚠️  Timeline inventory low ({timeline_count} < 5). Generating 10 posts...")
+        timeline_created = main_timeline()
+    else:
+        print(f"\n✅ Timeline inventory sufficient ({timeline_count} >= 5). Skipping.")
+    
+    # Generate customer posts if below threshold
+    if customer_count < 5:
+        print(f"\n⚠️  Customer inventory low ({customer_count} < 5). Generating 10 posts...")
+        customer_created = generate_customer_posts(target_count=10)
+    else:
+        print(f"\n✅ Customer inventory sufficient ({customer_count} >= 5). Skipping.")
     
     print(f"\n{'=' * 60}")
-    print(f"TOTAL POSTS CREATED:")
-    print(f"  Timeline: {timeline_count}")
-    print(f"  Customer: {customer_count}")
-    print(f"  Total: {timeline_count + customer_count}")
+    print(f"SUMMARY:")
+    print(f"  Timeline posts created: {timeline_created}")
+    print(f"  Customer posts created: {customer_created}")
+    print(f"  Total posts created: {timeline_created + customer_created}")
     print(f"{'=' * 60}")
 
 def main_timeline():
