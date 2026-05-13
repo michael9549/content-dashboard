@@ -16,6 +16,7 @@ from pathlib import Path
 # Config
 WORKSPACE = '/root/.openclaw/workspace-content-machine'
 POSTS_DIR = f'{WORKSPACE}/content/facebook-posts/personal-profile/unused'
+CUSTOMER_POSTS_DIR = f'{WORKSPACE}/content/facebook-posts/customer-group/unused'
 TRANSCRIPTS_DIR = f'{WORKSPACE}/personal-profile/transcripts'
 TRACKER_FILE = f'{WORKSPACE}/personal-profile/video_tracker.md'
 CREDENTIALS_FILE = '/root/.openclaw/workspace/credentials/supadata_api_key.txt'
@@ -366,6 +367,304 @@ def main():
     
     print(f"\n{'=' * 60}")
     print(f"COMPLETE: Created {posts_created} posts")
+    print(f"{'=' * 60}")
+    
+    return posts_created
+
+# Customer-group specific content (mindset in trading - no YouTube)
+CUSTOMER_TOPICS = [
+    {
+        'title': 'The Psychology of Winning Trades',
+        'points': [
+            'Your mindset before entering a trade determines your outcome more than your strategy.',
+            'Fear and greed are the two emotions that destroy most traders.',
+            'Develop a pre-trade routine that puts you in a calm, focused state.',
+            'Review your winning trades to understand what you did right mentally.',
+            'The best traders think in probabilities, not predictions.'
+        ]
+    },
+    {
+        'title': 'Why Most Traders Fail (And How to Avoid It)',
+        'points': [
+            'Lack of discipline is the #1 reason traders fail, not bad strategy.',
+            'Overtrading stems from emotional need, not market opportunity.',
+            'Risk management is 80% psychology and 20% math.',
+            'Successful traders have learned to sit on their hands.',
+            'Your trading plan is only as good as your ability to follow it.'
+        ]
+    },
+    {
+        'title': 'Building Unshakeable Trading Confidence',
+        'points': [
+            'Confidence comes from preparation, not ego.',
+            'Keep a trading journal to track your psychological patterns.',
+            'Confidence is built one small win at a time.',
+            'Never risk more than you can afford to lose emotionally.',
+            'Your self-worth should never be tied to a single trade.'
+        ]
+    },
+    {
+        'title': 'The Disciplined Trader Mindset',
+        'points': [
+            'Discipline means following your rules even when you don't feel like it.',
+            'The market rewards patience and punishes impatience.',
+            'Every trade should have a clear entry, exit, and stop-loss before you enter.',
+            'Emotional trading is expensive trading.',
+            'The best trade is sometimes no trade at all.'
+        ]
+    },
+    {
+        'title': 'Mastering Emotional Control in Trading',
+        'points': [
+            'Emotions are data, not instructions.',
+            'Notice when you're trading to recover losses - that's revenge trading.',
+            'Step away from the screen when you feel overwhelmed.',
+            'Breathing exercises can reset your emotional state in 60 seconds.',
+            'The trader who controls their emotions controls their results.'
+        ]
+    },
+    {
+        'title': 'The Power of Patience in Trading',
+        'points': [
+            'The market will be here tomorrow, next week, and next year.',
+            'Waiting for the perfect setup is a skill, not a weakness.',
+            'Impatience leads to forced trades and unnecessary losses.',
+            'The best opportunities often come to those who wait.',
+            'Patience is the difference between amateur and professional traders.'
+        ]
+    },
+    {
+        'title': 'Developing a Growth Mindset for Trading',
+        'points': [
+            'Every loss is a lesson if you're willing to learn from it.',
+            'The market is your teacher - pay attention to what it shows you.',
+            'Successful traders are lifelong students of the markets.',
+            'Your strategy will evolve as you grow as a trader.',
+            'Mistakes are tuition payments to the market - make sure you learn.'
+        ]
+    },
+    {
+        'title': 'Trading Psychology: Fear vs. Greed',
+        'points': [
+            'Fear causes you to exit winners too early.',
+            'Greed causes you to hold losers too long.',
+            'The middle path is following your predetermined plan.',
+            'Both emotions stem from lack of trust in your system.',
+            'Master your emotions and you master your trading.'
+        ]
+    },
+    {
+        'title': 'Building Mental Toughness for Trading',
+        'points': [
+            'Losses are part of the game - expect them and accept them.',
+            'Mental toughness means sticking to your plan during drawdowns.',
+            'Don't let a losing streak shake your confidence in your edge.',
+            'The mentally tough trader focuses on process, not outcomes.',
+            'Your ability to bounce back determines your long-term success.'
+        ]
+    },
+    {
+        'title': 'The Morning Routine of Successful Traders',
+        'points': [
+            'Start your day with clarity, not chaos.',
+            'Review your trading plan before the market opens.',
+            'Meditation or visualization can improve your focus.',
+            'Physical exercise sharpens your mental edge.',
+            'A consistent routine creates consistent results.'
+        ]
+    }
+]
+
+def generate_customer_post_content(topic):
+    """Generate a customer-group post from a topic"""
+    hook_options = [
+        f"{topic['title']} - this changed everything for me:",
+        f"If you're struggling with {topic['title'].lower()}, read this:",
+        f"The truth about {topic['title'].lower()}:",
+        f"Most traders get {topic['title'].lower()} wrong. Here's why:",
+        f"A different perspective on {topic['title'].lower()}:"
+    ]
+    
+    hook = random.choice(hook_options)
+    
+    body = "\n\n".join([f"• {point}" for point in topic['points']])
+    
+    cta_options = [
+        "Which of these resonates with your trading journey?",
+        "What's your biggest mindset challenge in trading?",
+        "How do you handle emotions during a losing streak?",
+        "Save this for when you need a mindset reset.",
+        "Tag a trader who needs to see this."
+    ]
+    
+    cta = random.choice(cta_options)
+    
+    return f"{hook}\n\n{body}\n\n{cta}"
+
+def create_customer_post(topic):
+    """Create a customer-group post"""
+    post_id = f"post_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    
+    content = generate_customer_post_content(topic)
+    
+    post = f"""---
+id: {post_id}
+status: UNUSED
+created: {datetime.now().strftime('%Y-%m-%d')}
+type: customer-group
+source: generated
+niche: mindset
+---
+
+{content}
+"""
+    
+    return {
+        'id': post_id,
+        'content': post
+    }
+
+def save_customer_post(post_data):
+    """Save customer post to file"""
+    os.makedirs(CUSTOMER_POSTS_DIR, exist_ok=True)
+    filepath = f"{CUSTOMER_POSTS_DIR}/{post_data['id']}.md"
+    with open(filepath, 'w') as f:
+        f.write(post_data['content'])
+    return filepath
+
+def update_customer_posts_json(post_data):
+    """Add customer post to posts.json index"""
+    posts_json_path = f'{WORKSPACE}/content/facebook-posts/customer-group/posts.json'
+    
+    posts = []
+    if os.path.exists(posts_json_path):
+        try:
+            with open(posts_json_path, 'r') as f:
+                posts = json.load(f)
+        except:
+            posts = []
+    
+    post_entry = {
+        'id': post_data['id'],
+        'status': 'UNUSED',
+        'created': datetime.now().strftime('%Y-%m-%d'),
+        'type': 'customer-group',
+        'niche': 'mindset',
+        'source': 'generated'
+    }
+    posts.append(post_entry)
+    
+    os.makedirs(os.path.dirname(posts_json_path), exist_ok=True)
+    with open(posts_json_path, 'w') as f:
+        json.dump(posts, f, indent=2)
+
+def generate_customer_posts(target_count=5):
+    """Generate customer-group posts about mindset/trading"""
+    print("\n" + "=" * 60)
+    print("GENERATING CUSTOMER-GROUP POSTS (Mindset/Trading)")
+    print("=" * 60)
+    
+    posts_created = 0
+    topics = random.sample(CUSTOMER_TOPICS, min(target_count, len(CUSTOMER_TOPICS)))
+    
+    for topic in topics:
+        if posts_created >= target_count:
+            break
+        
+        print(f"\nCreating post: {topic['title']}")
+        
+        post_data = create_customer_post(topic)
+        save_customer_post(post_data)
+        update_customer_posts_json(post_data)
+        
+        posts_created += 1
+        print(f"  ✓ Post created: {post_data['id']}")
+        
+        # Rate limiting
+        if posts_created < target_count:
+            print(f"  ⏳ Waiting 30 seconds...")
+            time.sleep(30)
+    
+    print(f"\n{'=' * 60}")
+    print(f"COMPLETE: Created {posts_created} customer posts")
+    print(f"{'=' * 60}")
+    
+    return posts_created
+
+def main():
+    """Main workflow - generate both types of posts"""
+    # Generate timeline posts (from YouTube)
+    timeline_count = main_timeline()
+    
+    # Generate customer posts (mindset/trading)
+    print("\n")
+    customer_count = generate_customer_posts(target_count=5)
+    
+    print(f"\n{'=' * 60}")
+    print(f"TOTAL POSTS CREATED:")
+    print(f"  Timeline: {timeline_count}")
+    print(f"  Customer: {customer_count}")
+    print(f"  Total: {timeline_count + customer_count}")
+    print(f"{'=' * 60}")
+
+def main_timeline():
+    """Original main function - generate timeline posts from YouTube"""
+    print("=" * 60)
+    print("CONTENT MACHINE - Timeline Posts (YouTube)")
+    print("=" * 60)
+    
+    used_videos = load_video_tracker()
+    print(f"Loaded {len(used_videos)} previously used videos")
+    
+    posts_created = 0
+    target_posts = 10
+    
+    niche_cycle = random.sample(NICHES, len(NICHES))
+    
+    for niche in niche_cycle:
+        if posts_created >= target_posts:
+            break
+        
+        print(f"\n--- Searching niche: {niche} ---")
+        
+        videos = search_youtube_videos(niche)
+        
+        for video in videos:
+            if posts_created >= target_posts:
+                break
+            
+            if video['id'] in used_videos:
+                print(f"  Skipping (used): {video['title'][:50]}...")
+                continue
+            
+            print(f"  Fetching transcript: {video['title'][:50]}...")
+            
+            transcript = fetch_transcript(video['id'])
+            if not transcript:
+                print(f"    ✗ No transcript available")
+                continue
+            
+            save_transcript(video['id'], transcript)
+            
+            print(f"    Creating post...")
+            post_data = create_post(video, transcript, niche)
+            
+            if post_data:
+                save_post(post_data)
+                update_video_tracker(video, niche)
+                update_posts_json(post_data, niche)
+                
+                posts_created += 1
+                print(f"    ✓ Post created: {post_data['id']}")
+                
+                if posts_created < target_posts:
+                    print(f"    ⏳ Waiting 45 seconds before next post...")
+                    time.sleep(45)
+            else:
+                print(f"    ✗ Failed to create post")
+    
+    print(f"\n{'=' * 60}")
+    print(f"COMPLETE: Created {posts_created} timeline posts")
     print(f"{'=' * 60}")
     
     return posts_created
