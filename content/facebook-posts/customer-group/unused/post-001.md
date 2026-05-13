@@ -1,10 +1,3 @@
----
-id: cg-001
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 Most traders fail because they're trying to learn everything at once.
 
 Chart patterns. Indicators. News. Economic data.
