@@ -1,10 +1,3 @@
----
-id: cg-002
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 I used to think I needed a perfect strategy to win at trading.
 
 Spoiler: I was wrong.
