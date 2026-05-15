@@ -1,10 +1,3 @@
----
-id: cg-003
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 Your trading results are a mirror.
 
 They reflect your discipline.
