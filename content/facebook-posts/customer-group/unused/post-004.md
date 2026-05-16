@@ -1,10 +1,3 @@
----
-id: cg-004
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 Nobody talks about this:
 
 The hardest part of trading isn't finding setups.
