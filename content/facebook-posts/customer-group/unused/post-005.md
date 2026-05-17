@@ -1,10 +1,3 @@
----
-id: cg-005
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 Small wins compound.
 
 You don't need to hit home runs.
