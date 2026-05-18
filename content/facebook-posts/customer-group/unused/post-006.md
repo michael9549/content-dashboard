@@ -1,10 +1,3 @@
----
-id: cg-006
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 Trading alone is hard.
 
 Nobody to check your blind spots.
@@ -25,4 +18,4 @@ For accountability.
 
 For the reminder that you're not crazy when the market feels crazy.
 
-Who's in your corner?
+Am I right?
