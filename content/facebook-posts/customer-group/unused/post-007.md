@@ -1,10 +1,3 @@
----
-id: cg-007
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 Your edge isn't your strategy.
 
 It's your ability to do what most traders won't.
