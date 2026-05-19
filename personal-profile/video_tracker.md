@@ -131,3 +131,4 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 - [How to Build Wealth on a Low Income  - Machiavelli 10 Brutal Strategies](https://www.youtube.com/watch?v=WtOM36NH5EM) - wealth - 2026-05-13
 - [How To Succeed At Network Marketing With An MLM Sales Funnel](https://www.youtube.com/watch?v=bLUJmSpn6Kg) - network marketing - 2026-05-13| 2026-05-19 | [How to start a successful business | Mark Cuban an...](https://www.youtube.com/watch?v=yLFt0hdBMaI) | Used |
 | 2026-05-19 | [How I became an entrepreneur at 66 | Paul Tasner...](https://www.youtube.com/watch?v=Ogce5D2XMZ0) | Used |
+| 2026-05-19 | [Steve Jobs on Starting A Business...](https://www.youtube.com/watch?v=kwkGX-PlTxs) | Used |
