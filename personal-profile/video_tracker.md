@@ -133,3 +133,4 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 | 2026-05-19 | [How I became an entrepreneur at 66 | Paul Tasner...](https://www.youtube.com/watch?v=Ogce5D2XMZ0) | Used |
 | 2026-05-19 | [Steve Jobs on Starting A Business...](https://www.youtube.com/watch?v=kwkGX-PlTxs) | Used |
 | 2026-05-19 | [How to Actually Start Your Own Business (No-Bs Gui...](https://www.youtube.com/watch?v=JJyLynh5d6M) | Used |
+| 2026-05-19 | [The Ultimate Playbook for High Income Earners...](https://www.youtube.com/watch?v=MuzOJIgJBSc) | Used |
