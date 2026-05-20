@@ -1,10 +1,3 @@
----
-id: cg-008
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 Losses aren't failures.
 
 They're data.
