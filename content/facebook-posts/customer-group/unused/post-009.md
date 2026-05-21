@@ -1,10 +1,3 @@
----
-id: cg-009
-status: UNUSED
-created: 2026-04-15
-type: customer-group
----
-
 The market doesn't know you exist.
 
 It's not out to get you.
