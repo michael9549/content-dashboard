@@ -136,3 +136,4 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 | 2026-05-19 | [The Ultimate Playbook for High Income Earners...](https://www.youtube.com/watch?v=MuzOJIgJBSc) | Used |
 | 2026-05-19 | [These Are The Steps To Manage Your Money | Persona...](https://www.youtube.com/watch?v=UcAY6qRHlw0) | Used |
 | 2026-05-19 | [10 Crucial Personal Finance Lessons That Transform...](https://www.youtube.com/watch?v=Izw-xaVkO0g) | Used |
+| 2026-05-23 | [The four-letter code to selling anything | Derek Thompson | TEDxBinghamtonUniversity](https://www.youtube.com/watch?v=6pY7EjqD3QA) | Used |
