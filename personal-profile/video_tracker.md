@@ -101,10 +101,12 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 | 066 | wealth | 9 Passive Income Ideas | Unknown | https://www.youtube.com/watch?v=-Tjb4T-L7Zc | 2026-05-12 | post_20260512_232535.md | New system |
 | 067 | wealth | 7 Passive Income Ideas | Unknown | https://www.youtube.com/watch?v=D9eLzDa-_8Q | 2026-05-12 | post_20260512_232630.md | New system |
 
+| 078 | sales | 10 DARK PSYCHOLOGY Sales Techniques to Sell Anything (Ethically) | Adam Erhart | https://www.youtube.com/watch?v=DEiK8uPrQNc | 2026-05-23 | post_20260523_144204.md | Dark psychology sales tactics |
+
 ## Summary
-- **Total unique videos tracked:** 67
+- **Total unique videos tracked:** 68
 - **Duplicate entries:** 8 (marked in Notes column)
-- **Last updated:** 2026-05-12
+- **Last updated:** 2026-05-23
 
 | 068 | mindset | OUTWORK EVERYONE - Mark Cuban Business Advice | Motiversity | https://www.youtube.com/watch?v=IVNK5gkVq2Q | 2026-05-13 | post_20260513_001.md | Auto-added |
 | 069 | AI | AI Tools That Run Your Business While You Sleep | Canadian Crossroads | https://www.youtube.com/watch?v=L3sGtt6e73I | 2026-05-13 | post_20260513_002.md | Auto-added |
