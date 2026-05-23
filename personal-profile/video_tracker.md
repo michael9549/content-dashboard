@@ -103,8 +103,18 @@ Purpose: Track all YouTube videos used as source material for content, so we do 
 
 | 078 | sales | 10 DARK PSYCHOLOGY Sales Techniques to Sell Anything (Ethically) | Adam Erhart | https://www.youtube.com/watch?v=DEiK8uPrQNc | 2026-05-23 | post_20260523_144204.md | Dark psychology sales tactics |
 
+| 079 | marketing | The four-letter code to selling anything | Derek Thompson | https://www.youtube.com/watch?v=6pY7EjqD3QA | 2026-05-23 | post_20260523_144320.md | Familiarity principle in marketing |
+| 080 | AI | How to Automate Any Business With AI in 3 Steps | Liam Ottley | https://www.youtube.com/watch?v=kQFW3bUrOu4 | 2026-05-23 | post_20260523_144427.md | AI automation framework |
+| 081 | network marketing | Network Marketing Recruiting: How To Recruit 20 People In 10 Days | Michelle Cunningham | https://www.youtube.com/watch?v=65aFeHZmG7M | 2026-05-23 | post_20260523_144516.md | Network marketing recruiting system |
+| 082 | affiliate marketing | The NEW Way to Do Affiliate Marketing in 2025 | John Crestani | https://www.youtube.com/watch?v=RwynbuxtUIs | 2026-05-23 | post_20260523_144519.md | AI-powered faceless affiliate content |
+| 083 | mindset | Seven Mindset Shifts That Made Me Millions | Myron Golden | https://www.youtube.com/watch?v=x3TbOrkbUR8 | 2026-05-23 | post_20260523_144522.md | Wealth mindset shifts |
+| 084 | marketing | 5 BRAND NEW Digital Marketing Strategies For 2025 | Wes McDowell | https://www.youtube.com/watch?v=Stvu6pcAaWY | 2026-05-23 | post_20260523_144627.md | 2025 digital marketing trends |
+| 085 | sales | 27 Years of No Bullsh*t Sales Advice in 16 Mins | Dan Martell | https://www.youtube.com/watch?v=KEXTgvbqx6s | 2026-05-23 | post_20260523_144630.md | Sales lessons from 27 years |
+| 086 | mindset | 3 Methods to Develop a Millionaire Mindset | Jim Rohn | https://www.youtube.com/watch?v=ezXAsOZbyZo | 2026-05-23 | post_20260523_144633.md | Jim Rohn millionaire mindset |
+| 087 | entrepreneurship | Business Was Hard Until I Understood These 4 Concepts | Alex Hormozi | https://www.youtube.com/watch?v=F84olnKkseM | 2026-05-23 | post_20260523_144713.md | 4 core business concepts |
+
 ## Summary
-- **Total unique videos tracked:** 68
+- **Total unique videos tracked:** 77
 - **Duplicate entries:** 8 (marked in Notes column)
 - **Last updated:** 2026-05-23
 
