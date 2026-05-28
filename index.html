@@ -894,8 +894,10 @@
             }
         });
         
-        // Initialize
-        loadContent();
+        // Initialize - only load content if already authenticated
+        if (localStorage.getItem('dashboard_authenticated') === 'true' && localStorage.getItem('github_token')) {
+            loadContent();
+        }
     </script>
 </body>
 </html>
