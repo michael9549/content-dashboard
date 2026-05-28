@@ -513,15 +513,18 @@
                 const files = await response.json();
                 const mdFiles = files.filter(f => f.name.endsWith('.md'));
                 
-                // Fetch content for each file
+                // Fetch content for each file using GitHub API instead of raw.githubusercontent.com
                 const posts = await Promise.all(
                     mdFiles.map(async (file) => {
-                        const contentResponse = await fetch(file.download_url, {
+                        const contentResponse = await fetch(file.url, {
                             headers: {
-                                'Accept': 'text/plain; charset=utf-8'
+                                'Authorization': `token ${GITHUB_TOKEN}`,
+                                'Accept': 'application/vnd.github.v3+json'
                             }
                         });
-                        const content = await contentResponse.text();
+                        const fileData = await contentResponse.json();
+                        // GitHub API returns content as base64
+                        const content = atob(fileData.content);
                         return {
                             filename: file.name,
                             path: file.path,
