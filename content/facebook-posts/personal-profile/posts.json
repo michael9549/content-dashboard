@@ -142,5 +142,85 @@
     "type": "personal-profile",
     "niche": "wealth",
     "source": "https://www.youtube.com/watch?v=D9eLzDa-_8Q"
+  },
+  {
+    "id": "post_20260606_001",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=DEiK8uPrQNc",
+    "niche": "sales-psychology"
+  },
+  {
+    "id": "post_20260606_002",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=YwWjVNUO7lI",
+    "niche": "wealth-building"
+  },
+  {
+    "id": "post_20260606_003",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=D4yHgNYrh2w",
+    "niche": "marketing-psychology"
+  },
+  {
+    "id": "post_20260606_004",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=UlB6VAD78kM",
+    "niche": "business-growth"
+  },
+  {
+    "id": "post_20260606_005",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=J0VrahLHQP4",
+    "niche": "sales-techniques"
+  },
+  {
+    "id": "post_20260606_006",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=nu5I85_YAak",
+    "niche": "success-habits"
+  },
+  {
+    "id": "post_20260606_007",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=tYv44wQYePg",
+    "niche": "negotiation-skills"
+  },
+  {
+    "id": "post_20260606_008",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=aO4zaV2aEMQ",
+    "niche": "decision-making"
+  },
+  {
+    "id": "post_20260606_009",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=nn7HsFiverw",
+    "niche": "influence-persuasion"
+  },
+  {
+    "id": "post_20260606_010",
+    "status": "UNUSED",
+    "created": "2026-06-06",
+    "type": "personal-profile",
+    "source": "https://www.youtube.com/watch?v=9jAz-XbwAKM",
+    "niche": "leadership"
   }
 ]
