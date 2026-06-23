@@ -1,12 +1,3 @@
----
-id: timeline_post_20250617_003
-status: UNUSED
-created: 2026-06-17
-type: personal-profile
-source: https://www.youtube.com/watch?v=Xcsp0486olY
-niche: entrepreneurship
----
-
 This breakdown of entrepreneurship types clarified something I hadn't fully considered.
 
 There are two fundamentally different kinds:
@@ -20,5 +11,3 @@ The distinction matters because most advice about entrepreneurship assumes one o
 What's interesting: both are valid. Neither is better. But confusing the two leads to bad decisions. Taking local business advice and applying it to a scalable venture, or vice versa, creates mismatched expectations.
 
 The key question isn't "should I be an entrepreneur?" It's: which type am I building, and does my strategy match that reality?
-
-Which type are you building, or which type interests you more?
