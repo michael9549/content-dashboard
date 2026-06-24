@@ -1,12 +1,3 @@
----
-id: timeline_post_20250617_005
-status: UNUSED
-created: 2026-06-17
-type: personal-profile
-source: https://www.youtube.com/watch?v=vd7nuYXQFU0
-niche: business-automation
----
-
 This breakdown of a 12-person agency's collapse and rebuild is a masterclass in what not to do.
 
 Creative Spark (name changed) had every tool: CRM, Slack, DocuSign, Trello, QuickBooks, email automation. Over $500/month in subscriptions. Their reward? A $15,000 lead lost because an automation broke overnight and nobody noticed for two weeks.
