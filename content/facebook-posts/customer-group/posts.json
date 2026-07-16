@@ -1,1 +1,155 @@
-[{"id":"post_20260601_009","status":"UNUSED","created":"2026-06-01","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20260601_009.md"},{"id":"post_20260601_010","status":"UNUSED","created":"2026-06-01","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20260601_010.md"},{"id":"post_20250617_001","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_001.md"},{"id":"post_20250617_002","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_002.md"},{"id":"post_20250617_003","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_003.md"},{"id":"post_20250617_004","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_004.md"},{"id":"post_20250617_005","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_005.md"},{"id":"post_20250617_006","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_006.md"},{"id":"post_20250617_007","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_007.md"},{"id":"post_20250617_008","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_008.md"},{"id":"post_20250617_009","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_009.md"},{"id":"post_20250617_010","status":"UNUSED","created":"2026-06-17","type":"customer-group","source":"original","niche":"trading-mindset","path":"content/facebook-posts/customer-group/unused/post_20250617_010.md"}]
+[
+  {
+    "id": "post_20260601_009",
+    "status": "UNUSED",
+    "created": "2026-06-01",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20260601_009.md"
+  },
+  {
+    "id": "post_20260601_010",
+    "status": "UNUSED",
+    "created": "2026-06-01",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20260601_010.md"
+  },
+  {
+    "id": "post_20250617_001",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_001.md"
+  },
+  {
+    "id": "post_20250617_002",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_002.md"
+  },
+  {
+    "id": "post_20250617_003",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_003.md"
+  },
+  {
+    "id": "post_20250617_004",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_004.md"
+  },
+  {
+    "id": "post_20250617_005",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_005.md"
+  },
+  {
+    "id": "post_20250617_006",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_006.md"
+  },
+  {
+    "id": "post_20250617_007",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_007.md"
+  },
+  {
+    "id": "post_20250617_008",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_008.md"
+  },
+  {
+    "id": "post_20250617_009",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_009.md"
+  },
+  {
+    "id": "post_20250617_010",
+    "status": "UNUSED",
+    "created": "2026-06-17",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "trading-mindset",
+    "path": "content/facebook-posts/customer-group/unused/post_20250617_010.md"
+  },
+  {
+    "id": "post_20260716_001",
+    "status": "UNUSED",
+    "created": "2026-07-16",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "discipline",
+    "path": "content/facebook-posts/customer-group/unused/post_20260716_001.md"
+  },
+  {
+    "id": "post_20260716_002",
+    "status": "UNUSED",
+    "created": "2026-07-16",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "emotional-control",
+    "path": "content/facebook-posts/customer-group/unused/post_20260716_002.md"
+  },
+  {
+    "id": "post_20260716_003",
+    "status": "UNUSED",
+    "created": "2026-07-16",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "risk-management",
+    "path": "content/facebook-posts/customer-group/unused/post_20260716_003.md"
+  },
+  {
+    "id": "post_20260716_004",
+    "status": "UNUSED",
+    "created": "2026-07-16",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "finding-your-edge",
+    "path": "content/facebook-posts/customer-group/unused/post_20260716_004.md"
+  },
+  {
+    "id": "post_20260716_005",
+    "status": "UNUSED",
+    "created": "2026-07-16",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "dealing-with-losses",
+    "path": "content/facebook-posts/customer-group/unused/post_20260716_005.md"
+  }
+]
