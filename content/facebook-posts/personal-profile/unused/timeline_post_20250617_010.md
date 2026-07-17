@@ -1,13 +1,4 @@
----
-id: timeline_post_20250617_010
-status: UNUSED
-created: 2026-06-17
-type: personal-profile
-source: https://www.youtube.com/watch?v=eHJnEHyyN1Y
-niche: entrepreneurship
----
-
-This TED talk on entrepreneurial mindsets starts with a story worth knowing.
+I watched a TED talk on entrepreneurial mindset, and it started with a story worth knowing.
 
 Linda Weinman, a graphic design teacher, bought Lynda.com in 1995. She needed a sandbox to play with new design tools and a place to showcase student work. By 2002, she moved all her teaching online. LinkedIn bought the company for $1.5 billion and renamed it LinkedIn Learning.
 
