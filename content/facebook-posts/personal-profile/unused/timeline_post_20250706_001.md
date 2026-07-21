@@ -1,15 +1,6 @@
----
-id: timeline_post_20250706_001
-status: UNUSED
-created: 2026-07-06
-type: timeline
-source: https://www.youtube.com/watch?v=-i7S51hw_2c
-niche: marketing-psychology
----
+Why Less Talented Businesses Outsell Better Ones
 
-# Why Less Talented Businesses Outsell Better Ones
-
-This video from Adam Erhart hit different. He breaks down something most entrepreneurs refuse to accept: the businesses winning right now are not necessarily the best. They are simply the ones who understand how the human brain makes decisions.
+A video from Adam Erhart hit different. He breaks down something most entrepreneurs refuse to accept: the businesses winning right now are not necessarily the best. They are simply the ones who understand how the human brain makes decisions.
 
 The uncomfortable truth is that your better product, better service, and genuine care do not matter if your messaging ignores the psychological principles driving every purchase. Customers do not buy logically. They buy emotionally, then justify with logic later. This is not manipulation. It is understanding the game.
 
@@ -28,5 +19,3 @@ The study he references proves this. Sequenced messaging outperformed direct cal
 What this means practically: stop leading with your credentials. Stop opening with your features. Start with the problem your customer is actually experiencing. Make them feel understood before you make them feel sold. The businesses that master this sequence will outperform better products every single time.
 
 The question is not whether psychological marketing works. The question is whether you are willing to build your messaging around how humans actually think, or keep pretending logic drives decisions.
-
-What is one area where you have seen a lesser product win simply because the messaging was sharper?
