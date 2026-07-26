@@ -1,13 +1,4 @@
----
-id: timeline_post_20250706_002
-status: UNUSED
-created: 2026-07-06
-type: timeline
-source: https://www.youtube.com/watch?v=kQFW3bUrOu4
-niche: ai-business
----
-
-# Why 95% of AI Initiatives Fail (And How to Be in the 5%)
+Why 95% of AI Initiatives Fail (And How to Be in the 5%)
 
 This breakdown from Liam at Morningside AI cuts through the hype. Everyone is talking about AI automation, but almost nobody is getting results. The numbers are brutal: MIT research shows 95% of AI initiatives in businesses fail to deliver any return on investment.
 
@@ -23,7 +14,7 @@ The Morningside method is a three-phase playbook. Phase one is education. Get th
 
 The quick wins are almost never the sexy projects. They are not building an AI agent that replaces your sales team. They are automating the soul-crushing manual data entry that eats up thirty hours a week. They are creating a voice agent that handles the let me look that up for you calls. They are building a document query system so employees stop wasting time searching through folders. Boring problems, massive impact.
 
-For entrepreneurs watching this, there is a massive opportunity. Millions of businesses are struggling with AI implementation. They want the results but have no idea how to get there. If you can learn this process and help them execute it, you are not just selling a service. You are becoming a strategic partner.
+For entrepreneurs, there is a massive opportunity. Millions of businesses are struggling with AI implementation. They want the results but have no idea how to get there. If you can learn this process and help them execute it, you are not just selling a service. You are becoming a strategic partner.
 
 The question is not whether AI will transform your business. It is whether you will be in the 5% who do it right, or the 95% who waste time and money chasing shiny tools.
 
