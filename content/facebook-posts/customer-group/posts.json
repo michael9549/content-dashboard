@@ -211,5 +211,15 @@
     "source": "original",
     "niche": "edge",
     "path": "content/facebook-posts/customer-group/unused/post_20260730_016.md"
+  },
+  {
+    "id": "post_20260730_017",
+    "filename": "post_20260730_017.md",
+    "status": "UNUSED",
+    "created": "2026-07-30",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "mental-game",
+    "path": "content/facebook-posts/customer-group/unused/post_20260730_017.md"
   }
 ]
