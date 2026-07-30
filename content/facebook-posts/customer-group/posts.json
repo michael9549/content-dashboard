@@ -241,5 +241,15 @@
     "source": "original",
     "niche": "overtrading",
     "path": "content/facebook-posts/customer-group/unused/post_20260730_019.md"
+  },
+  {
+    "id": "post_20260730_020",
+    "filename": "post_20260730_020.md",
+    "status": "UNUSED",
+    "created": "2026-07-30",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "review-process",
+    "path": "content/facebook-posts/customer-group/unused/post_20260730_020.md"
   }
 ]
