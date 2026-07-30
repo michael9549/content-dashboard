@@ -191,5 +191,15 @@
     "source": "original",
     "niche": "patience",
     "path": "content/facebook-posts/customer-group/unused/post_20260730_014.md"
+  },
+  {
+    "id": "post_20260730_015",
+    "filename": "post_20260730_015.md",
+    "status": "UNUSED",
+    "created": "2026-07-30",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "losses",
+    "path": "content/facebook-posts/customer-group/unused/post_20260730_015.md"
   }
 ]
