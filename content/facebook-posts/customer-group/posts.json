@@ -161,5 +161,15 @@
     "source": "original",
     "niche": "discipline",
     "path": "content/facebook-posts/customer-group/unused/post_20260730_011.md"
+  },
+  {
+    "id": "post_20260730_012",
+    "filename": "post_20260730_012.md",
+    "status": "UNUSED",
+    "created": "2026-07-30",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "emotional-control",
+    "path": "content/facebook-posts/customer-group/unused/post_20260730_012.md"
   }
 ]
