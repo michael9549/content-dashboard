@@ -1,13 +1,4 @@
----
-id: timeline_post_20250706_003
-status: UNUSED
-created: 2026-07-06
-type: timeline
-source: https://www.youtube.com/watch?v=QoqohmccTSc
-niche: entrepreneurship
----
-
-# What 50 Entrepreneurs Wish They Knew Earlier
+What 50 Entrepreneurs Wish They Knew Earlier
 
 This compilation of advice from fifty successful entrepreneurs is pure gold. Not theory. Not hype. Just hard-won wisdom from people who have actually built things.
 
