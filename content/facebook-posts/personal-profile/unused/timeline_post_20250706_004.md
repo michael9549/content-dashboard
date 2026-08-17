@@ -1,13 +1,4 @@
----
-id: timeline_post_20250706_004
-status: UNUSED
-created: 2026-07-06
-type: timeline
-source: https://www.youtube.com/watch?v=SWDw47sI1sc
-niche: wealth-psychology
----
-
-# Four Mindset Shifts That Will Change Your Relationship With Money
+Four Mindset Shifts That Will Change Your Relationship With Money
 
 This video on the psychology of money hit different. It is not about budgeting tips or investment strategies. It is about the beliefs that control every financial decision you make without you realizing it.
 
