@@ -361,5 +361,15 @@
     "source": "original",
     "niche": "discipline",
     "path": "content/facebook-posts/customer-group/unused/post_20260903_031.md"
+  },
+  {
+    "id": "post_20260903_032",
+    "filename": "post_20260903_032.md",
+    "status": "UNUSED",
+    "created": "2026-09-03",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "consistency",
+    "path": "content/facebook-posts/customer-group/unused/post_20260903_032.md"
   }
 ]
