@@ -371,5 +371,15 @@
     "source": "original",
     "niche": "consistency",
     "path": "content/facebook-posts/customer-group/unused/post_20260903_032.md"
+  },
+  {
+    "id": "post_20260903_033",
+    "filename": "post_20260903_033.md",
+    "status": "UNUSED",
+    "created": "2026-09-03",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "emotional-control",
+    "path": "content/facebook-posts/customer-group/unused/post_20260903_033.md"
   }
 ]
