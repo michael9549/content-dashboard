@@ -351,5 +351,15 @@
     "source": "original",
     "niche": "timing",
     "path": "content/facebook-posts/customer-group/unused/post_20260813_030.md"
+  },
+  {
+    "id": "post_20260903_031",
+    "filename": "post_20260903_031.md",
+    "status": "UNUSED",
+    "created": "2026-09-03",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "discipline",
+    "path": "content/facebook-posts/customer-group/unused/post_20260903_031.md"
   }
 ]
