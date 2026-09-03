@@ -1,15 +1,6 @@
----
-id: timeline_post_20250706_005
-status: UNUSED
-created: 2026-07-06
-type: timeline
-source: https://www.youtube.com/watch?v=RVbvhPGFi6E
-niche: sales-psychology
----
+The One Sales Skill That Separates the Best From the Rest
 
-# The One Sales Skill That Separates the Best From the Rest
-
-This video breaks down a sales technique that the creator says he has never taught before. It is called reframing, and it is the difference between a salesperson who gets rejected constantly and one who closes at a high rate.
+I watched a video that breaks down a sales technique that the creator says he has never taught before. It is called reframing, and it is the difference between a salesperson who gets rejected constantly and one who closes at a high rate.
 
 The core idea is simple. When a prospect says anything other than yes, you do not answer their question directly. Instead, you reframe the conversation with one to three sentences that increase the likelihood your next statement gets them to buy.
 
