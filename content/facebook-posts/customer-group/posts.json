@@ -441,5 +441,15 @@
     "source": "original",
     "niche": "learning-from-mistakes",
     "path": "content/facebook-posts/customer-group/unused/post_20260903_039.md"
+  },
+  {
+    "id": "post_20260903_040",
+    "filename": "post_20260903_040.md",
+    "status": "UNUSED",
+    "created": "2026-09-03",
+    "type": "customer-group",
+    "source": "original",
+    "niche": "discipline-under-pressure",
+    "path": "content/facebook-posts/customer-group/unused/post_20260903_040.md"
   }
 ]
