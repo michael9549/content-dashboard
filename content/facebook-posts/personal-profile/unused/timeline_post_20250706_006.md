@@ -1,15 +1,6 @@
----
-id: timeline_post_20250706_006
-status: UNUSED
-created: 2026-07-06
-type: timeline
-source: https://www.youtube.com/watch?v=9VlvbpXwLJs
-niche: business-philosophy
----
+30 Years of Business Knowledge in One Core Idea
 
-# 30 Years of Business Knowledge in One Core Idea
-
-This video is a masterclass from someone who has built multiple successful businesses over three decades. The title says 30 years of knowledge in 2 hours and 26 minutes, but the core philosophy can be summarized in one sentence. Sell the sizzle, not the steak.
+I watched a video  that is a masterclass from someone who has built multiple successful businesses over three decades. The title says 30 years of knowledge in 2 hours and 26 minutes, but the core philosophy can be summarized in one sentence. Sell the sizzle, not the steak.
 
 The speaker starts with a story about Steve Jobs. When Apple launched products, Jobs did not stand on stage listing specs. He did not talk about processors or memory or technical features. He talked about who the product was for. The game changers. The creative types. The people who think differently. He sold the identity, not the item.
 
@@ -27,7 +18,7 @@ The video also covers what separates the top 1% of salespeople from everyone els
 
 The speaker says when he started his company, he wrote down 50 companies he wanted to work with. From day one, he built a system to reach out to them every single month. Not to sell. Just to build the relationship. At Christmas he sent cards. At Chinese New Year he sent something. When he learned something useful about their industry, he shared it. Some clients came quickly. Others took nine years. But he got almost all of them because he played the long game.
 
-The final insight is about marketing. The speaker says marketing should be fun. He tells a story about buying a staircase that was for sale in London for £26,000. It made no logical sense. But he knew it symbolized something important for his business. Step by step, you can get anywhere. He turned it into a marketing campaign that got him on the front page of the New York Times, the BBC, and newspapers worldwide. Millions of dollars in free coverage because he did something memorable and fun.
+The final insight is about marketing. The speaker says marketing should be fun. He tells a story about buying a staircase that was for sale in London for $26,000. It made no logical sense. But he knew it symbolized something important for his business. Step by step, you can get anywhere. He turned it into a marketing campaign that got him on the front page of the New York Times, the BBC, and newspapers worldwide. Millions of dollars in free coverage because he did something memorable and fun.
 
 The lesson is not to buy a staircase. The lesson is that marketing works when it is authentic and enjoyable. If you are forcing yourself to do TikTok because someone said you should, but you hate being on camera, it will not work. Pick the marketing that fits your personality. If you love writing, do email and LinkedIn. If you love video, do YouTube. The sustainability matters more than the platform.
 
