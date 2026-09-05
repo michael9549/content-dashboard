@@ -340,5 +340,19 @@
     "source": "https://www.youtube.com/watch?v=eHJnEHyyN1Y",
     "niche": "entrepreneurship",
     "path": "content/facebook-posts/personal-profile/unused/timeline_post_20250617_010.md"
+  },
+  {
+    "id": "post_20260905_001",
+    "filename": "post_20260905_001.md",
+    "path": "content/facebook-posts/personal-profile/unused/post_20260905_001.md",
+    "title": "The Wolf of Wall Street’s Secret Sales Method (Revealed)",
+    "category": "personal-profile",
+    "niche": "business growth",
+    "source": "https://www.youtube.com/watch?v=KQ6c9vceu7A",
+    "videoId": "KQ6c9vceu7A",
+    "channel": "The Wolf of Wall Street",
+    "word_count": 501,
+    "created_at": "2026-09-05T09:05:10.039224Z",
+    "status": "unused"
   }
 ]
