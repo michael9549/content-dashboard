@@ -451,5 +451,17 @@
     "source": "original",
     "niche": "discipline-under-pressure",
     "path": "content/facebook-posts/customer-group/unused/post_20260903_040.md"
+  },
+  {
+    "id": "post_20260918_041",
+    "filename": "post_20260918_041.md",
+    "path": "content/facebook-posts/customer-group/unused/post_20260918_041.md",
+    "status": "unused",
+    "category": "customer-group",
+    "niche": "Trading mindset: discipline",
+    "title": "Trading mindset: Discipline",
+    "word_count": 333,
+    "created_at": "2026-09-18",
+    "source": "original"
   }
 ]
