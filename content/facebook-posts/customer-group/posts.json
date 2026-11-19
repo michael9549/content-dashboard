@@ -970,5 +970,16 @@
     "createdAt": "2026-11-19T09:03:10.703945+00:00",
     "wordCount": 300,
     "title": "The Journal Turns Scars Into Maps"
+  },
+  {
+    "id": "post_20261119_090",
+    "filename": "post_20261119_090.md",
+    "category": "customer-group",
+    "niche": "process over prediction",
+    "source": "original trading mindset",
+    "status": "unused",
+    "createdAt": "2026-11-19T09:03:13.634282+00:00",
+    "wordCount": 318,
+    "title": "A Compass Is More Useful Than a Crystal Ball"
   }
 ]
