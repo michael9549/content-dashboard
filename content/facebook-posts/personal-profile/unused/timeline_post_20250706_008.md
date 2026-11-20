@@ -21,18 +21,4 @@ Use the two minute rule. If something takes less than two minutes, do it immedia
 
 Plan your day the night before. When your brain knows what is next, you waste less time wondering and more time executing. The creator says this single habit eliminated the morning decision fatigue that used to derail his days.
 
-Say no more often. Protect your time and energy. The creator says saying no is a skill that creates boundaries and lets you focus on what truly matters. Most people say yes to everything and then wonder why they have no time for what is actually important.
-
-Track your expenses. Once you track your money, you start respecting it. The creator says respect money and it will start respecting you back. This is not about budgeting. It is about awareness. Most people have no idea where their money actually goes.
-
-Avoid screens 30 minutes before sleep. The creator says this fixed his sleep more than any pill, app, or tip. Try it for three nights. You will feel reborn. The blue light and mental stimulation from phones keeps your brain in work mode when it should be winding down.
-
-Write one sentence of gratitude every day. The creator says gratitude is not cheesy. It is brain training. It forces you to notice what is right, not just what is missing. One sentence is so small it is impossible to skip. But the effect on your mental state is significant.
-
-Reflect on one win before sleep. Celebrate even the smallest victories. The creator says this rewires your brain for success and reduces stress. Most people go to bed thinking about what went wrong. Flipping that to what went right changes your mindset over time.
-
-Set three micro goals every morning. Small, clear wins. The creator says this is how you stay consistent even on your worst days. Not five goals. Not ten. Three tiny ones that you can definitely accomplish. The momentum carries you forward.
-
-The theme running through all 30 habits is this. Change does not require dramatic gestures. It requires small, repeated actions that most people overlook because they seem too simple to matter. The creator says do not aim to be flawless. Aim to be 1% better than yesterday.
-
 Which of these small habits do you already do, and which one are you going to try first?
